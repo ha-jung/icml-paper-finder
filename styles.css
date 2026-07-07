@@ -153,12 +153,50 @@ h1 {
 }
 
 .quick-filters button,
+.hot-keywords-list button,
 .save-button,
 .link-button {
   padding: 8px 10px;
   color: var(--accent-dark);
   background: #dfefff;
   font-weight: 800;
+}
+
+.hot-keywords {
+  margin-top: 18px;
+}
+
+.hot-keywords-title {
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.hot-keywords-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-height: 164px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.hot-keywords-list button {
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.88rem;
+}
+
+.hot-keywords-list span {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.empty-keywords {
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .filters {

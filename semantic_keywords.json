@@ -1,0 +1,6090 @@
+{
+  "Applications->Chemistry, Physics, and Earth Sciences": [
+    {
+      "keyword": "generative model",
+      "count": 19,
+      "score": 1.26013
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 17,
+      "score": 1.23663
+    },
+    {
+      "keyword": "diffusion",
+      "count": 30,
+      "score": 1.22321
+    },
+    {
+      "keyword": "optimization",
+      "count": 30,
+      "score": 0.86817
+    },
+    {
+      "keyword": "foundation model",
+      "count": 12,
+      "score": 0.80387
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 10,
+      "score": 0.76002
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 11,
+      "score": 0.72103
+    },
+    {
+      "keyword": "generative models",
+      "count": 12,
+      "score": 0.71504
+    },
+    {
+      "keyword": "graph neural networks",
+      "count": 9,
+      "score": 0.66833
+    },
+    {
+      "keyword": "foundation models",
+      "count": 10,
+      "score": 0.65114
+    },
+    {
+      "keyword": "operator learning",
+      "count": 7,
+      "score": 0.59052
+    },
+    {
+      "keyword": "attention",
+      "count": 16,
+      "score": 0.56478
+    },
+    {
+      "keyword": "property prediction",
+      "count": 6,
+      "score": 0.48686
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 11,
+      "score": 0.46495
+    },
+    {
+      "keyword": "interpretability",
+      "count": 11,
+      "score": 0.42599
+    },
+    {
+      "keyword": "forecasting",
+      "count": 9,
+      "score": 0.4228
+    },
+    {
+      "keyword": "accurate prediction",
+      "count": 5,
+      "score": 0.38568
+    },
+    {
+      "keyword": "structure prediction",
+      "count": 5,
+      "score": 0.38138
+    },
+    {
+      "keyword": "training inference",
+      "count": 6,
+      "score": 0.37543
+    },
+    {
+      "keyword": "generative modeling",
+      "count": 6,
+      "score": 0.36736
+    },
+    {
+      "keyword": "alignment",
+      "count": 12,
+      "score": 0.34886
+    },
+    {
+      "keyword": "molecular generation",
+      "count": 4,
+      "score": 0.34257
+    },
+    {
+      "keyword": "forecasting chemistry",
+      "count": 4,
+      "score": 0.29694
+    },
+    {
+      "keyword": "forecasting chemistry physics",
+      "count": 4,
+      "score": 0.29694
+    },
+    {
+      "keyword": "forecasting chemistry physics earth",
+      "count": 4,
+      "score": 0.29694
+    },
+    {
+      "keyword": "transformers",
+      "count": 8,
+      "score": 0.28655
+    },
+    {
+      "keyword": "weather forecasting",
+      "count": 4,
+      "score": 0.27715
+    },
+    {
+      "keyword": "importance sampling",
+      "count": 4,
+      "score": 0.24772
+    },
+    {
+      "keyword": "representation learning",
+      "count": 5,
+      "score": 0.24276
+    },
+    {
+      "keyword": "diffusion framework",
+      "count": 4,
+      "score": 0.23874
+    }
+  ],
+  "Applications->Computer Vision": [
+    {
+      "keyword": "computer vision",
+      "count": 469,
+      "score": 26.88288
+    },
+    {
+      "keyword": "vision language",
+      "count": 51,
+      "score": 2.34256
+    },
+    {
+      "keyword": "segmentation",
+      "count": 50,
+      "score": 1.76489
+    },
+    {
+      "keyword": "language model",
+      "count": 99,
+      "score": 1.71259
+    },
+    {
+      "keyword": "alignment",
+      "count": 80,
+      "score": 1.64822
+    },
+    {
+      "keyword": "language models",
+      "count": 89,
+      "score": 1.61887
+    },
+    {
+      "keyword": "reasoning",
+      "count": 93,
+      "score": 1.54641
+    },
+    {
+      "keyword": "diffusion",
+      "count": 72,
+      "score": 1.51721
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 35,
+      "score": 1.3057
+    },
+    {
+      "keyword": "optimization",
+      "count": 74,
+      "score": 1.11372
+    },
+    {
+      "keyword": "attention",
+      "count": 51,
+      "score": 1.03852
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 28,
+      "score": 1.02877
+    },
+    {
+      "keyword": "reasoning vision",
+      "count": 19,
+      "score": 0.91217
+    },
+    {
+      "keyword": "large language model",
+      "count": 51,
+      "score": 0.89268
+    },
+    {
+      "keyword": "segmentation vision",
+      "count": 18,
+      "score": 0.86807
+    },
+    {
+      "keyword": "large language models",
+      "count": 48,
+      "score": 0.86653
+    },
+    {
+      "keyword": "video generation",
+      "count": 21,
+      "score": 0.85256
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 34,
+      "score": 0.85053
+    },
+    {
+      "keyword": "object detection",
+      "count": 14,
+      "score": 0.74458
+    },
+    {
+      "keyword": "image generation",
+      "count": 16,
+      "score": 0.56738
+    },
+    {
+      "keyword": "compression",
+      "count": 22,
+      "score": 0.52556
+    },
+    {
+      "keyword": "transformers",
+      "count": 24,
+      "score": 0.52094
+    },
+    {
+      "keyword": "relative policy optimization",
+      "count": 14,
+      "score": 0.48492
+    },
+    {
+      "keyword": "image editing",
+      "count": 12,
+      "score": 0.46443
+    },
+    {
+      "keyword": "policy optimization",
+      "count": 16,
+      "score": 0.45513
+    },
+    {
+      "keyword": "video diffusion",
+      "count": 12,
+      "score": 0.45291
+    },
+    {
+      "keyword": "spatial reasoning",
+      "count": 12,
+      "score": 0.45077
+    },
+    {
+      "keyword": "diffusion transformers",
+      "count": 12,
+      "score": 0.44869
+    },
+    {
+      "keyword": "diffusion transformer",
+      "count": 11,
+      "score": 0.42946
+    },
+    {
+      "keyword": "retrieval",
+      "count": 18,
+      "score": 0.3799
+    }
+  ],
+  "Applications->Everything Else": [
+    {
+      "keyword": "language model",
+      "count": 42,
+      "score": 2.67601
+    },
+    {
+      "keyword": "large language model",
+      "count": 34,
+      "score": 2.41486
+    },
+    {
+      "keyword": "language models",
+      "count": 34,
+      "score": 2.20357
+    },
+    {
+      "keyword": "large language models",
+      "count": 28,
+      "score": 1.97228
+    },
+    {
+      "keyword": "reasoning",
+      "count": 29,
+      "score": 1.62794
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 15,
+      "score": 1.31961
+    },
+    {
+      "keyword": "multi agent",
+      "count": 9,
+      "score": 1.1633
+    },
+    {
+      "keyword": "optimization",
+      "count": 18,
+      "score": 0.83316
+    },
+    {
+      "keyword": "retrieval",
+      "count": 6,
+      "score": 0.3774
+    },
+    {
+      "keyword": "reasoning everything",
+      "count": 3,
+      "score": 0.36419
+    },
+    {
+      "keyword": "reasoning everything else",
+      "count": 3,
+      "score": 0.36419
+    },
+    {
+      "keyword": "single cell",
+      "count": 3,
+      "score": 0.34834
+    },
+    {
+      "keyword": "alignment",
+      "count": 7,
+      "score": 0.30776
+    },
+    {
+      "keyword": "federated learning",
+      "count": 3,
+      "score": 0.29819
+    },
+    {
+      "keyword": "bayesian optimization",
+      "count": 3,
+      "score": 0.29107
+    },
+    {
+      "keyword": "compression",
+      "count": 4,
+      "score": 0.22119
+    },
+    {
+      "keyword": "vision language",
+      "count": 3,
+      "score": 0.21802
+    },
+    {
+      "keyword": "graphs",
+      "count": 4,
+      "score": 0.2116
+    },
+    {
+      "keyword": "foundation models",
+      "count": 3,
+      "score": 0.21066
+    },
+    {
+      "keyword": "foundation model",
+      "count": 3,
+      "score": 0.20262
+    },
+    {
+      "keyword": "privacy",
+      "count": 3,
+      "score": 0.14482
+    },
+    {
+      "keyword": "transformers",
+      "count": 3,
+      "score": 0.12647
+    },
+    {
+      "keyword": "attention",
+      "count": 3,
+      "score": 0.09666
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3,
+      "score": 0.09211
+    }
+  ],
+  "Applications->Health / Medicine": [
+    {
+      "keyword": "single cell",
+      "count": 13,
+      "score": 1.74766
+    },
+    {
+      "keyword": "language model",
+      "count": 42,
+      "score": 1.62752
+    },
+    {
+      "keyword": "language models",
+      "count": 37,
+      "score": 1.49217
+    },
+    {
+      "keyword": "foundation model",
+      "count": 17,
+      "score": 1.45591
+    },
+    {
+      "keyword": "reasoning",
+      "count": 36,
+      "score": 1.30487
+    },
+    {
+      "keyword": "alignment",
+      "count": 24,
+      "score": 0.99338
+    },
+    {
+      "keyword": "generative model",
+      "count": 14,
+      "score": 0.95224
+    },
+    {
+      "keyword": "large language models",
+      "count": 23,
+      "score": 0.92994
+    },
+    {
+      "keyword": "foundation models",
+      "count": 11,
+      "score": 0.84208
+    },
+    {
+      "keyword": "diffusion",
+      "count": 18,
+      "score": 0.71394
+    },
+    {
+      "keyword": "representation learning",
+      "count": 9,
+      "score": 0.63706
+    },
+    {
+      "keyword": "interpretability",
+      "count": 13,
+      "score": 0.60659
+    },
+    {
+      "keyword": "retrieval",
+      "count": 12,
+      "score": 0.6051
+    },
+    {
+      "keyword": "reasoning health",
+      "count": 6,
+      "score": 0.59247
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 11,
+      "score": 0.52748
+    },
+    {
+      "keyword": "vision language",
+      "count": 7,
+      "score": 0.4641
+    },
+    {
+      "keyword": "reasoning health medicine",
+      "count": 5,
+      "score": 0.46135
+    },
+    {
+      "keyword": "clinical prediction",
+      "count": 5,
+      "score": 0.45461
+    },
+    {
+      "keyword": "medical reasoning",
+      "count": 5,
+      "score": 0.45461
+    },
+    {
+      "keyword": "segmentation",
+      "count": 8,
+      "score": 0.43281
+    },
+    {
+      "keyword": "graphs",
+      "count": 9,
+      "score": 0.41427
+    },
+    {
+      "keyword": "explicitly modeling",
+      "count": 5,
+      "score": 0.39655
+    },
+    {
+      "keyword": "image segmentation",
+      "count": 4,
+      "score": 0.39303
+    },
+    {
+      "keyword": "diffusion framework",
+      "count": 5,
+      "score": 0.37691
+    },
+    {
+      "keyword": "optimization",
+      "count": 14,
+      "score": 0.36247
+    },
+    {
+      "keyword": "optimal transport",
+      "count": 5,
+      "score": 0.36232
+    },
+    {
+      "keyword": "medical image segmentation",
+      "count": 4,
+      "score": 0.33153
+    },
+    {
+      "keyword": "limited interpretability",
+      "count": 4,
+      "score": 0.31819
+    },
+    {
+      "keyword": "latent diffusion",
+      "count": 4,
+      "score": 0.25981
+    },
+    {
+      "keyword": "diffusion process",
+      "count": 4,
+      "score": 0.25397
+    }
+  ],
+  "Applications->Language, Speech and Dialog": [
+    {
+      "keyword": "language model",
+      "count": 33,
+      "score": 2.47007
+    },
+    {
+      "keyword": "language models",
+      "count": 29,
+      "score": 2.25295
+    },
+    {
+      "keyword": "large language model",
+      "count": 25,
+      "score": 2.03888
+    },
+    {
+      "keyword": "large language models",
+      "count": 23,
+      "score": 1.9159
+    },
+    {
+      "keyword": "reasoning",
+      "count": 21,
+      "score": 1.34242
+    },
+    {
+      "keyword": "retrieval augmented generation",
+      "count": 6,
+      "score": 1.10776
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 11,
+      "score": 1.08675
+    },
+    {
+      "keyword": "reasoning speech",
+      "count": 5,
+      "score": 0.9505
+    },
+    {
+      "keyword": "reasoning speech dialog",
+      "count": 5,
+      "score": 0.9505
+    },
+    {
+      "keyword": "retrieval augmented",
+      "count": 6,
+      "score": 0.84864
+    },
+    {
+      "keyword": "retrieval",
+      "count": 8,
+      "score": 0.71195
+    },
+    {
+      "keyword": "alignment",
+      "count": 10,
+      "score": 0.63525
+    },
+    {
+      "keyword": "foundation model",
+      "count": 5,
+      "score": 0.54689
+    },
+    {
+      "keyword": "optimization",
+      "count": 11,
+      "score": 0.53841
+    },
+    {
+      "keyword": "retrieval augmented generation rag",
+      "count": 4,
+      "score": 0.52323
+    },
+    {
+      "keyword": "preference optimization",
+      "count": 4,
+      "score": 0.4627
+    },
+    {
+      "keyword": "reasoning depth",
+      "count": 3,
+      "score": 0.41382
+    },
+    {
+      "keyword": "foundation models",
+      "count": 4,
+      "score": 0.4086
+    },
+    {
+      "keyword": "diffusion",
+      "count": 6,
+      "score": 0.32402
+    },
+    {
+      "keyword": "graphs",
+      "count": 4,
+      "score": 0.26514
+    },
+    {
+      "keyword": "policy optimization",
+      "count": 3,
+      "score": 0.23595
+    },
+    {
+      "keyword": "attention",
+      "count": 4,
+      "score": 0.18747
+    }
+  ],
+  "Applications->Neuroscience, Cognitive Science": [
+    {
+      "keyword": "foundation model",
+      "count": 10,
+      "score": 1.3206
+    },
+    {
+      "keyword": "brain alignment",
+      "count": 5,
+      "score": 0.84498
+    },
+    {
+      "keyword": "foundation models",
+      "count": 7,
+      "score": 0.83349
+    },
+    {
+      "keyword": "alignment",
+      "count": 12,
+      "score": 0.73564
+    },
+    {
+      "keyword": "transformers",
+      "count": 9,
+      "score": 0.71238
+    },
+    {
+      "keyword": "language model",
+      "count": 13,
+      "score": 0.65698
+    },
+    {
+      "keyword": "attention",
+      "count": 10,
+      "score": 0.62998
+    },
+    {
+      "keyword": "spiking transformers",
+      "count": 4,
+      "score": 0.61621
+    },
+    {
+      "keyword": "language models",
+      "count": 11,
+      "score": 0.56327
+    },
+    {
+      "keyword": "representation learning",
+      "count": 5,
+      "score": 0.5119
+    },
+    {
+      "keyword": "cross attention",
+      "count": 4,
+      "score": 0.47204
+    },
+    {
+      "keyword": "alignment human brain",
+      "count": 3,
+      "score": 0.4117
+    },
+    {
+      "keyword": "alignment human brain activity",
+      "count": 3,
+      "score": 0.4117
+    },
+    {
+      "keyword": "spiking transformers neuroscience",
+      "count": 3,
+      "score": 0.4117
+    },
+    {
+      "keyword": "spiking transformers neuroscience cognitive",
+      "count": 3,
+      "score": 0.4117
+    },
+    {
+      "keyword": "transformers neuroscience",
+      "count": 3,
+      "score": 0.4117
+    },
+    {
+      "keyword": "transformers neuroscience cognitive",
+      "count": 3,
+      "score": 0.4117
+    },
+    {
+      "keyword": "transformers neuroscience cognitive science",
+      "count": 3,
+      "score": 0.4117
+    },
+    {
+      "keyword": "emotion recognition",
+      "count": 3,
+      "score": 0.37754
+    },
+    {
+      "keyword": "optimization",
+      "count": 9,
+      "score": 0.36826
+    },
+    {
+      "keyword": "alignment human",
+      "count": 3,
+      "score": 0.34996
+    },
+    {
+      "keyword": "contrastive learning",
+      "count": 3,
+      "score": 0.2682
+    },
+    {
+      "keyword": "large language model",
+      "count": 6,
+      "score": 0.26366
+    },
+    {
+      "keyword": "time series",
+      "count": 3,
+      "score": 0.2618
+    },
+    {
+      "keyword": "large language models",
+      "count": 5,
+      "score": 0.21185
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 3,
+      "score": 0.14917
+    },
+    {
+      "keyword": "reasoning",
+      "count": 4,
+      "score": 0.12011
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3,
+      "score": 0.10413
+    }
+  ],
+  "Applications->Robotics": [
+    {
+      "keyword": "robotics",
+      "count": 153,
+      "score": 18.10508
+    },
+    {
+      "keyword": "vision language",
+      "count": 22,
+      "score": 2.45809
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 24,
+      "score": 1.6662
+    },
+    {
+      "keyword": "manipulation robotics",
+      "count": 12,
+      "score": 1.62742
+    },
+    {
+      "keyword": "action generation",
+      "count": 12,
+      "score": 1.51203
+    },
+    {
+      "keyword": "reasoning",
+      "count": 36,
+      "score": 1.45838
+    },
+    {
+      "keyword": "imitation learning",
+      "count": 11,
+      "score": 1.29269
+    },
+    {
+      "keyword": "learning robotics",
+      "count": 8,
+      "score": 0.95952
+    },
+    {
+      "keyword": "diffusion",
+      "count": 20,
+      "score": 0.91673
+    },
+    {
+      "keyword": "policy learning",
+      "count": 9,
+      "score": 0.89845
+    },
+    {
+      "keyword": "action prediction",
+      "count": 7,
+      "score": 0.81437
+    },
+    {
+      "keyword": "language model",
+      "count": 22,
+      "score": 0.7943
+    },
+    {
+      "keyword": "language models",
+      "count": 18,
+      "score": 0.65672
+    },
+    {
+      "keyword": "alignment",
+      "count": 16,
+      "score": 0.65148
+    },
+    {
+      "keyword": "multi agent",
+      "count": 7,
+      "score": 0.55542
+    },
+    {
+      "keyword": "optimization",
+      "count": 17,
+      "score": 0.52505
+    },
+    {
+      "keyword": "robotic control",
+      "count": 5,
+      "score": 0.49489
+    },
+    {
+      "keyword": "safety",
+      "count": 10,
+      "score": 0.47672
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 6,
+      "score": 0.37258
+    },
+    {
+      "keyword": "substantial inference",
+      "count": 4,
+      "score": 0.34039
+    },
+    {
+      "keyword": "semantic reasoning",
+      "count": 4,
+      "score": 0.32574
+    },
+    {
+      "keyword": "large language model",
+      "count": 10,
+      "score": 0.32561
+    },
+    {
+      "keyword": "world modeling",
+      "count": 4,
+      "score": 0.31411
+    },
+    {
+      "keyword": "spatial reasoning",
+      "count": 4,
+      "score": 0.28901
+    },
+    {
+      "keyword": "policy optimization",
+      "count": 5,
+      "score": 0.27572
+    },
+    {
+      "keyword": "large language models",
+      "count": 8,
+      "score": 0.24994
+    },
+    {
+      "keyword": "attention",
+      "count": 6,
+      "score": 0.18444
+    },
+    {
+      "keyword": "retrieval",
+      "count": 4,
+      "score": 0.14145
+    }
+  ],
+  "Applications->Social Sciences": [
+    {
+      "keyword": "language model",
+      "count": 9,
+      "score": 1.92154
+    },
+    {
+      "keyword": "language models",
+      "count": 8,
+      "score": 1.75392
+    },
+    {
+      "keyword": "large language models",
+      "count": 6,
+      "score": 1.33685
+    },
+    {
+      "keyword": "reasoning",
+      "count": 7,
+      "score": 1.31503
+    },
+    {
+      "keyword": "multi agent",
+      "count": 3,
+      "score": 1.27788
+    },
+    {
+      "keyword": "large language model",
+      "count": 6,
+      "score": 1.27669
+    },
+    {
+      "keyword": "alignment",
+      "count": 3,
+      "score": 0.4813
+    }
+  ],
+  "Applications->Time Series": [
+    {
+      "keyword": "time series",
+      "count": 95,
+      "score": 26.4339
+    },
+    {
+      "keyword": "time series forecasting",
+      "count": 43,
+      "score": 13.27125
+    },
+    {
+      "keyword": "forecasting",
+      "count": 54,
+      "score": 9.0158
+    },
+    {
+      "keyword": "series forecasting",
+      "count": 35,
+      "score": 8.62037
+    },
+    {
+      "keyword": "forecasting time",
+      "count": 28,
+      "score": 7.10002
+    },
+    {
+      "keyword": "forecasting time series",
+      "count": 28,
+      "score": 7.10002
+    },
+    {
+      "keyword": "series forecasting time",
+      "count": 17,
+      "score": 3.97311
+    },
+    {
+      "keyword": "forecasting framework",
+      "count": 8,
+      "score": 1.54532
+    },
+    {
+      "keyword": "foundation model",
+      "count": 11,
+      "score": 1.45783
+    },
+    {
+      "keyword": "foundation models",
+      "count": 10,
+      "score": 1.3297
+    },
+    {
+      "keyword": "time series forecasting has",
+      "count": 5,
+      "score": 0.83043
+    },
+    {
+      "keyword": "forecasting has",
+      "count": 5,
+      "score": 0.80722
+    },
+    {
+      "keyword": "attention",
+      "count": 12,
+      "score": 0.7831
+    },
+    {
+      "keyword": "time series modeling",
+      "count": 5,
+      "score": 0.66387
+    },
+    {
+      "keyword": "reasoning",
+      "count": 13,
+      "score": 0.61989
+    },
+    {
+      "keyword": "time series forecasting framework",
+      "count": 4,
+      "score": 0.60639
+    },
+    {
+      "keyword": "forecasting accuracy",
+      "count": 4,
+      "score": 0.59675
+    },
+    {
+      "keyword": "series reasoning",
+      "count": 4,
+      "score": 0.58803
+    },
+    {
+      "keyword": "transformers",
+      "count": 8,
+      "score": 0.58517
+    },
+    {
+      "keyword": "forecasting critical",
+      "count": 4,
+      "score": 0.58007
+    },
+    {
+      "keyword": "time series reasoning",
+      "count": 4,
+      "score": 0.58007
+    },
+    {
+      "keyword": "alignment",
+      "count": 10,
+      "score": 0.55501
+    },
+    {
+      "keyword": "optimization",
+      "count": 12,
+      "score": 0.52969
+    },
+    {
+      "keyword": "generative model",
+      "count": 6,
+      "score": 0.52785
+    },
+    {
+      "keyword": "series modeling",
+      "count": 4,
+      "score": 0.47956
+    },
+    {
+      "keyword": "language model",
+      "count": 10,
+      "score": 0.44469
+    },
+    {
+      "keyword": "reasoning time series",
+      "count": 3,
+      "score": 0.3987
+    },
+    {
+      "keyword": "series forecasting framework",
+      "count": 3,
+      "score": 0.3987
+    },
+    {
+      "keyword": "series forecasting has",
+      "count": 3,
+      "score": 0.3987
+    },
+    {
+      "keyword": "series generation",
+      "count": 3,
+      "score": 0.3987
+    }
+  ],
+  "Deep Learning->Algorithms": [
+    {
+      "keyword": "quantization",
+      "count": 10,
+      "score": 1.16202
+    },
+    {
+      "keyword": "federated learning",
+      "count": 6,
+      "score": 1.08827
+    },
+    {
+      "keyword": "optimization",
+      "count": 18,
+      "score": 1.08311
+    },
+    {
+      "keyword": "language model",
+      "count": 14,
+      "score": 0.83491
+    },
+    {
+      "keyword": "language models",
+      "count": 13,
+      "score": 0.81302
+    },
+    {
+      "keyword": "post training quantization",
+      "count": 5,
+      "score": 0.79249
+    },
+    {
+      "keyword": "large language model",
+      "count": 11,
+      "score": 0.70987
+    },
+    {
+      "keyword": "alignment",
+      "count": 10,
+      "score": 0.65907
+    },
+    {
+      "keyword": "large language models",
+      "count": 10,
+      "score": 0.65208
+    },
+    {
+      "keyword": "quantization aware",
+      "count": 4,
+      "score": 0.61353
+    },
+    {
+      "keyword": "attention",
+      "count": 8,
+      "score": 0.53108
+    },
+    {
+      "keyword": "quantization scheme",
+      "count": 3,
+      "score": 0.43938
+    },
+    {
+      "keyword": "search learning",
+      "count": 3,
+      "score": 0.42933
+    },
+    {
+      "keyword": "foundation models",
+      "count": 4,
+      "score": 0.42393
+    },
+    {
+      "keyword": "diffusion",
+      "count": 7,
+      "score": 0.41912
+    },
+    {
+      "keyword": "quantization learning",
+      "count": 3,
+      "score": 0.41654
+    },
+    {
+      "keyword": "quantization aware training",
+      "count": 3,
+      "score": 0.40914
+    },
+    {
+      "keyword": "foundation model",
+      "count": 4,
+      "score": 0.40773
+    },
+    {
+      "keyword": "post training quantization ptq",
+      "count": 3,
+      "score": 0.38307
+    },
+    {
+      "keyword": "quantization error",
+      "count": 3,
+      "score": 0.38307
+    },
+    {
+      "keyword": "quantization ptq",
+      "count": 3,
+      "score": 0.38307
+    },
+    {
+      "keyword": "reasoning",
+      "count": 8,
+      "score": 0.37715
+    },
+    {
+      "keyword": "transformers",
+      "count": 5,
+      "score": 0.35416
+    },
+    {
+      "keyword": "compression",
+      "count": 4,
+      "score": 0.28755
+    },
+    {
+      "keyword": "graphs",
+      "count": 4,
+      "score": 0.27508
+    }
+  ],
+  "Deep Learning->Attention Mechanisms": [
+    {
+      "keyword": "learning attention mechanisms",
+      "count": 80,
+      "score": 26.00163
+    },
+    {
+      "keyword": "learning attention",
+      "count": 80,
+      "score": 25.93225
+    },
+    {
+      "keyword": "attention mechanisms",
+      "count": 80,
+      "score": 25.03749
+    },
+    {
+      "keyword": "attention",
+      "count": 80,
+      "score": 10.62152
+    },
+    {
+      "keyword": "self attention",
+      "count": 22,
+      "score": 5.1725
+    },
+    {
+      "keyword": "attention mechanism",
+      "count": 17,
+      "score": 3.81923
+    },
+    {
+      "keyword": "attention learning",
+      "count": 15,
+      "score": 3.64098
+    },
+    {
+      "keyword": "transformers",
+      "count": 25,
+      "score": 3.22002
+    },
+    {
+      "keyword": "language model",
+      "count": 38,
+      "score": 3.06579
+    },
+    {
+      "keyword": "language models",
+      "count": 30,
+      "score": 2.44135
+    },
+    {
+      "keyword": "large language model",
+      "count": 22,
+      "score": 1.79145
+    },
+    {
+      "keyword": "large language models",
+      "count": 19,
+      "score": 1.54785
+    },
+    {
+      "keyword": "attention patterns",
+      "count": 6,
+      "score": 1.16937
+    },
+    {
+      "keyword": "transformers learning attention mechanisms",
+      "count": 5,
+      "score": 0.98614
+    },
+    {
+      "keyword": "attention heads",
+      "count": 6,
+      "score": 0.96418
+    },
+    {
+      "keyword": "attention layers",
+      "count": 5,
+      "score": 0.93527
+    },
+    {
+      "keyword": "attention sink",
+      "count": 5,
+      "score": 0.93527
+    },
+    {
+      "keyword": "attention sinks",
+      "count": 5,
+      "score": 0.90592
+    },
+    {
+      "keyword": "attention has",
+      "count": 5,
+      "score": 0.89728
+    },
+    {
+      "keyword": "transformers learning",
+      "count": 5,
+      "score": 0.8103
+    },
+    {
+      "keyword": "sparse attention learning",
+      "count": 4,
+      "score": 0.70864
+    },
+    {
+      "keyword": "attention token",
+      "count": 4,
+      "score": 0.69828
+    },
+    {
+      "keyword": "attention computation",
+      "count": 4,
+      "score": 0.68013
+    },
+    {
+      "keyword": "self attention mechanism",
+      "count": 4,
+      "score": 0.67208
+    },
+    {
+      "keyword": "attention scores",
+      "count": 4,
+      "score": 0.61353
+    },
+    {
+      "keyword": "retrieval",
+      "count": 7,
+      "score": 0.61167
+    },
+    {
+      "keyword": "attention weights",
+      "count": 4,
+      "score": 0.60483
+    },
+    {
+      "keyword": "sequence modeling",
+      "count": 4,
+      "score": 0.57569
+    },
+    {
+      "keyword": "vision transformers",
+      "count": 4,
+      "score": 0.55535
+    },
+    {
+      "keyword": "reasoning",
+      "count": 10,
+      "score": 0.5145
+    }
+  ],
+  "Deep Learning->Everything Else": [
+    {
+      "keyword": "language model",
+      "count": 17,
+      "score": 1.29203
+    },
+    {
+      "keyword": "networks learning",
+      "count": 6,
+      "score": 1.18599
+    },
+    {
+      "keyword": "language models",
+      "count": 15,
+      "score": 1.1768
+    },
+    {
+      "keyword": "alignment",
+      "count": 12,
+      "score": 1.01013
+    },
+    {
+      "keyword": "large language model",
+      "count": 12,
+      "score": 0.95444
+    },
+    {
+      "keyword": "vision language",
+      "count": 6,
+      "score": 0.95008
+    },
+    {
+      "keyword": "large language models",
+      "count": 11,
+      "score": 0.88755
+    },
+    {
+      "keyword": "attention",
+      "count": 10,
+      "score": 0.86504
+    },
+    {
+      "keyword": "quantization",
+      "count": 7,
+      "score": 0.84225
+    },
+    {
+      "keyword": "continual learning",
+      "count": 5,
+      "score": 0.80902
+    },
+    {
+      "keyword": "optimization",
+      "count": 12,
+      "score": 0.75106
+    },
+    {
+      "keyword": "transformers",
+      "count": 7,
+      "score": 0.68709
+    },
+    {
+      "keyword": "neural networks learning",
+      "count": 4,
+      "score": 0.67642
+    },
+    {
+      "keyword": "quantization learning everything",
+      "count": 3,
+      "score": 0.56531
+    },
+    {
+      "keyword": "quantization learning everything else",
+      "count": 3,
+      "score": 0.56531
+    },
+    {
+      "keyword": "reasoning",
+      "count": 6,
+      "score": 0.29912
+    },
+    {
+      "keyword": "interpretability",
+      "count": 4,
+      "score": 0.29051
+    },
+    {
+      "keyword": "generative model",
+      "count": 3,
+      "score": 0.2666
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3,
+      "score": 0.14298
+    }
+  ],
+  "Deep Learning->Foundation Models": [
+    {
+      "keyword": "foundation models",
+      "count": 133,
+      "score": 25.80182
+    },
+    {
+      "keyword": "foundation model",
+      "count": 133,
+      "score": 24.81609
+    },
+    {
+      "keyword": "vision language",
+      "count": 25,
+      "score": 3.33897
+    },
+    {
+      "keyword": "language model",
+      "count": 54,
+      "score": 2.86644
+    },
+    {
+      "keyword": "language models",
+      "count": 47,
+      "score": 2.59353
+    },
+    {
+      "keyword": "large language model",
+      "count": 27,
+      "score": 1.40543
+    },
+    {
+      "keyword": "reasoning",
+      "count": 30,
+      "score": 1.32957
+    },
+    {
+      "keyword": "attention",
+      "count": 23,
+      "score": 1.32837
+    },
+    {
+      "keyword": "foundation learning",
+      "count": 9,
+      "score": 1.23709
+    },
+    {
+      "keyword": "in context learning",
+      "count": 9,
+      "score": 1.16187
+    },
+    {
+      "keyword": "large language models",
+      "count": 22,
+      "score": 1.12834
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 14,
+      "score": 0.94067
+    },
+    {
+      "keyword": "transformers",
+      "count": 11,
+      "score": 0.64997
+    },
+    {
+      "keyword": "optimization",
+      "count": 16,
+      "score": 0.55723
+    },
+    {
+      "keyword": "diffusion",
+      "count": 11,
+      "score": 0.47341
+    },
+    {
+      "keyword": "reasoning learning foundation",
+      "count": 4,
+      "score": 0.43313
+    },
+    {
+      "keyword": "understanding generation",
+      "count": 4,
+      "score": 0.35897
+    },
+    {
+      "keyword": "alignment",
+      "count": 9,
+      "score": 0.34261
+    },
+    {
+      "keyword": "compression",
+      "count": 6,
+      "score": 0.31368
+    },
+    {
+      "keyword": "transformers learning foundation",
+      "count": 3,
+      "score": 0.28478
+    },
+    {
+      "keyword": "reasoning tasks but",
+      "count": 3,
+      "score": 0.26767
+    },
+    {
+      "keyword": "quantization aware training",
+      "count": 3,
+      "score": 0.2461
+    },
+    {
+      "keyword": "quantization aware",
+      "count": 3,
+      "score": 0.23841
+    },
+    {
+      "keyword": "retrieval",
+      "count": 5,
+      "score": 0.22644
+    },
+    {
+      "keyword": "reasoning lrms",
+      "count": 3,
+      "score": 0.20577
+    },
+    {
+      "keyword": "quantization",
+      "count": 4,
+      "score": 0.18765
+    },
+    {
+      "keyword": "time series",
+      "count": 3,
+      "score": 0.1811
+    },
+    {
+      "keyword": "reasoning tasks",
+      "count": 3,
+      "score": 0.1684
+    },
+    {
+      "keyword": "graphs",
+      "count": 4,
+      "score": 0.16546
+    },
+    {
+      "keyword": "computer vision",
+      "count": 3,
+      "score": 0.13663
+    }
+  ],
+  "Deep Learning->Generative Models and Autoencoders": [
+    {
+      "keyword": "generative models",
+      "count": 324,
+      "score": 26.0666
+    },
+    {
+      "keyword": "generative model",
+      "count": 324,
+      "score": 24.84132
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 137,
+      "score": 10.17232
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 129,
+      "score": 9.91756
+    },
+    {
+      "keyword": "diffusion",
+      "count": 192,
+      "score": 7.18366
+    },
+    {
+      "keyword": "diffusion learning generative",
+      "count": 46,
+      "score": 3.61131
+    },
+    {
+      "keyword": "diffusion learning generative autoencoders",
+      "count": 46,
+      "score": 3.61131
+    },
+    {
+      "keyword": "diffusion learning",
+      "count": 47,
+      "score": 3.28787
+    },
+    {
+      "keyword": "image generation",
+      "count": 37,
+      "score": 2.43846
+    },
+    {
+      "keyword": "generation learning",
+      "count": 35,
+      "score": 2.37003
+    },
+    {
+      "keyword": "diffusion have",
+      "count": 25,
+      "score": 1.59458
+    },
+    {
+      "keyword": "alignment",
+      "count": 57,
+      "score": 1.57071
+    },
+    {
+      "keyword": "generative modeling",
+      "count": 23,
+      "score": 1.37708
+    },
+    {
+      "keyword": "video generation",
+      "count": 22,
+      "score": 1.31146
+    },
+    {
+      "keyword": "latent diffusion",
+      "count": 16,
+      "score": 0.96556
+    },
+    {
+      "keyword": "matching learning",
+      "count": 15,
+      "score": 0.95823
+    },
+    {
+      "keyword": "optimization",
+      "count": 48,
+      "score": 0.94262
+    },
+    {
+      "keyword": "text to image generation",
+      "count": 14,
+      "score": 0.84669
+    },
+    {
+      "keyword": "diffusion flow",
+      "count": 13,
+      "score": 0.78025
+    },
+    {
+      "keyword": "video diffusion",
+      "count": 13,
+      "score": 0.73075
+    },
+    {
+      "keyword": "language model",
+      "count": 36,
+      "score": 0.70684
+    },
+    {
+      "keyword": "attention",
+      "count": 25,
+      "score": 0.60763
+    },
+    {
+      "keyword": "language models",
+      "count": 30,
+      "score": 0.6028
+    },
+    {
+      "keyword": "optimal transport",
+      "count": 11,
+      "score": 0.58343
+    },
+    {
+      "keyword": "diffusion transformers",
+      "count": 10,
+      "score": 0.50599
+    },
+    {
+      "keyword": "transformers",
+      "count": 16,
+      "score": 0.44248
+    },
+    {
+      "keyword": "autoregressive modeling",
+      "count": 8,
+      "score": 0.41064
+    },
+    {
+      "keyword": "diffusion sampling",
+      "count": 7,
+      "score": 0.34005
+    },
+    {
+      "keyword": "training inference",
+      "count": 8,
+      "score": 0.33844
+    },
+    {
+      "keyword": "diffusion dllms",
+      "count": 7,
+      "score": 0.31793
+    }
+  ],
+  "Deep Learning->Graph Neural Networks": [
+    {
+      "keyword": "graph neural networks",
+      "count": 123,
+      "score": 30.15818
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 123,
+      "score": 29.6393
+    },
+    {
+      "keyword": "graphs",
+      "count": 55,
+      "score": 6.15294
+    },
+    {
+      "keyword": "graph learning",
+      "count": 28,
+      "score": 5.10557
+    },
+    {
+      "keyword": "networks learning",
+      "count": 16,
+      "score": 2.50828
+    },
+    {
+      "keyword": "graph neural networks learning",
+      "count": 14,
+      "score": 2.42588
+    },
+    {
+      "keyword": "graphs learning graph",
+      "count": 9,
+      "score": 1.40712
+    },
+    {
+      "keyword": "graphs learning graph neural",
+      "count": 9,
+      "score": 1.40712
+    },
+    {
+      "keyword": "node classification",
+      "count": 8,
+      "score": 1.19354
+    },
+    {
+      "keyword": "graph anomaly detection",
+      "count": 7,
+      "score": 0.98837
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 8,
+      "score": 0.94795
+    },
+    {
+      "keyword": "link prediction",
+      "count": 6,
+      "score": 0.81252
+    },
+    {
+      "keyword": "optimization",
+      "count": 20,
+      "score": 0.80934
+    },
+    {
+      "keyword": "foundation models",
+      "count": 8,
+      "score": 0.75284
+    },
+    {
+      "keyword": "foundation model",
+      "count": 8,
+      "score": 0.72408
+    },
+    {
+      "keyword": "graph transformers",
+      "count": 5,
+      "score": 0.63202
+    },
+    {
+      "keyword": "graph classification",
+      "count": 5,
+      "score": 0.60831
+    },
+    {
+      "keyword": "attention",
+      "count": 12,
+      "score": 0.60484
+    },
+    {
+      "keyword": "alignment",
+      "count": 12,
+      "score": 0.55024
+    },
+    {
+      "keyword": "text attributed graphs",
+      "count": 4,
+      "score": 0.45417
+    },
+    {
+      "keyword": "transformers",
+      "count": 8,
+      "score": 0.45196
+    },
+    {
+      "keyword": "dynamic graphs",
+      "count": 4,
+      "score": 0.44802
+    },
+    {
+      "keyword": "diffusion",
+      "count": 9,
+      "score": 0.38809
+    },
+    {
+      "keyword": "combinatorial optimization",
+      "count": 4,
+      "score": 0.3343
+    },
+    {
+      "keyword": "graphs tags",
+      "count": 3,
+      "score": 0.29775
+    },
+    {
+      "keyword": "text attributed graphs tags",
+      "count": 3,
+      "score": 0.29775
+    },
+    {
+      "keyword": "interpretability",
+      "count": 6,
+      "score": 0.28699
+    },
+    {
+      "keyword": "graph generation",
+      "count": 3,
+      "score": 0.26176
+    },
+    {
+      "keyword": "negative transfer",
+      "count": 3,
+      "score": 0.25592
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 4,
+      "score": 0.25555
+    }
+  ],
+  "Deep Learning->Large Language Models": [
+    {
+      "keyword": "large language models",
+      "count": 1120,
+      "score": 15.27644
+    },
+    {
+      "keyword": "large language model",
+      "count": 1120,
+      "score": 14.58896
+    },
+    {
+      "keyword": "language models",
+      "count": 1120,
+      "score": 13.31248
+    },
+    {
+      "keyword": "language model",
+      "count": 1120,
+      "score": 12.37101
+    },
+    {
+      "keyword": "reasoning",
+      "count": 464,
+      "score": 4.36773
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 212,
+      "score": 3.34881
+    },
+    {
+      "keyword": "reasoning learning",
+      "count": 88,
+      "score": 1.98165
+    },
+    {
+      "keyword": "optimization",
+      "count": 239,
+      "score": 1.91204
+    },
+    {
+      "keyword": "attention",
+      "count": 114,
+      "score": 1.16734
+    },
+    {
+      "keyword": "reasoning tasks",
+      "count": 54,
+      "score": 1.04054
+    },
+    {
+      "keyword": "alignment",
+      "count": 105,
+      "score": 0.96133
+    },
+    {
+      "keyword": "policy optimization",
+      "count": 56,
+      "score": 0.9519
+    },
+    {
+      "keyword": "multi agent",
+      "count": 45,
+      "score": 0.89806
+    },
+    {
+      "keyword": "llm reasoning",
+      "count": 40,
+      "score": 0.80245
+    },
+    {
+      "keyword": "retrieval",
+      "count": 63,
+      "score": 0.78643
+    },
+    {
+      "keyword": "mathematical reasoning",
+      "count": 39,
+      "score": 0.78643
+    },
+    {
+      "keyword": "vision language",
+      "count": 39,
+      "score": 0.70033
+    },
+    {
+      "keyword": "code generation",
+      "count": 35,
+      "score": 0.6877
+    },
+    {
+      "keyword": "agents learning",
+      "count": 31,
+      "score": 0.66848
+    },
+    {
+      "keyword": "compression",
+      "count": 51,
+      "score": 0.64292
+    },
+    {
+      "keyword": "retrieval augmented generation",
+      "count": 27,
+      "score": 0.6326
+    },
+    {
+      "keyword": "llm inference",
+      "count": 30,
+      "score": 0.59171
+    },
+    {
+      "keyword": "retrieval augmented",
+      "count": 31,
+      "score": 0.57872
+    },
+    {
+      "keyword": "quantization",
+      "count": 43,
+      "score": 0.56324
+    },
+    {
+      "keyword": "reasoning lrms",
+      "count": 28,
+      "score": 0.55395
+    },
+    {
+      "keyword": "reasoning traces",
+      "count": 26,
+      "score": 0.47729
+    },
+    {
+      "keyword": "diffusion",
+      "count": 55,
+      "score": 0.45533
+    },
+    {
+      "keyword": "group relative policy optimization",
+      "count": 23,
+      "score": 0.39602
+    },
+    {
+      "keyword": "transformers",
+      "count": 37,
+      "score": 0.38005
+    },
+    {
+      "keyword": "retrieval augmented generation rag",
+      "count": 20,
+      "score": 0.36675
+    }
+  ],
+  "Deep Learning->Other Representation Learning": [
+    {
+      "keyword": "other representation learning",
+      "count": 75,
+      "score": 25.97907
+    },
+    {
+      "keyword": "representation learning",
+      "count": 75,
+      "score": 22.76574
+    },
+    {
+      "keyword": "retrieval",
+      "count": 12,
+      "score": 1.37963
+    },
+    {
+      "keyword": "language model",
+      "count": 16,
+      "score": 1.06484
+    },
+    {
+      "keyword": "alignment",
+      "count": 13,
+      "score": 1.00583
+    },
+    {
+      "keyword": "language models",
+      "count": 14,
+      "score": 0.95835
+    },
+    {
+      "keyword": "attention",
+      "count": 11,
+      "score": 0.88089
+    },
+    {
+      "keyword": "vision language",
+      "count": 6,
+      "score": 0.84874
+    },
+    {
+      "keyword": "alignment learning other",
+      "count": 4,
+      "score": 0.76809
+    },
+    {
+      "keyword": "alignment learning other representation",
+      "count": 4,
+      "score": 0.76809
+    },
+    {
+      "keyword": "data learning",
+      "count": 4,
+      "score": 0.65936
+    },
+    {
+      "keyword": "large language models",
+      "count": 8,
+      "score": 0.50988
+    },
+    {
+      "keyword": "large language model",
+      "count": 8,
+      "score": 0.48693
+    },
+    {
+      "keyword": "reasoning",
+      "count": 9,
+      "score": 0.47429
+    },
+    {
+      "keyword": "interpretability",
+      "count": 6,
+      "score": 0.47067
+    },
+    {
+      "keyword": "cross modal retrieval",
+      "count": 3,
+      "score": 0.45312
+    },
+    {
+      "keyword": "optimization",
+      "count": 8,
+      "score": 0.38317
+    },
+    {
+      "keyword": "cross attention",
+      "count": 3,
+      "score": 0.37407
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 3,
+      "score": 0.34097
+    },
+    {
+      "keyword": "reasoning tasks",
+      "count": 3,
+      "score": 0.29864
+    },
+    {
+      "keyword": "transformers",
+      "count": 4,
+      "score": 0.27147
+    },
+    {
+      "keyword": "quantization",
+      "count": 3,
+      "score": 0.21498
+    },
+    {
+      "keyword": "diffusion",
+      "count": 4,
+      "score": 0.19772
+    }
+  ],
+  "Deep Learning->Robustness": [
+    {
+      "keyword": "adversarial attacks",
+      "count": 13,
+      "score": 3.30427
+    },
+    {
+      "keyword": "vision language",
+      "count": 12,
+      "score": 2.33071
+    },
+    {
+      "keyword": "language models",
+      "count": 22,
+      "score": 1.81633
+    },
+    {
+      "keyword": "language model",
+      "count": 22,
+      "score": 1.68788
+    },
+    {
+      "keyword": "optimization",
+      "count": 16,
+      "score": 1.02933
+    },
+    {
+      "keyword": "attacks learning",
+      "count": 5,
+      "score": 1.0276
+    },
+    {
+      "keyword": "test time adaptation",
+      "count": 5,
+      "score": 0.90566
+    },
+    {
+      "keyword": "large language models",
+      "count": 9,
+      "score": 0.62616
+    },
+    {
+      "keyword": "large language model",
+      "count": 9,
+      "score": 0.59799
+    },
+    {
+      "keyword": "attention",
+      "count": 8,
+      "score": 0.59008
+    },
+    {
+      "keyword": "retrieval",
+      "count": 6,
+      "score": 0.54514
+    },
+    {
+      "keyword": "alignment",
+      "count": 8,
+      "score": 0.53682
+    },
+    {
+      "keyword": "adversarial robustness learning",
+      "count": 3,
+      "score": 0.52606
+    },
+    {
+      "keyword": "robustness learning",
+      "count": 3,
+      "score": 0.51687
+    },
+    {
+      "keyword": "vulnerable adversarial attacks",
+      "count": 3,
+      "score": 0.50866
+    },
+    {
+      "keyword": "zero shot classification",
+      "count": 3,
+      "score": 0.49444
+    },
+    {
+      "keyword": "backdoor attack",
+      "count": 3,
+      "score": 0.48242
+    },
+    {
+      "keyword": "backdoor attacks",
+      "count": 3,
+      "score": 0.42563
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 3,
+      "score": 0.29559
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 3,
+      "score": 0.28202
+    },
+    {
+      "keyword": "safety",
+      "count": 4,
+      "score": 0.27197
+    },
+    {
+      "keyword": "diffusion",
+      "count": 4,
+      "score": 0.20596
+    },
+    {
+      "keyword": "transformers",
+      "count": 3,
+      "score": 0.18268
+    },
+    {
+      "keyword": "reasoning",
+      "count": 3,
+      "score": 0.09915
+    }
+  ],
+  "Deep Learning->Self-Supervised Learning": [
+    {
+      "keyword": "self supervised learning",
+      "count": 38,
+      "score": 22.56713
+    },
+    {
+      "keyword": "representation learning",
+      "count": 9,
+      "score": 2.86678
+    },
+    {
+      "keyword": "contrastive learning",
+      "count": 6,
+      "score": 1.82288
+    },
+    {
+      "keyword": "alignment",
+      "count": 6,
+      "score": 0.67559
+    },
+    {
+      "keyword": "time series",
+      "count": 3,
+      "score": 0.63383
+    },
+    {
+      "keyword": "optimization",
+      "count": 4,
+      "score": 0.27697
+    }
+  ],
+  "Deep Learning->Sequential Models, Time series": [
+    {
+      "keyword": "time series",
+      "count": 41,
+      "score": 21.64629
+    },
+    {
+      "keyword": "forecasting",
+      "count": 17,
+      "score": 4.74348
+    },
+    {
+      "keyword": "time series forecasting",
+      "count": 10,
+      "score": 4.53148
+    },
+    {
+      "keyword": "series learning",
+      "count": 6,
+      "score": 2.47103
+    },
+    {
+      "keyword": "time series learning",
+      "count": 6,
+      "score": 2.43757
+    },
+    {
+      "keyword": "series forecasting",
+      "count": 7,
+      "score": 2.3181
+    },
+    {
+      "keyword": "forecasting learning sequential",
+      "count": 5,
+      "score": 1.92418
+    },
+    {
+      "keyword": "forecasting learning sequential time",
+      "count": 5,
+      "score": 1.92418
+    },
+    {
+      "keyword": "series forecasting learning",
+      "count": 5,
+      "score": 1.92418
+    },
+    {
+      "keyword": "series forecasting learning sequential",
+      "count": 5,
+      "score": 1.92418
+    },
+    {
+      "keyword": "sequence modeling",
+      "count": 5,
+      "score": 1.56318
+    },
+    {
+      "keyword": "foundation model",
+      "count": 6,
+      "score": 1.44284
+    },
+    {
+      "keyword": "foundation models",
+      "count": 5,
+      "score": 1.1511
+    },
+    {
+      "keyword": "attention learning sequential",
+      "count": 3,
+      "score": 0.92381
+    },
+    {
+      "keyword": "attention learning sequential time",
+      "count": 3,
+      "score": 0.92381
+    },
+    {
+      "keyword": "transformers",
+      "count": 6,
+      "score": 0.90061
+    },
+    {
+      "keyword": "time series anomaly detection",
+      "count": 3,
+      "score": 0.8802
+    },
+    {
+      "keyword": "attention",
+      "count": 6,
+      "score": 0.68829
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 3,
+      "score": 0.67285
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3,
+      "score": 0.23365
+    },
+    {
+      "keyword": "optimization",
+      "count": 3,
+      "score": 0.16584
+    }
+  ],
+  "Deep Learning->Theory": [
+    {
+      "keyword": "transformers",
+      "count": 18,
+      "score": 1.69311
+    },
+    {
+      "keyword": "transformers learning theory",
+      "count": 5,
+      "score": 0.79688
+    },
+    {
+      "keyword": "attention",
+      "count": 12,
+      "score": 0.75146
+    },
+    {
+      "keyword": "optimization",
+      "count": 16,
+      "score": 0.7486
+    },
+    {
+      "keyword": "transformers learning",
+      "count": 5,
+      "score": 0.65479
+    },
+    {
+      "keyword": "reasoning learning theory",
+      "count": 4,
+      "score": 0.58189
+    },
+    {
+      "keyword": "language model",
+      "count": 12,
+      "score": 0.54774
+    },
+    {
+      "keyword": "softmax attention",
+      "count": 4,
+      "score": 0.48544
+    },
+    {
+      "keyword": "reasoning",
+      "count": 11,
+      "score": 0.47393
+    },
+    {
+      "keyword": "feature learning",
+      "count": 4,
+      "score": 0.46782
+    },
+    {
+      "keyword": "networks learning",
+      "count": 4,
+      "score": 0.44257
+    },
+    {
+      "keyword": "large language model",
+      "count": 9,
+      "score": 0.4349
+    },
+    {
+      "keyword": "language models",
+      "count": 9,
+      "score": 0.39685
+    },
+    {
+      "keyword": "alignment",
+      "count": 8,
+      "score": 0.39041
+    },
+    {
+      "keyword": "attention learning theory",
+      "count": 3,
+      "score": 0.38259
+    },
+    {
+      "keyword": "transformers trained",
+      "count": 3,
+      "score": 0.35085
+    },
+    {
+      "keyword": "large language models",
+      "count": 7,
+      "score": 0.31987
+    },
+    {
+      "keyword": "graphs",
+      "count": 5,
+      "score": 0.30934
+    },
+    {
+      "keyword": "diffusion",
+      "count": 6,
+      "score": 0.27166
+    },
+    {
+      "keyword": "compression",
+      "count": 4,
+      "score": 0.23236
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 3,
+      "score": 0.21498
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 3,
+      "score": 0.20511
+    }
+  ],
+  "General Machine Learning->Causality": [
+    {
+      "keyword": "causal inference",
+      "count": 15,
+      "score": 4.34883
+    },
+    {
+      "keyword": "effect estimation",
+      "count": 10,
+      "score": 2.2556
+    },
+    {
+      "keyword": "causal effect estimation",
+      "count": 7,
+      "score": 1.44882
+    },
+    {
+      "keyword": "representation learning",
+      "count": 9,
+      "score": 1.26672
+    },
+    {
+      "keyword": "structure learning",
+      "count": 6,
+      "score": 0.98815
+    },
+    {
+      "keyword": "graphs",
+      "count": 9,
+      "score": 0.82372
+    },
+    {
+      "keyword": "time series",
+      "count": 6,
+      "score": 0.78625
+    },
+    {
+      "keyword": "variables machine learning",
+      "count": 4,
+      "score": 0.66984
+    },
+    {
+      "keyword": "optimization",
+      "count": 11,
+      "score": 0.51963
+    },
+    {
+      "keyword": "treatment effect estimation",
+      "count": 3,
+      "score": 0.42585
+    },
+    {
+      "keyword": "language models",
+      "count": 6,
+      "score": 0.25738
+    },
+    {
+      "keyword": "foundation models",
+      "count": 3,
+      "score": 0.25476
+    },
+    {
+      "keyword": "foundation model",
+      "count": 3,
+      "score": 0.24502
+    },
+    {
+      "keyword": "language model",
+      "count": 6,
+      "score": 0.23918
+    },
+    {
+      "keyword": "reasoning",
+      "count": 6,
+      "score": 0.23303
+    },
+    {
+      "keyword": "large language models",
+      "count": 5,
+      "score": 0.22663
+    },
+    {
+      "keyword": "large language model",
+      "count": 5,
+      "score": 0.21643
+    },
+    {
+      "keyword": "privacy",
+      "count": 3,
+      "score": 0.17514
+    },
+    {
+      "keyword": "attention",
+      "count": 3,
+      "score": 0.11689
+    }
+  ],
+  "General Machine Learning->Clustering": [
+    {
+      "keyword": "clustering machine learning",
+      "count": 14,
+      "score": 10.12086
+    },
+    {
+      "keyword": "multi view clustering machine learning",
+      "count": 6,
+      "score": 3.44623
+    },
+    {
+      "keyword": "anchor learning",
+      "count": 3,
+      "score": 1.26287
+    },
+    {
+      "keyword": "optimal transport",
+      "count": 3,
+      "score": 0.99177
+    },
+    {
+      "keyword": "attention",
+      "count": 6,
+      "score": 0.9731
+    },
+    {
+      "keyword": "alignment",
+      "count": 5,
+      "score": 0.67928
+    },
+    {
+      "keyword": "optimization",
+      "count": 6,
+      "score": 0.65821
+    },
+    {
+      "keyword": "graphs",
+      "count": 3,
+      "score": 0.49023
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3,
+      "score": 0.33034
+    }
+  ],
+  "General Machine Learning->Data": [
+    {
+      "keyword": "data selection",
+      "count": 4,
+      "score": 1.95055
+    },
+    {
+      "keyword": "large language models",
+      "count": 5,
+      "score": 0.84739
+    },
+    {
+      "keyword": "large language model",
+      "count": 5,
+      "score": 0.80926
+    },
+    {
+      "keyword": "language models",
+      "count": 5,
+      "score": 0.73845
+    },
+    {
+      "keyword": "language model",
+      "count": 5,
+      "score": 0.68623
+    },
+    {
+      "keyword": "optimization",
+      "count": 4,
+      "score": 0.45761
+    },
+    {
+      "keyword": "reasoning",
+      "count": 3,
+      "score": 0.31038
+    }
+  ],
+  "General Machine Learning->Evaluation": [
+    {
+      "keyword": "language model",
+      "count": 60,
+      "score": 3.68256
+    },
+    {
+      "keyword": "language models",
+      "count": 51,
+      "score": 3.23759
+    },
+    {
+      "keyword": "large language model",
+      "count": 47,
+      "score": 3.20351
+    },
+    {
+      "keyword": "large language models",
+      "count": 39,
+      "score": 2.6524
+    },
+    {
+      "keyword": "reasoning",
+      "count": 33,
+      "score": 1.69279
+    },
+    {
+      "keyword": "generation machine learning",
+      "count": 6,
+      "score": 0.82636
+    },
+    {
+      "keyword": "vision language",
+      "count": 6,
+      "score": 0.53945
+    },
+    {
+      "keyword": "code generation",
+      "count": 5,
+      "score": 0.46624
+    },
+    {
+      "keyword": "alignment",
+      "count": 10,
+      "score": 0.44683
+    },
+    {
+      "keyword": "multi agent",
+      "count": 5,
+      "score": 0.44324
+    },
+    {
+      "keyword": "retrieval augmented generation",
+      "count": 4,
+      "score": 0.42964
+    },
+    {
+      "keyword": "generative model",
+      "count": 6,
+      "score": 0.42496
+    },
+    {
+      "keyword": "generative models",
+      "count": 5,
+      "score": 0.34217
+    },
+    {
+      "keyword": "retrieval",
+      "count": 6,
+      "score": 0.33262
+    },
+    {
+      "keyword": "retrieval augmented",
+      "count": 4,
+      "score": 0.32914
+    },
+    {
+      "keyword": "generative machine learning",
+      "count": 3,
+      "score": 0.32098
+    },
+    {
+      "keyword": "tasks machine learning",
+      "count": 3,
+      "score": 0.31037
+    },
+    {
+      "keyword": "reasoning ability",
+      "count": 3,
+      "score": 0.24811
+    },
+    {
+      "keyword": "reasoning tasks",
+      "count": 3,
+      "score": 0.18981
+    },
+    {
+      "keyword": "attention",
+      "count": 4,
+      "score": 0.13187
+    },
+    {
+      "keyword": "optimization",
+      "count": 4,
+      "score": 0.08919
+    }
+  ],
+  "General Machine Learning->Everything Else": [
+    {
+      "keyword": "federated learning",
+      "count": 8,
+      "score": 2.97895
+    },
+    {
+      "keyword": "optimization",
+      "count": 10,
+      "score": 0.89097
+    },
+    {
+      "keyword": "data machine learning",
+      "count": 3,
+      "score": 0.72063
+    },
+    {
+      "keyword": "language model",
+      "count": 5,
+      "score": 0.35871
+    },
+    {
+      "keyword": "privacy",
+      "count": 3,
+      "score": 0.34231
+    },
+    {
+      "keyword": "interpretability",
+      "count": 3,
+      "score": 0.28578
+    },
+    {
+      "keyword": "language models",
+      "count": 4,
+      "score": 0.27738
+    },
+    {
+      "keyword": "attention",
+      "count": 3,
+      "score": 0.22846
+    },
+    {
+      "keyword": "alignment",
+      "count": 3,
+      "score": 0.20783
+    },
+    {
+      "keyword": "reasoning",
+      "count": 3,
+      "score": 0.16224
+    }
+  ],
+  "General Machine Learning->Hardware and Software": [
+    {
+      "keyword": "llm inference",
+      "count": 4,
+      "score": 1.53383
+    },
+    {
+      "keyword": "quantization",
+      "count": 5,
+      "score": 1.28635
+    },
+    {
+      "keyword": "language model",
+      "count": 8,
+      "score": 1.14696
+    },
+    {
+      "keyword": "quantization error",
+      "count": 3,
+      "score": 1.13501
+    },
+    {
+      "keyword": "large language model",
+      "count": 7,
+      "score": 1.12007
+    },
+    {
+      "keyword": "language models",
+      "count": 7,
+      "score": 1.02207
+    },
+    {
+      "keyword": "large language models",
+      "count": 6,
+      "score": 0.94075
+    },
+    {
+      "keyword": "attention",
+      "count": 5,
+      "score": 0.80199
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 3,
+      "score": 0.78825
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 3,
+      "score": 0.75206
+    },
+    {
+      "keyword": "diffusion",
+      "count": 4,
+      "score": 0.54923
+    },
+    {
+      "keyword": "optimization",
+      "count": 4,
+      "score": 0.38981
+    }
+  ],
+  "General Machine Learning->Kernel methods": [
+    {
+      "keyword": "density estimation",
+      "count": 3,
+      "score": 1.83442
+    },
+    {
+      "keyword": "attention",
+      "count": 3,
+      "score": 0.55845
+    }
+  ],
+  "General Machine Learning->Methodology": [
+    {
+      "keyword": "reasoning",
+      "count": 6,
+      "score": 1.00205
+    },
+    {
+      "keyword": "language model",
+      "count": 4,
+      "score": 0.56709
+    },
+    {
+      "keyword": "optimization",
+      "count": 3,
+      "score": 0.33996
+    }
+  ],
+  "General Machine Learning->Online Learning, Active Learning and Bandits": [
+    {
+      "keyword": "active learning",
+      "count": 33,
+      "score": 22.76755
+    },
+    {
+      "keyword": "online learning",
+      "count": 33,
+      "score": 20.18771
+    },
+    {
+      "keyword": "thompson sampling",
+      "count": 3,
+      "score": 1.07877
+    },
+    {
+      "keyword": "continual learning",
+      "count": 3,
+      "score": 0.76251
+    },
+    {
+      "keyword": "optimization",
+      "count": 6,
+      "score": 0.57842
+    }
+  ],
+  "General Machine Learning->Representation Learning": [
+    {
+      "keyword": "representation learning",
+      "count": 92,
+      "score": 23.82691
+    },
+    {
+      "keyword": "contrastive learning",
+      "count": 7,
+      "score": 0.93869
+    },
+    {
+      "keyword": "vision language",
+      "count": 7,
+      "score": 0.86262
+    },
+    {
+      "keyword": "alignment",
+      "count": 13,
+      "score": 0.81997
+    },
+    {
+      "keyword": "retrieval",
+      "count": 9,
+      "score": 0.75724
+    },
+    {
+      "keyword": "multimodal learning",
+      "count": 5,
+      "score": 0.68201
+    },
+    {
+      "keyword": "optimization",
+      "count": 13,
+      "score": 0.60966
+    },
+    {
+      "keyword": "reasoning",
+      "count": 10,
+      "score": 0.44739
+    },
+    {
+      "keyword": "alignment machine learning representation",
+      "count": 3,
+      "score": 0.4117
+    },
+    {
+      "keyword": "compression machine learning representation",
+      "count": 3,
+      "score": 0.4117
+    },
+    {
+      "keyword": "alignment machine",
+      "count": 3,
+      "score": 0.39808
+    },
+    {
+      "keyword": "interpretability",
+      "count": 6,
+      "score": 0.3837
+    },
+    {
+      "keyword": "attention",
+      "count": 7,
+      "score": 0.38242
+    },
+    {
+      "keyword": "compression machine",
+      "count": 3,
+      "score": 0.38207
+    },
+    {
+      "keyword": "foundation models",
+      "count": 4,
+      "score": 0.36863
+    },
+    {
+      "keyword": "foundation model",
+      "count": 4,
+      "score": 0.35455
+    },
+    {
+      "keyword": "compression",
+      "count": 5,
+      "score": 0.34796
+    },
+    {
+      "keyword": "vector quantization",
+      "count": 3,
+      "score": 0.34725
+    },
+    {
+      "keyword": "image classification",
+      "count": 3,
+      "score": 0.32163
+    },
+    {
+      "keyword": "optimal transport",
+      "count": 3,
+      "score": 0.31262
+    },
+    {
+      "keyword": "language model",
+      "count": 7,
+      "score": 0.27874
+    },
+    {
+      "keyword": "time series",
+      "count": 3,
+      "score": 0.2618
+    },
+    {
+      "keyword": "language models",
+      "count": 6,
+      "score": 0.24059
+    },
+    {
+      "keyword": "generative model",
+      "count": 3,
+      "score": 0.19415
+    },
+    {
+      "keyword": "segmentation",
+      "count": 3,
+      "score": 0.19033
+    },
+    {
+      "keyword": "quantization",
+      "count": 3,
+      "score": 0.17525
+    },
+    {
+      "keyword": "privacy",
+      "count": 3,
+      "score": 0.16371
+    },
+    {
+      "keyword": "transformers",
+      "count": 3,
+      "score": 0.14297
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3,
+      "score": 0.10413
+    }
+  ],
+  "General Machine Learning->Scalable Algorithms": [
+    {
+      "keyword": "optimal transport",
+      "count": 3,
+      "score": 1.36959
+    },
+    {
+      "keyword": "attention",
+      "count": 5,
+      "score": 1.03113
+    },
+    {
+      "keyword": "language models",
+      "count": 5,
+      "score": 0.80878
+    },
+    {
+      "keyword": "language model",
+      "count": 5,
+      "score": 0.75158
+    },
+    {
+      "keyword": "large language models",
+      "count": 4,
+      "score": 0.66693
+    },
+    {
+      "keyword": "retrieval",
+      "count": 3,
+      "score": 0.66576
+    },
+    {
+      "keyword": "large language model",
+      "count": 4,
+      "score": 0.63691
+    },
+    {
+      "keyword": "optimization",
+      "count": 3,
+      "score": 0.32378
+    }
+  ],
+  "General Machine Learning->Sequential, Network, and Time Series Modeling": [
+    {
+      "keyword": "network time series modeling",
+      "count": 25,
+      "score": 23.85868
+    },
+    {
+      "keyword": "series modeling",
+      "count": 25,
+      "score": 23.05675
+    },
+    {
+      "keyword": "time series modeling",
+      "count": 25,
+      "score": 22.93624
+    },
+    {
+      "keyword": "time series",
+      "count": 25,
+      "score": 18.86889
+    },
+    {
+      "keyword": "optimal transport",
+      "count": 3,
+      "score": 1.15046
+    },
+    {
+      "keyword": "forecasting",
+      "count": 4,
+      "score": 1.01923
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3,
+      "score": 0.38319
+    }
+  ],
+  "General Machine Learning->Supervised Learning": [
+    {
+      "keyword": "supervised learning",
+      "count": 27,
+      "score": 20.21987
+    },
+    {
+      "keyword": "class incremental learning",
+      "count": 3,
+      "score": 1.21228
+    },
+    {
+      "keyword": "federated learning",
+      "count": 3,
+      "score": 1.14859
+    },
+    {
+      "keyword": "privacy",
+      "count": 3,
+      "score": 0.55784
+    },
+    {
+      "keyword": "optimization",
+      "count": 3,
+      "score": 0.25183
+    }
+  ],
+  "General Machine Learning->Transfer, Multitask and Meta-learning": [
+    {
+      "keyword": "machine learning transfer",
+      "count": 81,
+      "score": 26.00465
+    },
+    {
+      "keyword": "multitask meta learning",
+      "count": 81,
+      "score": 26.00465
+    },
+    {
+      "keyword": "transfer multitask meta learning",
+      "count": 81,
+      "score": 26.00465
+    },
+    {
+      "keyword": "learning transfer",
+      "count": 81,
+      "score": 25.93588
+    },
+    {
+      "keyword": "meta learning",
+      "count": 81,
+      "score": 24.59472
+    },
+    {
+      "keyword": "adaptation machine learning transfer",
+      "count": 6,
+      "score": 1.25077
+    },
+    {
+      "keyword": "knowledge distillation",
+      "count": 7,
+      "score": 1.19203
+    },
+    {
+      "keyword": "language models",
+      "count": 14,
+      "score": 0.88736
+    },
+    {
+      "keyword": "optimization",
+      "count": 15,
+      "score": 0.83942
+    },
+    {
+      "keyword": "language model",
+      "count": 14,
+      "score": 0.8246
+    },
+    {
+      "keyword": "vision language",
+      "count": 6,
+      "score": 0.78587
+    },
+    {
+      "keyword": "domain generalization",
+      "count": 4,
+      "score": 0.73206
+    },
+    {
+      "keyword": "foundation model",
+      "count": 6,
+      "score": 0.73033
+    },
+    {
+      "keyword": "alignment",
+      "count": 10,
+      "score": 0.65094
+    },
+    {
+      "keyword": "test time adaptation",
+      "count": 4,
+      "score": 0.57849
+    },
+    {
+      "keyword": "domain adaptation",
+      "count": 3,
+      "score": 0.44292
+    },
+    {
+      "keyword": "foundation models",
+      "count": 4,
+      "score": 0.41869
+    },
+    {
+      "keyword": "large language models",
+      "count": 7,
+      "score": 0.39095
+    },
+    {
+      "keyword": "large language model",
+      "count": 7,
+      "score": 0.37336
+    },
+    {
+      "keyword": "optimal transport",
+      "count": 3,
+      "score": 0.35508
+    },
+    {
+      "keyword": "optimization framework",
+      "count": 3,
+      "score": 0.33397
+    },
+    {
+      "keyword": "reasoning",
+      "count": 6,
+      "score": 0.24742
+    },
+    {
+      "keyword": "segmentation",
+      "count": 3,
+      "score": 0.21618
+    },
+    {
+      "keyword": "privacy",
+      "count": 3,
+      "score": 0.18595
+    },
+    {
+      "keyword": "attention",
+      "count": 3,
+      "score": 0.1241
+    }
+  ],
+  "General Machine Learning->Unsupervised and Semi-supervised Learning": [
+    {
+      "keyword": "unsupervised semi supervised learning",
+      "count": 38,
+      "score": 25.04735
+    },
+    {
+      "keyword": "semi supervised learning",
+      "count": 38,
+      "score": 24.30141
+    },
+    {
+      "keyword": "anomaly detection",
+      "count": 4,
+      "score": 1.12377
+    },
+    {
+      "keyword": "data machine learning",
+      "count": 3,
+      "score": 0.83442
+    },
+    {
+      "keyword": "optimal transport",
+      "count": 3,
+      "score": 0.75688
+    },
+    {
+      "keyword": "language models",
+      "count": 6,
+      "score": 0.58249
+    },
+    {
+      "keyword": "language model",
+      "count": 6,
+      "score": 0.5413
+    },
+    {
+      "keyword": "alignment",
+      "count": 5,
+      "score": 0.51839
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3,
+      "score": 0.2521
+    },
+    {
+      "keyword": "large language models",
+      "count": 3,
+      "score": 0.2381
+    },
+    {
+      "keyword": "large language model",
+      "count": 3,
+      "score": 0.22738
+    },
+    {
+      "keyword": "optimization",
+      "count": 3,
+      "score": 0.17893
+    }
+  ],
+  "Optimization->Convex": [
+    {
+      "keyword": "optimization convex",
+      "count": 14,
+      "score": 21.31308
+    },
+    {
+      "keyword": "optimization",
+      "count": 14,
+      "score": 4.42735
+    },
+    {
+      "keyword": "smoothness optimization convex",
+      "count": 3,
+      "score": 2.70543
+    },
+    {
+      "keyword": "smoothness optimization",
+      "count": 3,
+      "score": 2.6582
+    },
+    {
+      "keyword": "convex optimization",
+      "count": 3,
+      "score": 2.14948
+    }
+  ],
+  "Optimization->Discrete and Combinatorial Optimization": [
+    {
+      "keyword": "discrete combinatorial optimization",
+      "count": 35,
+      "score": 24.84998
+    },
+    {
+      "keyword": "optimization discrete combinatorial",
+      "count": 35,
+      "score": 24.84998
+    },
+    {
+      "keyword": "optimization discrete",
+      "count": 35,
+      "score": 24.61394
+    },
+    {
+      "keyword": "combinatorial optimization",
+      "count": 35,
+      "score": 22.88844
+    },
+    {
+      "keyword": "optimization",
+      "count": 35,
+      "score": 5.85864
+    },
+    {
+      "keyword": "graphs",
+      "count": 8,
+      "score": 1.71679
+    },
+    {
+      "keyword": "programs optimization discrete",
+      "count": 3,
+      "score": 1.08217
+    },
+    {
+      "keyword": "programs optimization discrete combinatorial",
+      "count": 3,
+      "score": 1.08217
+    },
+    {
+      "keyword": "large language model",
+      "count": 7,
+      "score": 0.86406
+    },
+    {
+      "keyword": "language model",
+      "count": 7,
+      "score": 0.73269
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 3,
+      "score": 0.73064
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 3,
+      "score": 0.58016
+    },
+    {
+      "keyword": "large language models",
+      "count": 5,
+      "score": 0.55686
+    },
+    {
+      "keyword": "language models",
+      "count": 5,
+      "score": 0.48527
+    },
+    {
+      "keyword": "attention",
+      "count": 3,
+      "score": 0.2872
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3,
+      "score": 0.27371
+    }
+  ],
+  "Optimization->Everything Else": [
+    {
+      "keyword": "optimization everything",
+      "count": 22,
+      "score": 23.25292
+    },
+    {
+      "keyword": "optimization everything else",
+      "count": 22,
+      "score": 23.25292
+    },
+    {
+      "keyword": "optimization",
+      "count": 22,
+      "score": 5.12617
+    },
+    {
+      "keyword": "optimization modeling",
+      "count": 3,
+      "score": 1.54474
+    },
+    {
+      "keyword": "language model",
+      "count": 6,
+      "score": 0.93497
+    },
+    {
+      "keyword": "language models",
+      "count": 5,
+      "score": 0.77202
+    },
+    {
+      "keyword": "large language models",
+      "count": 4,
+      "score": 0.63661
+    },
+    {
+      "keyword": "large language model",
+      "count": 4,
+      "score": 0.60796
+    },
+    {
+      "keyword": "reasoning",
+      "count": 3,
+      "score": 0.32449
+    }
+  ],
+  "Optimization->Large Scale, Parallel and Distributed": [
+    {
+      "keyword": "optimization scale parallel",
+      "count": 44,
+      "score": 25.35446
+    },
+    {
+      "keyword": "optimization scale parallel distributed",
+      "count": 44,
+      "score": 25.35446
+    },
+    {
+      "keyword": "optimization scale",
+      "count": 44,
+      "score": 25.14887
+    },
+    {
+      "keyword": "optimization",
+      "count": 44,
+      "score": 6.22345
+    },
+    {
+      "keyword": "federated learning",
+      "count": 11,
+      "score": 4.63236
+    },
+    {
+      "keyword": "language model",
+      "count": 10,
+      "score": 0.96012
+    },
+    {
+      "keyword": "language models",
+      "count": 9,
+      "score": 0.8929
+    },
+    {
+      "keyword": "large language models",
+      "count": 8,
+      "score": 0.86911
+    },
+    {
+      "keyword": "aggregation optimization",
+      "count": 3,
+      "score": 0.86082
+    },
+    {
+      "keyword": "aggregation optimization scale",
+      "count": 3,
+      "score": 0.86082
+    },
+    {
+      "keyword": "aggregation optimization scale parallel",
+      "count": 3,
+      "score": 0.86082
+    },
+    {
+      "keyword": "training optimization scale",
+      "count": 3,
+      "score": 0.86082
+    },
+    {
+      "keyword": "training optimization scale parallel",
+      "count": 3,
+      "score": 0.86082
+    },
+    {
+      "keyword": "decentralized learning",
+      "count": 3,
+      "score": 0.84579
+    },
+    {
+      "keyword": "training optimization",
+      "count": 3,
+      "score": 0.83235
+    },
+    {
+      "keyword": "large language model",
+      "count": 8,
+      "score": 0.83
+    },
+    {
+      "keyword": "optimization has",
+      "count": 3,
+      "score": 0.78941
+    },
+    {
+      "keyword": "optimization process",
+      "count": 3,
+      "score": 0.69216
+    },
+    {
+      "keyword": "compression",
+      "count": 3,
+      "score": 0.33775
+    }
+  ],
+  "Optimization->Non-Convex": [
+    {
+      "keyword": "optimization non convex",
+      "count": 34,
+      "score": 24.77615
+    },
+    {
+      "keyword": "optimization",
+      "count": 34,
+      "score": 5.81258
+    },
+    {
+      "keyword": "bilevel optimization",
+      "count": 4,
+      "score": 1.46584
+    },
+    {
+      "keyword": "descent optimization non convex",
+      "count": 3,
+      "score": 1.114
+    },
+    {
+      "keyword": "descent optimization",
+      "count": 3,
+      "score": 1.09455
+    },
+    {
+      "keyword": "large language model",
+      "count": 3,
+      "score": 0.25413
+    },
+    {
+      "keyword": "language model",
+      "count": 3,
+      "score": 0.2155
+    }
+  ],
+  "Optimization->Stochastic": [
+    {
+      "keyword": "optimization stochastic",
+      "count": 30,
+      "score": 24.30149
+    },
+    {
+      "keyword": "optimization",
+      "count": 30,
+      "score": 5.61417
+    },
+    {
+      "keyword": "stochastic optimization",
+      "count": 9,
+      "score": 5.12281
+    },
+    {
+      "keyword": "convex optimization",
+      "count": 4,
+      "score": 1.55273
+    },
+    {
+      "keyword": "image classification",
+      "count": 3,
+      "score": 0.98632
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 3,
+      "score": 0.45747
+    }
+  ],
+  "Optimization->Zero-order and Black-box Optimization": [
+    {
+      "keyword": "optimization zero order",
+      "count": 35,
+      "score": 24.84998
+    },
+    {
+      "keyword": "optimization zero order black box",
+      "count": 35,
+      "score": 24.84998
+    },
+    {
+      "keyword": "zero order black box optimization",
+      "count": 35,
+      "score": 24.84998
+    },
+    {
+      "keyword": "black box optimization",
+      "count": 35,
+      "score": 24.0698
+    },
+    {
+      "keyword": "optimization",
+      "count": 35,
+      "score": 5.85864
+    },
+    {
+      "keyword": "fine tuning optimization zero order",
+      "count": 3,
+      "score": 1.08217
+    },
+    {
+      "keyword": "fine tuning optimization zero order black box",
+      "count": 3,
+      "score": 1.08217
+    },
+    {
+      "keyword": "black box optimization bbo",
+      "count": 3,
+      "score": 1.06328
+    },
+    {
+      "keyword": "optimization bbo",
+      "count": 3,
+      "score": 1.06328
+    },
+    {
+      "keyword": "language model",
+      "count": 9,
+      "score": 1.04312
+    },
+    {
+      "keyword": "large language model",
+      "count": 7,
+      "score": 0.86406
+    },
+    {
+      "keyword": "language models",
+      "count": 6,
+      "score": 0.63242
+    },
+    {
+      "keyword": "large language models",
+      "count": 5,
+      "score": 0.55686
+    }
+  ],
+  "Probabilistic Methods->Bayesian Models and Methods": [
+    {
+      "keyword": "bayesian inference",
+      "count": 9,
+      "score": 2.99387
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 6,
+      "score": 1.24476
+    },
+    {
+      "keyword": "variational inference",
+      "count": 5,
+      "score": 1.23306
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 6,
+      "score": 1.18761
+    },
+    {
+      "keyword": "posterior estimation",
+      "count": 4,
+      "score": 1.1638
+    },
+    {
+      "keyword": "bayesian optimization",
+      "count": 4,
+      "score": 0.97621
+    },
+    {
+      "keyword": "diffusion",
+      "count": 7,
+      "score": 0.69853
+    },
+    {
+      "keyword": "posterior sampling",
+      "count": 3,
+      "score": 0.6468
+    },
+    {
+      "keyword": "large language model",
+      "count": 7,
+      "score": 0.63004
+    },
+    {
+      "keyword": "optimization",
+      "count": 8,
+      "score": 0.5987
+    },
+    {
+      "keyword": "language model",
+      "count": 7,
+      "score": 0.53426
+    },
+    {
+      "keyword": "transformers",
+      "count": 4,
+      "score": 0.42417
+    },
+    {
+      "keyword": "large language models",
+      "count": 5,
+      "score": 0.40604
+    },
+    {
+      "keyword": "language models",
+      "count": 5,
+      "score": 0.35384
+    },
+    {
+      "keyword": "interpretability",
+      "count": 3,
+      "score": 0.26196
+    },
+    {
+      "keyword": "reasoning",
+      "count": 3,
+      "score": 0.14872
+    }
+  ],
+  "Probabilistic Methods->Everything Else": [
+    {
+      "keyword": "conformal prediction",
+      "count": 11,
+      "score": 5.18039
+    },
+    {
+      "keyword": "optimization",
+      "count": 5,
+      "score": 0.41847
+    },
+    {
+      "keyword": "language model",
+      "count": 3,
+      "score": 0.20934
+    },
+    {
+      "keyword": "reasoning",
+      "count": 3,
+      "score": 0.20396
+    }
+  ],
+  "Probabilistic Methods->Gaussian Processes": [
+    {
+      "keyword": "optimization",
+      "count": 3,
+      "score": 0.61812
+    }
+  ],
+  "Probabilistic Methods->Monte Carlo and Sampling Methods": [
+    {
+      "keyword": "probabilistic monte carlo sampling",
+      "count": 45,
+      "score": 25.39643
+    },
+    {
+      "keyword": "carlo sampling",
+      "count": 45,
+      "score": 24.71919
+    },
+    {
+      "keyword": "monte carlo sampling",
+      "count": 45,
+      "score": 24.71919
+    },
+    {
+      "keyword": "diffusion",
+      "count": 12,
+      "score": 1.57554
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 6,
+      "score": 1.26678
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 5,
+      "score": 1.0188
+    },
+    {
+      "keyword": "generative model",
+      "count": 4,
+      "score": 0.61444
+    },
+    {
+      "keyword": "generative models",
+      "count": 3,
+      "score": 0.41652
+    },
+    {
+      "keyword": "language models",
+      "count": 4,
+      "score": 0.27122
+    },
+    {
+      "keyword": "language model",
+      "count": 4,
+      "score": 0.25204
+    },
+    {
+      "keyword": "optimization",
+      "count": 4,
+      "score": 0.23389
+    },
+    {
+      "keyword": "reasoning",
+      "count": 3,
+      "score": 0.15864
+    }
+  ],
+  "Probabilistic Methods->Variational Inference": [
+    {
+      "keyword": "probabilistic variational inference",
+      "count": 15,
+      "score": 21.82101
+    },
+    {
+      "keyword": "variational inference",
+      "count": 15,
+      "score": 18.31722
+    },
+    {
+      "keyword": "optimization",
+      "count": 3,
+      "score": 0.45329
+    }
+  ],
+  "Reinforcement Learning->Batch/Offline": [
+    {
+      "keyword": "offline reinforcement learning",
+      "count": 31,
+      "score": 15.49164
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 59,
+      "score": 13.511
+    },
+    {
+      "keyword": "goal conditioned reinforcement learning",
+      "count": 11,
+      "score": 3.67828
+    },
+    {
+      "keyword": "value estimation",
+      "count": 5,
+      "score": 1.19505
+    },
+    {
+      "keyword": "optimization",
+      "count": 10,
+      "score": 0.66445
+    },
+    {
+      "keyword": "alignment reinforcement learning batch",
+      "count": 3,
+      "score": 0.64197
+    },
+    {
+      "keyword": "alignment reinforcement",
+      "count": 3,
+      "score": 0.60338
+    },
+    {
+      "keyword": "diffusion",
+      "count": 7,
+      "score": 0.5683
+    },
+    {
+      "keyword": "optimal transport",
+      "count": 3,
+      "score": 0.48748
+    },
+    {
+      "keyword": "continuous control",
+      "count": 3,
+      "score": 0.48646
+    },
+    {
+      "keyword": "generative model",
+      "count": 4,
+      "score": 0.46864
+    },
+    {
+      "keyword": "alignment",
+      "count": 6,
+      "score": 0.43513
+    },
+    {
+      "keyword": "generative models",
+      "count": 3,
+      "score": 0.31768
+    },
+    {
+      "keyword": "safety",
+      "count": 3,
+      "score": 0.21441
+    },
+    {
+      "keyword": "attention",
+      "count": 3,
+      "score": 0.17038
+    },
+    {
+      "keyword": "reasoning",
+      "count": 3,
+      "score": 0.121
+    }
+  ],
+  "Reinforcement Learning->Deep RL": [
+    {
+      "keyword": "reinforcement learning",
+      "count": 105,
+      "score": 15.38896
+    },
+    {
+      "keyword": "policy optimization",
+      "count": 20,
+      "score": 2.73069
+    },
+    {
+      "keyword": "optimization",
+      "count": 41,
+      "score": 2.38607
+    },
+    {
+      "keyword": "continuous control",
+      "count": 10,
+      "score": 1.57603
+    },
+    {
+      "keyword": "optimization reinforcement learning",
+      "count": 8,
+      "score": 1.31754
+    },
+    {
+      "keyword": "optimization reinforcement",
+      "count": 8,
+      "score": 1.30652
+    },
+    {
+      "keyword": "language model",
+      "count": 20,
+      "score": 1.02166
+    },
+    {
+      "keyword": "language models",
+      "count": 18,
+      "score": 0.95694
+    },
+    {
+      "keyword": "large language model",
+      "count": 16,
+      "score": 0.89696
+    },
+    {
+      "keyword": "large language models",
+      "count": 15,
+      "score": 0.86169
+    },
+    {
+      "keyword": "reasoning",
+      "count": 16,
+      "score": 0.74106
+    },
+    {
+      "keyword": "visual reinforcement learning",
+      "count": 4,
+      "score": 0.53991
+    },
+    {
+      "keyword": "stable optimization",
+      "count": 4,
+      "score": 0.46745
+    },
+    {
+      "keyword": "importance sampling",
+      "count": 4,
+      "score": 0.4577
+    },
+    {
+      "keyword": "diffusion",
+      "count": 9,
+      "score": 0.45462
+    },
+    {
+      "keyword": "safety",
+      "count": 7,
+      "score": 0.42167
+    },
+    {
+      "keyword": "deepmind control",
+      "count": 3,
+      "score": 0.34879
+    },
+    {
+      "keyword": "policy optimization reinforcement",
+      "count": 3,
+      "score": 0.3437
+    },
+    {
+      "keyword": "reasoning reinforcement",
+      "count": 3,
+      "score": 0.31173
+    },
+    {
+      "keyword": "token generation",
+      "count": 3,
+      "score": 0.30663
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 4,
+      "score": 0.29935
+    },
+    {
+      "keyword": "relative policy optimization grpo",
+      "count": 3,
+      "score": 0.2521
+    },
+    {
+      "keyword": "policy optimization grpo",
+      "count": 3,
+      "score": 0.25123
+    },
+    {
+      "keyword": "optimization grpo",
+      "count": 3,
+      "score": 0.24953
+    },
+    {
+      "keyword": "llm reasoning",
+      "count": 3,
+      "score": 0.23965
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 3,
+      "score": 0.20269
+    },
+    {
+      "keyword": "alignment",
+      "count": 5,
+      "score": 0.18761
+    },
+    {
+      "keyword": "attention",
+      "count": 3,
+      "score": 0.09573
+    }
+  ],
+  "Reinforcement Learning->Everything Else": [
+    {
+      "keyword": "reinforcement learning",
+      "count": 63,
+      "score": 13.72397
+    },
+    {
+      "keyword": "policy optimization",
+      "count": 16,
+      "score": 3.38822
+    },
+    {
+      "keyword": "optimization",
+      "count": 29,
+      "score": 2.55962
+    },
+    {
+      "keyword": "reasoning",
+      "count": 13,
+      "score": 0.93475
+    },
+    {
+      "keyword": "multi objective reinforcement learning",
+      "count": 4,
+      "score": 0.85344
+    },
+    {
+      "keyword": "agents reinforcement learning",
+      "count": 4,
+      "score": 0.83502
+    },
+    {
+      "keyword": "safety",
+      "count": 7,
+      "score": 0.70279
+    },
+    {
+      "keyword": "language models",
+      "count": 9,
+      "score": 0.62362
+    },
+    {
+      "keyword": "alignment",
+      "count": 8,
+      "score": 0.6135
+    },
+    {
+      "keyword": "large language models",
+      "count": 8,
+      "score": 0.607
+    },
+    {
+      "keyword": "reasoning reinforcement learning everything",
+      "count": 3,
+      "score": 0.60121
+    },
+    {
+      "keyword": "large language model",
+      "count": 8,
+      "score": 0.57968
+    },
+    {
+      "keyword": "language model",
+      "count": 9,
+      "score": 0.57951
+    },
+    {
+      "keyword": "reasoning reinforcement",
+      "count": 3,
+      "score": 0.51955
+    },
+    {
+      "keyword": "safety constraints",
+      "count": 3,
+      "score": 0.5152
+    },
+    {
+      "keyword": "safety critical",
+      "count": 3,
+      "score": 0.4434
+    },
+    {
+      "keyword": "preference optimization",
+      "count": 3,
+      "score": 0.3938
+    },
+    {
+      "keyword": "diffusion",
+      "count": 4,
+      "score": 0.23538
+    }
+  ],
+  "Reinforcement Learning->Inverse": [
+    {
+      "keyword": "reinforcement learning",
+      "count": 11,
+      "score": 8.19999
+    },
+    {
+      "keyword": "imitation learning",
+      "count": 4,
+      "score": 4.23473
+    },
+    {
+      "keyword": "inverse reinforcement learning",
+      "count": 3,
+      "score": 3.19547
+    },
+    {
+      "keyword": "optimization",
+      "count": 3,
+      "score": 0.61812
+    }
+  ],
+  "Reinforcement Learning->Multi-agent": [
+    {
+      "keyword": "multi agent",
+      "count": 66,
+      "score": 24.5472
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 66,
+      "score": 13.87514
+    },
+    {
+      "keyword": "multi agent reinforcement learning",
+      "count": 24,
+      "score": 7.86202
+    },
+    {
+      "keyword": "language model",
+      "count": 16,
+      "score": 1.21004
+    },
+    {
+      "keyword": "cooperative multi agent reinforcement learning",
+      "count": 5,
+      "score": 1.14725
+    },
+    {
+      "keyword": "large language model",
+      "count": 13,
+      "score": 1.07997
+    },
+    {
+      "keyword": "reasoning",
+      "count": 14,
+      "score": 0.98602
+    },
+    {
+      "keyword": "optimization",
+      "count": 13,
+      "score": 0.84984
+    },
+    {
+      "keyword": "policy optimization",
+      "count": 6,
+      "score": 0.833
+    },
+    {
+      "keyword": "language models",
+      "count": 10,
+      "score": 0.68879
+    },
+    {
+      "keyword": "large language models",
+      "count": 8,
+      "score": 0.57941
+    },
+    {
+      "keyword": "optimization reinforcement learning multi agent",
+      "count": 3,
+      "score": 0.57388
+    },
+    {
+      "keyword": "optimization reinforcement",
+      "count": 3,
+      "score": 0.49178
+    },
+    {
+      "keyword": "group relative policy optimization",
+      "count": 3,
+      "score": 0.38237
+    },
+    {
+      "keyword": "llm reasoning",
+      "count": 3,
+      "score": 0.38125
+    },
+    {
+      "keyword": "generative models",
+      "count": 3,
+      "score": 0.28399
+    },
+    {
+      "keyword": "generative model",
+      "count": 3,
+      "score": 0.27064
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3,
+      "score": 0.14515
+    }
+  ],
+  "Reinforcement Learning->Online": [
+    {
+      "keyword": "reinforcement learning",
+      "count": 34,
+      "score": 11.73235
+    },
+    {
+      "keyword": "policy optimization",
+      "count": 8,
+      "score": 2.43444
+    },
+    {
+      "keyword": "online reinforcement learning",
+      "count": 4,
+      "score": 1.40419
+    },
+    {
+      "keyword": "optimization",
+      "count": 10,
+      "score": 1.15302
+    },
+    {
+      "keyword": "llm reasoning",
+      "count": 4,
+      "score": 1.14561
+    },
+    {
+      "keyword": "diffusion policies",
+      "count": 3,
+      "score": 0.98953
+    },
+    {
+      "keyword": "language model",
+      "count": 8,
+      "score": 0.91082
+    },
+    {
+      "keyword": "large language model",
+      "count": 7,
+      "score": 0.88947
+    },
+    {
+      "keyword": "generative model",
+      "count": 4,
+      "score": 0.81323
+    },
+    {
+      "keyword": "reasoning",
+      "count": 7,
+      "score": 0.73487
+    },
+    {
+      "keyword": "language models",
+      "count": 6,
+      "score": 0.65102
+    },
+    {
+      "keyword": "large language models",
+      "count": 5,
+      "score": 0.57324
+    },
+    {
+      "keyword": "attention",
+      "count": 4,
+      "score": 0.45765
+    },
+    {
+      "keyword": "robotics",
+      "count": 3,
+      "score": 0.43967
+    },
+    {
+      "keyword": "diffusion",
+      "count": 4,
+      "score": 0.43615
+    }
+  ],
+  "Reinforcement Learning->Planning": [
+    {
+      "keyword": "reinforcement learning planning",
+      "count": 23,
+      "score": 19.76168
+    },
+    {
+      "keyword": "learning planning",
+      "count": 23,
+      "score": 19.63731
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 23,
+      "score": 10.48731
+    },
+    {
+      "keyword": "search reinforcement learning planning",
+      "count": 4,
+      "score": 2.50464
+    },
+    {
+      "keyword": "planning reinforcement learning",
+      "count": 4,
+      "score": 2.46482
+    },
+    {
+      "keyword": "search reinforcement learning",
+      "count": 4,
+      "score": 2.36568
+    },
+    {
+      "keyword": "reasoning",
+      "count": 3,
+      "score": 0.31038
+    },
+    {
+      "keyword": "optimization",
+      "count": 3,
+      "score": 0.29562
+    }
+  ],
+  "Reinforcement Learning->Policy Search": [
+    {
+      "keyword": "reinforcement learning",
+      "count": 15,
+      "score": 9.14931
+    },
+    {
+      "keyword": "policy optimization",
+      "count": 6,
+      "score": 3.66518
+    },
+    {
+      "keyword": "optimization",
+      "count": 7,
+      "score": 1.5865
+    },
+    {
+      "keyword": "reasoning",
+      "count": 6,
+      "score": 1.33606
+    },
+    {
+      "keyword": "large language models",
+      "count": 4,
+      "score": 0.9337
+    },
+    {
+      "keyword": "large language model",
+      "count": 4,
+      "score": 0.89168
+    },
+    {
+      "keyword": "language models",
+      "count": 4,
+      "score": 0.81366
+    },
+    {
+      "keyword": "language model",
+      "count": 4,
+      "score": 0.75612
+    }
+  ],
+  "Social Aspects->Accountability, Transparency, and Interpretability": [
+    {
+      "keyword": "accountability transparency interpretability",
+      "count": 170,
+      "score": 25.41033
+    },
+    {
+      "keyword": "aspects accountability transparency interpretability",
+      "count": 170,
+      "score": 25.41033
+    },
+    {
+      "keyword": "transparency interpretability",
+      "count": 170,
+      "score": 25.41033
+    },
+    {
+      "keyword": "language model",
+      "count": 63,
+      "score": 2.71528
+    },
+    {
+      "keyword": "language models",
+      "count": 55,
+      "score": 2.46898
+    },
+    {
+      "keyword": "large language model",
+      "count": 40,
+      "score": 1.81538
+    },
+    {
+      "keyword": "large language models",
+      "count": 36,
+      "score": 1.66354
+    },
+    {
+      "keyword": "reasoning",
+      "count": 30,
+      "score": 1.04019
+    },
+    {
+      "keyword": "alignment",
+      "count": 15,
+      "score": 0.53793
+    },
+    {
+      "keyword": "attention heads",
+      "count": 6,
+      "score": 0.45373
+    },
+    {
+      "keyword": "vision language",
+      "count": 6,
+      "score": 0.37444
+    },
+    {
+      "keyword": "optimization",
+      "count": 14,
+      "score": 0.36461
+    },
+    {
+      "keyword": "alignment social aspects accountability",
+      "count": 4,
+      "score": 0.33886
+    },
+    {
+      "keyword": "interpretable machine learning",
+      "count": 4,
+      "score": 0.33886
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 6,
+      "score": 0.33532
+    },
+    {
+      "keyword": "reasoning traces",
+      "count": 5,
+      "score": 0.32874
+    },
+    {
+      "keyword": "attention",
+      "count": 9,
+      "score": 0.29464
+    },
+    {
+      "keyword": "alignment social",
+      "count": 4,
+      "score": 0.28663
+    },
+    {
+      "keyword": "alignment social aspects",
+      "count": 4,
+      "score": 0.28663
+    },
+    {
+      "keyword": "transformers",
+      "count": 7,
+      "score": 0.27079
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 5,
+      "score": 0.26968
+    },
+    {
+      "keyword": "safety",
+      "count": 7,
+      "score": 0.26045
+    },
+    {
+      "keyword": "diffusion",
+      "count": 8,
+      "score": 0.23818
+    },
+    {
+      "keyword": "multi agent",
+      "count": 4,
+      "score": 0.22108
+    },
+    {
+      "keyword": "time series",
+      "count": 4,
+      "score": 0.21931
+    },
+    {
+      "keyword": "privacy",
+      "count": 4,
+      "score": 0.13715
+    }
+  ],
+  "Social Aspects->Alignment": [
+    {
+      "keyword": "aspects alignment",
+      "count": 77,
+      "score": 25.98966
+    },
+    {
+      "keyword": "social aspects alignment",
+      "count": 77,
+      "score": 25.98966
+    },
+    {
+      "keyword": "alignment",
+      "count": 77,
+      "score": 9.57971
+    },
+    {
+      "keyword": "language model",
+      "count": 50,
+      "score": 4.498
+    },
+    {
+      "keyword": "large language model",
+      "count": 42,
+      "score": 4.26236
+    },
+    {
+      "keyword": "language models",
+      "count": 45,
+      "score": 4.24196
+    },
+    {
+      "keyword": "large language models",
+      "count": 38,
+      "score": 3.93332
+    },
+    {
+      "keyword": "safety",
+      "count": 17,
+      "score": 1.94103
+    },
+    {
+      "keyword": "alignment social",
+      "count": 8,
+      "score": 1.72788
+    },
+    {
+      "keyword": "alignment social aspects",
+      "count": 8,
+      "score": 1.72788
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 10,
+      "score": 1.02764
+    },
+    {
+      "keyword": "preference optimization",
+      "count": 6,
+      "score": 0.90454
+    },
+    {
+      "keyword": "alignment framework",
+      "count": 5,
+      "score": 0.88705
+    },
+    {
+      "keyword": "optimization",
+      "count": 15,
+      "score": 0.88302
+    },
+    {
+      "keyword": "reasoning social",
+      "count": 4,
+      "score": 0.69048
+    },
+    {
+      "keyword": "reasoning social aspects",
+      "count": 4,
+      "score": 0.69048
+    },
+    {
+      "keyword": "reasoning",
+      "count": 11,
+      "score": 0.60933
+    },
+    {
+      "keyword": "direct preference optimization dpo",
+      "count": 4,
+      "score": 0.58263
+    },
+    {
+      "keyword": "preference optimization dpo",
+      "count": 4,
+      "score": 0.57978
+    },
+    {
+      "keyword": "optimization dpo",
+      "count": 4,
+      "score": 0.57699
+    },
+    {
+      "keyword": "direct preference optimization",
+      "count": 4,
+      "score": 0.5592
+    },
+    {
+      "keyword": "alignment objectives",
+      "count": 3,
+      "score": 0.46868
+    },
+    {
+      "keyword": "alignment requires",
+      "count": 3,
+      "score": 0.46868
+    },
+    {
+      "keyword": "safety risks",
+      "count": 3,
+      "score": 0.41814
+    },
+    {
+      "keyword": "interpretability",
+      "count": 3,
+      "score": 0.1633
+    },
+    {
+      "keyword": "attention",
+      "count": 3,
+      "score": 0.13055
+    }
+  ],
+  "Social Aspects->Everything Else": [
+    {
+      "keyword": "language model",
+      "count": 5,
+      "score": 0.54425
+    },
+    {
+      "keyword": "alignment",
+      "count": 4,
+      "score": 0.48812
+    },
+    {
+      "keyword": "large language model",
+      "count": 4,
+      "score": 0.46121
+    },
+    {
+      "keyword": "safety",
+      "count": 3,
+      "score": 0.43621
+    },
+    {
+      "keyword": "language models",
+      "count": 4,
+      "score": 0.42086
+    },
+    {
+      "keyword": "large language models",
+      "count": 3,
+      "score": 0.31199
+    }
+  ],
+  "Social Aspects->Fairness": [
+    {
+      "keyword": "language models",
+      "count": 10,
+      "score": 1.22865
+    },
+    {
+      "keyword": "language model",
+      "count": 10,
+      "score": 1.14176
+    },
+    {
+      "keyword": "large language models",
+      "count": 8,
+      "score": 1.03354
+    },
+    {
+      "keyword": "large language model",
+      "count": 8,
+      "score": 0.98702
+    },
+    {
+      "keyword": "optimization",
+      "count": 7,
+      "score": 0.64318
+    },
+    {
+      "keyword": "alignment",
+      "count": 5,
+      "score": 0.5324
+    },
+    {
+      "keyword": "generative models",
+      "count": 3,
+      "score": 0.50658
+    },
+    {
+      "keyword": "generative model",
+      "count": 3,
+      "score": 0.48276
+    },
+    {
+      "keyword": "graphs",
+      "count": 3,
+      "score": 0.38423
+    }
+  ],
+  "Social Aspects->Privacy": [
+    {
+      "keyword": "aspects privacy",
+      "count": 80,
+      "score": 26.00163
+    },
+    {
+      "keyword": "social aspects privacy",
+      "count": 80,
+      "score": 26.00163
+    },
+    {
+      "keyword": "privacy",
+      "count": 80,
+      "score": 15.91473
+    },
+    {
+      "keyword": "privacy guarantees",
+      "count": 10,
+      "score": 2.40164
+    },
+    {
+      "keyword": "privacy preserving",
+      "count": 11,
+      "score": 2.36935
+    },
+    {
+      "keyword": "large language model",
+      "count": 17,
+      "score": 1.27608
+    },
+    {
+      "keyword": "language model",
+      "count": 19,
+      "score": 1.25347
+    },
+    {
+      "keyword": "language models",
+      "count": 17,
+      "score": 1.16443
+    },
+    {
+      "keyword": "large language models",
+      "count": 15,
+      "score": 1.13097
+    },
+    {
+      "keyword": "federated learning",
+      "count": 6,
+      "score": 1.08827
+    },
+    {
+      "keyword": "differential privacy guarantees",
+      "count": 5,
+      "score": 0.98614
+    },
+    {
+      "keyword": "privacy budget",
+      "count": 5,
+      "score": 0.98614
+    },
+    {
+      "keyword": "privacy has",
+      "count": 5,
+      "score": 0.98614
+    },
+    {
+      "keyword": "privacy social",
+      "count": 5,
+      "score": 0.98614
+    },
+    {
+      "keyword": "privacy social aspects",
+      "count": 5,
+      "score": 0.98614
+    },
+    {
+      "keyword": "privacy utility",
+      "count": 5,
+      "score": 0.95858
+    },
+    {
+      "keyword": "privacy concerns",
+      "count": 5,
+      "score": 0.89728
+    },
+    {
+      "keyword": "optimization",
+      "count": 15,
+      "score": 0.84991
+    },
+    {
+      "keyword": "data generation",
+      "count": 5,
+      "score": 0.749
+    },
+    {
+      "keyword": "differential privacy has",
+      "count": 4,
+      "score": 0.72008
+    },
+    {
+      "keyword": "differential privacy social",
+      "count": 4,
+      "score": 0.72008
+    },
+    {
+      "keyword": "differential privacy social aspects",
+      "count": 4,
+      "score": 0.72008
+    },
+    {
+      "keyword": "inference attacks",
+      "count": 4,
+      "score": 0.70864
+    },
+    {
+      "keyword": "membership inference attacks",
+      "count": 4,
+      "score": 0.70864
+    },
+    {
+      "keyword": "membership inference",
+      "count": 4,
+      "score": 0.67208
+    },
+    {
+      "keyword": "differentially private optimization",
+      "count": 3,
+      "score": 0.47345
+    },
+    {
+      "keyword": "privacy utility trade off",
+      "count": 3,
+      "score": 0.47345
+    },
+    {
+      "keyword": "private optimization",
+      "count": 3,
+      "score": 0.47345
+    },
+    {
+      "keyword": "formal privacy guarantees",
+      "count": 3,
+      "score": 0.46518
+    },
+    {
+      "keyword": "success image generation",
+      "count": 3,
+      "score": 0.46518
+    }
+  ],
+  "Social Aspects->Robustness": [
+    {
+      "keyword": "language models",
+      "count": 7,
+      "score": 0.95158
+    },
+    {
+      "keyword": "language model",
+      "count": 7,
+      "score": 0.88429
+    },
+    {
+      "keyword": "optimization",
+      "count": 7,
+      "score": 0.8206
+    },
+    {
+      "keyword": "large language models",
+      "count": 4,
+      "score": 0.48295
+    },
+    {
+      "keyword": "large language model",
+      "count": 4,
+      "score": 0.46121
+    },
+    {
+      "keyword": "attention",
+      "count": 3,
+      "score": 0.34663
+    }
+  ],
+  "Social Aspects->Safety": [
+    {
+      "keyword": "aspects safety",
+      "count": 151,
+      "score": 25.60772
+    },
+    {
+      "keyword": "social aspects safety",
+      "count": 151,
+      "score": 25.60772
+    },
+    {
+      "keyword": "safety",
+      "count": 151,
+      "score": 15.28131
+    },
+    {
+      "keyword": "language model",
+      "count": 77,
+      "score": 3.91398
+    },
+    {
+      "keyword": "large language model",
+      "count": 59,
+      "score": 3.32372
+    },
+    {
+      "keyword": "language models",
+      "count": 63,
+      "score": 3.28958
+    },
+    {
+      "keyword": "safety alignment",
+      "count": 20,
+      "score": 2.67485
+    },
+    {
+      "keyword": "large language models",
+      "count": 46,
+      "score": 2.55165
+    },
+    {
+      "keyword": "alignment",
+      "count": 38,
+      "score": 2.02724
+    },
+    {
+      "keyword": "jailbreak attacks",
+      "count": 10,
+      "score": 1.22937
+    },
+    {
+      "keyword": "reasoning",
+      "count": 31,
+      "score": 1.2213
+    },
+    {
+      "keyword": "multi agent",
+      "count": 12,
+      "score": 1.19001
+    },
+    {
+      "keyword": "vision language",
+      "count": 11,
+      "score": 0.98693
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 13,
+      "score": 0.74975
+    },
+    {
+      "keyword": "optimization",
+      "count": 21,
+      "score": 0.7028
+    },
+    {
+      "keyword": "safety risks",
+      "count": 6,
+      "score": 0.59859
+    },
+    {
+      "keyword": "safety social aspects",
+      "count": 5,
+      "score": 0.52246
+    },
+    {
+      "keyword": "safety social",
+      "count": 5,
+      "score": 0.51483
+    },
+    {
+      "keyword": "alignment social",
+      "count": 5,
+      "score": 0.44907
+    },
+    {
+      "keyword": "alignment social aspects",
+      "count": 5,
+      "score": 0.44907
+    },
+    {
+      "keyword": "diffusion",
+      "count": 11,
+      "score": 0.41697
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 6,
+      "score": 0.39568
+    },
+    {
+      "keyword": "safety evaluations",
+      "count": 4,
+      "score": 0.3815
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 6,
+      "score": 0.37752
+    },
+    {
+      "keyword": "safety behavior",
+      "count": 4,
+      "score": 0.37544
+    },
+    {
+      "keyword": "safety mechanisms",
+      "count": 4,
+      "score": 0.36034
+    },
+    {
+      "keyword": "image generation",
+      "count": 5,
+      "score": 0.34827
+    },
+    {
+      "keyword": "ood detection",
+      "count": 4,
+      "score": 0.34161
+    },
+    {
+      "keyword": "adversarial attacks",
+      "count": 4,
+      "score": 0.29565
+    },
+    {
+      "keyword": "safety critical",
+      "count": 4,
+      "score": 0.28637
+    }
+  ],
+  "Social Aspects->Security": [
+    {
+      "keyword": "language model",
+      "count": 29,
+      "score": 2.31694
+    },
+    {
+      "keyword": "language models",
+      "count": 25,
+      "score": 2.05893
+    },
+    {
+      "keyword": "large language model",
+      "count": 21,
+      "score": 1.79816
+    },
+    {
+      "keyword": "backdoor attacks",
+      "count": 8,
+      "score": 1.727
+    },
+    {
+      "keyword": "large language models",
+      "count": 18,
+      "score": 1.53736
+    },
+    {
+      "keyword": "adversarial attacks",
+      "count": 7,
+      "score": 1.34586
+    },
+    {
+      "keyword": "safety",
+      "count": 11,
+      "score": 1.10857
+    },
+    {
+      "keyword": "optimization",
+      "count": 16,
+      "score": 0.98815
+    },
+    {
+      "keyword": "vulnerable backdoor attacks",
+      "count": 5,
+      "score": 0.9865
+    },
+    {
+      "keyword": "adversarial attack",
+      "count": 5,
+      "score": 0.96632
+    },
+    {
+      "keyword": "vision language",
+      "count": 6,
+      "score": 0.84874
+    },
+    {
+      "keyword": "backdoor attack",
+      "count": 4,
+      "score": 0.71689
+    },
+    {
+      "keyword": "alignment",
+      "count": 10,
+      "score": 0.70301
+    },
+    {
+      "keyword": "multi agent",
+      "count": 5,
+      "score": 0.69736
+    },
+    {
+      "keyword": "diffusion",
+      "count": 9,
+      "score": 0.63647
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 5,
+      "score": 0.61128
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 5,
+      "score": 0.58321
+    },
+    {
+      "keyword": "secure code generation",
+      "count": 3,
+      "score": 0.50501
+    },
+    {
+      "keyword": "reasoning",
+      "count": 9,
+      "score": 0.47429
+    },
+    {
+      "keyword": "safety alignment",
+      "count": 3,
+      "score": 0.36783
+    },
+    {
+      "keyword": "code generation",
+      "count": 3,
+      "score": 0.34053
+    },
+    {
+      "keyword": "privacy",
+      "count": 4,
+      "score": 0.31086
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 4,
+      "score": 0.28325
+    },
+    {
+      "keyword": "retrieval",
+      "count": 3,
+      "score": 0.18641
+    }
+  ],
+  "Theory->Deep Learning": [
+    {
+      "keyword": "theory learning",
+      "count": 44,
+      "score": 19.85047
+    },
+    {
+      "keyword": "transformers",
+      "count": 13,
+      "score": 2.46595
+    },
+    {
+      "keyword": "transformers theory learning",
+      "count": 5,
+      "score": 1.76679
+    },
+    {
+      "keyword": "transformers theory",
+      "count": 5,
+      "score": 1.74287
+    },
+    {
+      "keyword": "attention",
+      "count": 8,
+      "score": 0.96559
+    },
+    {
+      "keyword": "diffusion theory learning",
+      "count": 3,
+      "score": 0.84579
+    },
+    {
+      "keyword": "diffusion theory",
+      "count": 3,
+      "score": 0.83235
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 4,
+      "score": 0.74874
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 4,
+      "score": 0.71437
+    },
+    {
+      "keyword": "alignment",
+      "count": 6,
+      "score": 0.58347
+    },
+    {
+      "keyword": "language model",
+      "count": 7,
+      "score": 0.58282
+    },
+    {
+      "keyword": "diffusion",
+      "count": 5,
+      "score": 0.46901
+    },
+    {
+      "keyword": "large language model",
+      "count": 4,
+      "score": 0.30398
+    },
+    {
+      "keyword": "reasoning",
+      "count": 4,
+      "score": 0.25115
+    },
+    {
+      "keyword": "large language models",
+      "count": 3,
+      "score": 0.20563
+    },
+    {
+      "keyword": "language models",
+      "count": 3,
+      "score": 0.17919
+    },
+    {
+      "keyword": "optimization",
+      "count": 3,
+      "score": 0.15453
+    }
+  ],
+  "Theory->Domain Adaptation and Transfer Learning": [
+    {
+      "keyword": "domain adaptation",
+      "count": 14,
+      "score": 23.36094
+    },
+    {
+      "keyword": "adaptation transfer",
+      "count": 14,
+      "score": 21.5006
+    },
+    {
+      "keyword": "adaptation transfer learning",
+      "count": 14,
+      "score": 21.5006
+    },
+    {
+      "keyword": "domain adaptation transfer",
+      "count": 14,
+      "score": 21.5006
+    },
+    {
+      "keyword": "domain adaptation transfer learning",
+      "count": 14,
+      "score": 21.5006
+    },
+    {
+      "keyword": "theory domain adaptation",
+      "count": 14,
+      "score": 21.5006
+    },
+    {
+      "keyword": "theory domain adaptation transfer",
+      "count": 14,
+      "score": 21.5006
+    },
+    {
+      "keyword": "transfer learning",
+      "count": 14,
+      "score": 18.51463
+    },
+    {
+      "keyword": "alignment",
+      "count": 5,
+      "score": 1.40707
+    },
+    {
+      "keyword": "optimization",
+      "count": 3,
+      "score": 0.48566
+    }
+  ],
+  "Theory->Everything Else": [
+    {
+      "keyword": "transformers",
+      "count": 3,
+      "score": 0.38685
+    },
+    {
+      "keyword": "reasoning",
+      "count": 4,
+      "score": 0.32501
+    },
+    {
+      "keyword": "attention",
+      "count": 3,
+      "score": 0.29565
+    },
+    {
+      "keyword": "language models",
+      "count": 3,
+      "score": 0.2319
+    },
+    {
+      "keyword": "language model",
+      "count": 3,
+      "score": 0.2155
+    },
+    {
+      "keyword": "optimization",
+      "count": 3,
+      "score": 0.19998
+    }
+  ],
+  "Theory->Game Theory": [
+    {
+      "keyword": "optimization theory game",
+      "count": 3,
+      "score": 0.92381
+    },
+    {
+      "keyword": "online learning",
+      "count": 4,
+      "score": 0.8989
+    },
+    {
+      "keyword": "optimization theory",
+      "count": 3,
+      "score": 0.78528
+    },
+    {
+      "keyword": "optimization",
+      "count": 8,
+      "score": 0.70092
+    },
+    {
+      "keyword": "multi agent",
+      "count": 3,
+      "score": 0.59219
+    }
+  ],
+  "Theory->Learning Theory": [
+    {
+      "keyword": "theory learning",
+      "count": 91,
+      "score": 23.57962
+    },
+    {
+      "keyword": "statistical learning",
+      "count": 7,
+      "score": 1.24837
+    },
+    {
+      "keyword": "optimization",
+      "count": 13,
+      "score": 0.61636
+    },
+    {
+      "keyword": "prediction theory learning",
+      "count": 3,
+      "score": 0.41622
+    },
+    {
+      "keyword": "attention",
+      "count": 6,
+      "score": 0.31011
+    },
+    {
+      "keyword": "language model",
+      "count": 6,
+      "score": 0.22604
+    },
+    {
+      "keyword": "generative models",
+      "count": 3,
+      "score": 0.20597
+    },
+    {
+      "keyword": "generative model",
+      "count": 3,
+      "score": 0.19629
+    },
+    {
+      "keyword": "language models",
+      "count": 5,
+      "score": 0.18664
+    },
+    {
+      "keyword": "reasoning",
+      "count": 5,
+      "score": 0.16899
+    },
+    {
+      "keyword": "large language models",
+      "count": 4,
+      "score": 0.15391
+    },
+    {
+      "keyword": "retrieval",
+      "count": 3,
+      "score": 0.15364
+    },
+    {
+      "keyword": "large language model",
+      "count": 4,
+      "score": 0.14698
+    },
+    {
+      "keyword": "transformers",
+      "count": 3,
+      "score": 0.14454
+    }
+  ],
+  "Theory->Online Learning and Bandits": [
+    {
+      "keyword": "theory online learning",
+      "count": 45,
+      "score": 25.39643
+    },
+    {
+      "keyword": "online learning",
+      "count": 45,
+      "score": 21.91821
+    },
+    {
+      "keyword": "bandits theory online learning",
+      "count": 7,
+      "score": 2.76885
+    },
+    {
+      "keyword": "convex optimization",
+      "count": 7,
+      "score": 2.34054
+    },
+    {
+      "keyword": "online convex optimization",
+      "count": 5,
+      "score": 1.70414
+    },
+    {
+      "keyword": "optimization",
+      "count": 14,
+      "score": 1.3774
+    }
+  ],
+  "Theory->Optimization": [
+    {
+      "keyword": "theory optimization",
+      "count": 38,
+      "score": 24.93365
+    },
+    {
+      "keyword": "optimization",
+      "count": 38,
+      "score": 5.9895
+    },
+    {
+      "keyword": "optimization theory",
+      "count": 7,
+      "score": 2.96546
+    },
+    {
+      "keyword": "optimal transport",
+      "count": 5,
+      "score": 1.63042
+    },
+    {
+      "keyword": "robust optimization",
+      "count": 3,
+      "score": 0.80646
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3,
+      "score": 0.2521
+    }
+  ],
+  "Theory->Probabilistic Methods": [
+    {
+      "keyword": "conformal prediction",
+      "count": 4,
+      "score": 1.58161
+    },
+    {
+      "keyword": "discrete diffusion",
+      "count": 3,
+      "score": 1.0531
+    },
+    {
+      "keyword": "diffusion models",
+      "count": 3,
+      "score": 0.78825
+    },
+    {
+      "keyword": "diffusion model",
+      "count": 3,
+      "score": 0.75206
+    },
+    {
+      "keyword": "graphs",
+      "count": 3,
+      "score": 0.52654
+    },
+    {
+      "keyword": "language model",
+      "count": 4,
+      "score": 0.42006
+    },
+    {
+      "keyword": "diffusion",
+      "count": 3,
+      "score": 0.35481
+    },
+    {
+      "keyword": "large language model",
+      "count": 3,
+      "score": 0.32002
+    },
+    {
+      "keyword": "language models",
+      "count": 3,
+      "score": 0.29202
+    }
+  ],
+  "Theory->Reinforcement Learning and Planning": [
+    {
+      "keyword": "theory reinforcement learning planning",
+      "count": 40,
+      "score": 25.16135
+    },
+    {
+      "keyword": "theory reinforcement learning",
+      "count": 40,
+      "score": 25.05116
+    },
+    {
+      "keyword": "reinforcement learning planning",
+      "count": 40,
+      "score": 23.09162
+    },
+    {
+      "keyword": "learning planning",
+      "count": 40,
+      "score": 22.9463
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 40,
+      "score": 12.25448
+    },
+    {
+      "keyword": "optimal control",
+      "count": 5,
+      "score": 1.68337
+    },
+    {
+      "keyword": "processes theory reinforcement learning",
+      "count": 3,
+      "score": 0.9469
+    },
+    {
+      "keyword": "policy optimization",
+      "count": 4,
+      "score": 0.75786
+    },
+    {
+      "keyword": "optimization",
+      "count": 8,
+      "score": 0.71844
+    }
+  ],
+  "__all__": [
+    {
+      "keyword": "language model",
+      "count": 2391,
+      "score": 4.8222
+    },
+    {
+      "keyword": "language models",
+      "count": 2208,
+      "score": 4.743
+    },
+    {
+      "keyword": "large language model",
+      "count": 1982,
+      "score": 4.60036
+    },
+    {
+      "keyword": "large language models",
+      "count": 1870,
+      "score": 4.51014
+    },
+    {
+      "keyword": "reinforcement learning",
+      "count": 958,
+      "score": 3.19383
+    },
+    {
+      "keyword": "optimization",
+      "count": 1322,
+      "score": 2.28587
+    },
+    {
+      "keyword": "reasoning",
+      "count": 1218,
+      "score": 2.186
+    },
+    {
+      "keyword": "generative model",
+      "count": 529,
+      "score": 2.09715
+    },
+    {
+      "keyword": "computer vision",
+      "count": 506,
+      "score": 2.02623
+    },
+    {
+      "keyword": "generative models",
+      "count": 466,
+      "score": 1.8994
+    },
+    {
+      "keyword": "alignment",
+      "count": 750,
+      "score": 1.60676
+    },
+    {
+      "keyword": "diffusion",
+      "count": 675,
+      "score": 1.49082
+    },
+    {
+      "keyword": "attention",
+      "count": 602,
+      "score": 1.37068
+    },
+    {
+      "keyword": "representation learning",
+      "count": 297,
+      "score": 1.30881
+    },
+    {
+      "keyword": "vision language",
+      "count": 264,
+      "score": 1.18175
+    },
+    {
+      "keyword": "time series",
+      "count": 215,
+      "score": 0.98485
+    },
+    {
+      "keyword": "multi agent",
+      "count": 209,
+      "score": 0.96002
+    },
+    {
+      "keyword": "interpretability",
+      "count": 326,
+      "score": 0.83973
+    },
+    {
+      "keyword": "safety",
+      "count": 320,
+      "score": 0.82661
+    },
+    {
+      "keyword": "graph neural network",
+      "count": 173,
+      "score": 0.80753
+    },
+    {
+      "keyword": "graph neural networks",
+      "count": 162,
+      "score": 0.75968
+    },
+    {
+      "keyword": "policy optimization",
+      "count": 203,
+      "score": 0.74802
+    },
+    {
+      "keyword": "transformers",
+      "count": 283,
+      "score": 0.74396
+    },
+    {
+      "keyword": "accountability transparency interpretability",
+      "count": 170,
+      "score": 0.63563
+    },
+    {
+      "keyword": "aspects accountability transparency interpretability",
+      "count": 170,
+      "score": 0.63563
+    },
+    {
+      "keyword": "retrieval",
+      "count": 231,
+      "score": 0.62238
+    },
+    {
+      "keyword": "graphs",
+      "count": 218,
+      "score": 0.59093
+    },
+    {
+      "keyword": "aspects safety",
+      "count": 151,
+      "score": 0.56898
+    },
+    {
+      "keyword": "social aspects safety",
+      "count": 151,
+      "score": 0.56898
+    },
+    {
+      "keyword": "theory learning",
+      "count": 138,
+      "score": 0.52251
+    }
+  ]
+}

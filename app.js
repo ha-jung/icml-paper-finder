@@ -1,4 +1,5 @@
 const DATA_PATH = "./papers.json";
+const SEMANTIC_KEYWORDS_PATH = "./semantic_keywords.json";
 const MAX_RESULTS = 60;
 const STORAGE_KEY = "icml2026_saved_papers";
 const SEOUL_TIME_ZONE = "Asia/Seoul";
@@ -18,9 +19,11 @@ const clearButton = document.querySelector("#clear-button");
 const statusEl = document.querySelector("#status");
 const answerEl = document.querySelector("#answer");
 const resultsEl = document.querySelector("#results");
+const hotKeywordsList = document.querySelector("#hot-keywords-list");
 const quickButtons = document.querySelectorAll("[data-query]");
 
 let papers = [];
+let semanticKeywords = {};
 let savedIds = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"));
 let activeView = "home";
 let activeQuery = "";
@@ -29,23 +32,117 @@ const stopWords = new Set([
   "a",
   "an",
   "and",
+  "approach",
   "are",
+  "based",
   "at",
   "by",
+  "data",
+  "dataset",
+  "datasets",
+  "deep",
+  "different",
   "for",
   "from",
+  "framework",
   "in",
   "is",
+  "learning",
+  "method",
+  "methods",
+  "model",
+  "models",
+  "new",
   "of",
   "on",
   "or",
   "paper",
   "papers",
+  "performance",
   "show",
+  "task",
+  "tasks",
   "the",
   "to",
+  "training",
+  "using",
   "with",
 ]);
+
+const hotKeywordStopWords = new Set([
+  ...stopWords,
+  "algorithm",
+  "analysis",
+  "applications",
+  "aspects",
+  "autoencoders",
+  "aware",
+  "benchmark",
+  "can",
+  "computer",
+  "efficient",
+  "existing",
+  "else",
+  "everything",
+  "generation",
+  "generative",
+  "general",
+  "high",
+  "however",
+  "improve",
+  "language",
+  "large",
+  "machine",
+  "multi",
+  "neural",
+  "novel",
+  "often",
+  "propose",
+  "proposed",
+  "remains",
+  "representation",
+  "reinforcement",
+  "results",
+  "social",
+  "state",
+  "such",
+  "these",
+  "theory",
+  "their",
+  "this",
+  "time",
+  "via",
+  "where",
+  "which",
+  "while",
+  "work",
+  "yet",
+]);
+
+const hotPhrases = [
+  "large language model",
+  "language model",
+  "reinforcement learning",
+  "diffusion model",
+  "diffusion models",
+  "graph neural network",
+  "graph neural networks",
+  "computer vision",
+  "foundation model",
+  "foundation models",
+  "representation learning",
+  "federated learning",
+  "time series",
+  "optimal transport",
+  "causal inference",
+  "generative model",
+  "generative models",
+  "in context learning",
+  "multi agent",
+  "vision language",
+  "offline reinforcement learning",
+  "single cell",
+];
 
 function normalize(value) {
   return String(value || "")
@@ -240,6 +337,79 @@ function populateFilters() {
     .join("");
   timeSelect.innerHTML = times
     .map((value) => `<option value="${escapeHtml(value)}">${formatTimeKey(value)}</option>`)
+    .join("");
+}
+
+function ngrams(tokens, size) {
+  const grams = [];
+  for (let i = 0; i <= tokens.length - size; i += 1) {
+    grams.push(tokens.slice(i, i + size).join(" "));
+  }
+  return grams;
+}
+
+function hotKeywordCandidates(text) {
+  const tokens = normalize(text)
+    .split(/\s+/)
+    .filter((token) => token.length > 2 && !hotKeywordStopWords.has(token) && !/^\d+$/.test(token));
+  return [...tokens, ...ngrams(tokens, 2), ...ngrams(tokens, 3)];
+}
+
+function papersForHotKeywords() {
+  return papers.filter((paper) => {
+    if (typeFilter.value && paper.event_type !== typeFilter.value) return false;
+    if (decisionFilter.value && recognitionLabel(paper) !== decisionFilter.value) return false;
+    if (topicFilter.value && paper.topic !== topicFilter.value) return false;
+    if (sessionFilter.value && paper.session !== sessionFilter.value) return false;
+    return true;
+  });
+}
+
+function populateHotKeywords() {
+  const semanticGroup = semanticKeywords[topicFilter.value || "__all__"];
+  if (semanticGroup && semanticGroup.length) {
+    hotKeywordsList.innerHTML = semanticGroup
+      .slice(0, 24)
+      .map(
+        (item) =>
+          `<button type="button" data-hot-keyword="${escapeHtml(item.keyword)}">${escapeHtml(item.keyword)} <span>${escapeHtml(String(item.count))}</span></button>`,
+      )
+      .join("");
+    return;
+  }
+
+  const counts = new Map();
+  const sourcePapers = papersForHotKeywords();
+  for (const paper of sourcePapers) {
+    const text = [paper.title, paper.topic].join(" ");
+    const normalizedText = normalize(text);
+    const seen = new Set(hotKeywordCandidates(text));
+    for (const phrase of hotPhrases) {
+      if (normalizedText.includes(phrase)) seen.add(phrase);
+    }
+    for (const keyword of seen) {
+      counts.set(keyword, (counts.get(keyword) || 0) + 1);
+    }
+  }
+
+  const hotKeywords = [...counts.entries()]
+    .filter(([keyword, count]) => count >= 18 && keyword.length <= 36)
+    .sort((a, b) => {
+      if (b[1] !== a[1]) return b[1] - a[1];
+      return a[0].localeCompare(b[0]);
+    })
+    .slice(0, 24);
+
+  if (!hotKeywords.length) {
+    hotKeywordsList.innerHTML = `<span class="empty-keywords">No keyword suggestions for this filter.</span>`;
+    return;
+  }
+
+  hotKeywordsList.innerHTML = hotKeywords
+    .map(
+      ([keyword, count]) =>
+        `<button type="button" data-hot-keyword="${escapeHtml(keyword)}">${escapeHtml(keyword)} <span>${count}</span></button>`,
+    )
     .join("");
 }
 
@@ -479,10 +649,17 @@ function clearFilters() {
 
 async function boot() {
   try {
-    const response = await fetch(DATA_PATH);
-    if (!response.ok) throw new Error(`Data load failed: ${response.status}`);
-    papers = await response.json();
+    const [papersResponse, keywordsResponse] = await Promise.all([
+      fetch(DATA_PATH),
+      fetch(SEMANTIC_KEYWORDS_PATH),
+    ]);
+    if (!papersResponse.ok) throw new Error(`Data load failed: ${papersResponse.status}`);
+    papers = await papersResponse.json();
+    if (keywordsResponse.ok) {
+      semanticKeywords = await keywordsResponse.json();
+    }
     populateFilters();
+    populateHotKeywords();
     const oralCount = papers.filter((paper) => paper.event_type === "Oral").length;
     const spotlightCount = papers.filter((paper) => paper.decision.includes("spotlight")).length;
     statusEl.textContent = `${papers.length} papers loaded · ${oralCount} oral · ${spotlightCount} spotlight`;
@@ -510,8 +687,18 @@ quickButtons.forEach((button) => {
   });
 });
 
+hotKeywordsList.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-hot-keyword]");
+  if (!button) return;
+  queryInput.value = button.dataset.hotKeyword;
+  runSearch(button.dataset.hotKeyword);
+});
+
 [typeFilter, decisionFilter, topicFilter, sessionFilter, sortSelect].forEach((control) => {
-  control.addEventListener("change", rerender);
+  control.addEventListener("change", () => {
+    populateHotKeywords();
+    rerender();
+  });
 });
 
 scheduleButton.addEventListener("click", renderSaved);
