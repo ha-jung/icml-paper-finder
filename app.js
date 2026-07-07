@@ -24,6 +24,7 @@ let semanticKeywords = {};
 let savedIds = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]"));
 let activeView = "home";
 let activeQuery = "";
+let activeExactSearch = false;
 
 const stopWords = new Set([
   "a",
@@ -154,6 +155,14 @@ function tokenize(value) {
     .filter((token) => token.length > 1 && !stopWords.has(token));
 }
 
+function containsTerm(text, term) {
+  const normalizedText = normalize(text);
+  const normalizedTerm = normalize(term);
+  if (!normalizedTerm) return false;
+  const pattern = normalizedTerm.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`(^| )${pattern}( |$)`).test(normalizedText);
+}
+
 function escapeHtml(value) {
   return String(value || "").replace(/[&<>"']/g, (char) => {
     const entities = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
@@ -214,7 +223,7 @@ function paperText(paper) {
   );
 }
 
-function queryMatches(paper, query) {
+function queryMatches(paper, query, exact = false) {
   const cleanQuery = query.trim();
   if (!cleanQuery) return true;
 
@@ -225,12 +234,15 @@ function queryMatches(paper, query) {
     const andParts = group.split(/\s+AND\s+/i);
     return andParts.every((part) => {
       const tokens = tokenize(part);
-      return tokens.length > 0 && tokens.every((token) => text.includes(token));
+      if (!tokens.length) return false;
+      return exact
+        ? tokens.every((token) => containsTerm(text, token))
+        : tokens.every((token) => text.includes(token));
     });
   });
 }
 
-function scorePaper(paper, query) {
+function scorePaper(paper, query, exact = false) {
   const title = normalize(paper.title);
   const authors = normalize(paper.authors.join(" "));
   const topic = normalize(paper.topic);
@@ -238,18 +250,19 @@ function scorePaper(paper, query) {
   const abstract = normalize(paper.abstract);
   const phrase = normalize(query);
   let score = 0;
+  const hasPhrase = (text, value) => (exact ? containsTerm(text, value) : text.includes(value));
 
-  if (phrase && title.includes(phrase)) score += 22;
-  if (phrase && topic.includes(phrase)) score += 14;
-  if (phrase && keywords.includes(phrase)) score += 12;
-  if (phrase && abstract.includes(phrase)) score += 6;
+  if (phrase && hasPhrase(title, phrase)) score += 22;
+  if (phrase && hasPhrase(topic, phrase)) score += 14;
+  if (phrase && hasPhrase(keywords, phrase)) score += 12;
+  if (phrase && hasPhrase(abstract, phrase)) score += 6;
 
   for (const token of tokenize(query)) {
-    if (title.includes(token)) score += 9;
-    if (authors.includes(token)) score += 7;
-    if (topic.includes(token)) score += 6;
-    if (keywords.includes(token)) score += 5;
-    if (abstract.includes(token)) score += 3;
+    if (hasPhrase(title, token)) score += 9;
+    if (hasPhrase(authors, token)) score += 7;
+    if (hasPhrase(topic, token)) score += 6;
+    if (hasPhrase(keywords, token)) score += 5;
+    if (hasPhrase(abstract, token)) score += 3;
   }
 
   return score;
@@ -372,14 +385,18 @@ function sortPapers(list, mode = sortSelect.value) {
   });
 }
 
-function search(query) {
+function search(query, exact = false) {
   return sortPapers(
     applyFilters(
       papers
-        .map((paper) => ({ ...paper, score: scorePaper(paper, query) }))
-        .filter((paper) => queryMatches(paper, query)),
+        .map((paper) => ({ ...paper, score: scorePaper(paper, query, exact) }))
+        .filter((paper) => queryMatches(paper, query, exact)),
     ),
   ).slice(0, MAX_RESULTS);
+}
+
+function filteredPapers() {
+  return sortPapers(applyFilters(papers));
 }
 
 function highlight(value, query) {
@@ -484,10 +501,12 @@ function renderPapers(matches, query = "") {
     .join("");
 }
 
-function runSearch(query) {
+function runSearch(query, options = {}) {
   const cleanQuery = query.trim();
+  const exact = Boolean(options.exact);
   activeView = "search";
   activeQuery = cleanQuery;
+  activeExactSearch = exact;
 
   if (!cleanQuery) {
     answerEl.textContent = "Enter a keyword query to search titles, abstracts, authors, topics, and sessions.";
@@ -495,7 +514,7 @@ function runSearch(query) {
     return;
   }
 
-  const matches = search(cleanQuery);
+  const matches = search(cleanQuery, exact);
   if (!matches.length) {
     answerEl.textContent = `No papers found for "${cleanQuery}". Try fewer filters or broader keywords.`;
     resultsEl.innerHTML = "";
@@ -508,6 +527,36 @@ function runSearch(query) {
     The strongest match is <strong>${escapeHtml(top.title)}</strong>.
   `;
   renderPapers(matches, cleanQuery);
+}
+
+function renderFilteredPapers() {
+  const matches = filteredPapers();
+  const filters = [
+    typeFilter.value,
+    decisionFilter.value,
+    topicFilter.value,
+    sessionFilter.value,
+  ].filter(Boolean);
+
+  activeView = "browse";
+
+  if (!filters.length) {
+    answerEl.textContent = "Enter a keyword query or choose a topic to find papers.";
+    resultsEl.innerHTML = "";
+    return;
+  }
+
+  if (!matches.length) {
+    answerEl.textContent = `No papers found for ${filters.join(" · ")}. Try fewer filters.`;
+    resultsEl.innerHTML = "";
+    return;
+  }
+
+  answerEl.innerHTML = `
+    <strong>${matches.length} papers found</strong>
+    for <strong>${escapeHtml(filters.join(" · "))}</strong>.
+  `;
+  renderPapers(matches);
 }
 
 function renderSaved() {
@@ -528,7 +577,9 @@ function rerender() {
   if (activeView === "saved") {
     renderSaved();
   } else if (activeQuery) {
-    runSearch(activeQuery);
+    runSearch(activeQuery, { exact: activeExactSearch });
+  } else {
+    renderFilteredPapers();
   }
 }
 
@@ -566,13 +617,13 @@ async function boot() {
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  runSearch(queryInput.value);
+  runSearch(queryInput.value, { exact: false });
 });
 
 quickButtons.forEach((button) => {
   button.addEventListener("click", () => {
     queryInput.value = button.dataset.query;
-    runSearch(button.dataset.query);
+    runSearch(button.dataset.query, { exact: false });
   });
 });
 
@@ -580,12 +631,13 @@ hotKeywordsList.addEventListener("click", (event) => {
   const button = event.target.closest("[data-hot-keyword]");
   if (!button) return;
   queryInput.value = button.dataset.hotKeyword;
-  runSearch(button.dataset.hotKeyword);
+  runSearch(button.dataset.hotKeyword, { exact: true });
 });
 
 [typeFilter, decisionFilter, topicFilter, sessionFilter, sortSelect].forEach((control) => {
   control.addEventListener("change", () => {
     populateHotKeywords();
+    if (!activeQuery) activeView = "browse";
     rerender();
   });
 });
