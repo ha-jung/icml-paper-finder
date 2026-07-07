@@ -15,15 +15,3 @@ python3 build_papers.py
 
 This regenerates `papers.json`.
 
-## Local Preview
-
-```bash
-cd /home/hajung/cyp_som/icml
-python3 -m http.server 8777 --bind 127.0.0.1
-```
-
-Then open:
-
-```text
-http://127.0.0.1:8777/
-```
