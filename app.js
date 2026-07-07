@@ -4,7 +4,10 @@ const STORAGE_KEY = "icml2026_saved_papers";
 const SEOUL_TIME_ZONE = "Asia/Seoul";
 
 const form = document.querySelector("#search-form");
+const timeForm = document.querySelector("#time-form");
 const queryInput = document.querySelector("#query");
+const dateSelect = document.querySelector("#date-select");
+const timeSelect = document.querySelector("#time-select");
 const typeFilter = document.querySelector("#type-filter");
 const decisionFilter = document.querySelector("#decision-filter");
 const topicFilter = document.querySelector("#topic-filter");
@@ -99,6 +102,55 @@ function formatTimeRange(paper) {
   return `${startText}-${endText}`;
 }
 
+function seoulParts(value) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+    timeZone: SEOUL_TIME_ZONE,
+  }).formatToParts(new Date(value));
+  return Object.fromEntries(parts.map((part) => [part.type, part.value]));
+}
+
+function seoulDateKey(value) {
+  const parts = seoulParts(value);
+  return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
+function seoulTimeKey(value) {
+  const parts = seoulParts(value);
+  return `${parts.hour}:${parts.minute}`;
+}
+
+function timeToMinutes(value) {
+  const [hour, minute] = value.split(":").map(Number);
+  return hour * 60 + minute;
+}
+
+function formatDateKey(dateKey) {
+  const [year, month, day] = dateKey.split("-").map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day));
+  return new Intl.DateTimeFormat("en-US", {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    timeZone: "UTC",
+  }).format(date);
+}
+
+function formatTimeKey(timeKey) {
+  const [hour, minute] = timeKey.split(":").map(Number);
+  const date = new Date(Date.UTC(2026, 0, 1, hour, minute));
+  return new Intl.DateTimeFormat("en-US", {
+    hour: "numeric",
+    minute: "2-digit",
+    timeZone: "UTC",
+  }).format(date);
+}
+
 function paperText(paper) {
   return normalize(
     [
@@ -163,6 +215,13 @@ function populateFilters() {
   const decisions = [...new Set(papers.map(recognitionLabel).filter(Boolean))].sort();
   const topics = [...new Set(papers.map((paper) => paper.topic).filter(Boolean))].sort();
   const sessions = [...new Set(papers.map((paper) => paper.session).filter(Boolean))].sort();
+  const scheduledPapers = papers.filter((paper) => paper.starttime && paper.endtime);
+  const dates = [...new Set(scheduledPapers.map((paper) => seoulDateKey(paper.starttime)))].sort();
+  const times = [
+    ...new Set(
+      scheduledPapers.flatMap((paper) => [seoulTimeKey(paper.starttime), seoulTimeKey(paper.endtime)]),
+    ),
+  ].sort();
 
   typeFilter.innerHTML = `<option value="">All presentations</option>${types
     .map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`)
@@ -176,6 +235,12 @@ function populateFilters() {
   sessionFilter.innerHTML = `<option value="">All sessions</option>${sessions
     .map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`)
     .join("")}`;
+  dateSelect.innerHTML = dates
+    .map((value) => `<option value="${escapeHtml(value)}">${formatDateKey(value)}</option>`)
+    .join("");
+  timeSelect.innerHTML = times
+    .map((value) => `<option value="${escapeHtml(value)}">${formatTimeKey(value)}</option>`)
+    .join("");
 }
 
 function applyFilters(list) {
@@ -209,6 +274,26 @@ function search(query) {
         .map((paper) => ({ ...paper, score: scorePaper(paper, query) }))
         .filter((paper) => queryMatches(paper, query)),
     ),
+  ).slice(0, MAX_RESULTS);
+}
+
+function papersAtTime(dateKey, timeKey, query = "") {
+  const selected = timeToMinutes(timeKey);
+
+  return sortPapers(
+    applyFilters(
+      papers
+        .map((paper) => ({ ...paper, score: scorePaper(paper, query) }))
+        .filter((paper) => {
+          if (!paper.starttime || !paper.endtime) return false;
+          if (seoulDateKey(paper.starttime) !== dateKey) return false;
+          if (!queryMatches(paper, query)) return false;
+          const start = timeToMinutes(seoulTimeKey(paper.starttime));
+          const end = timeToMinutes(seoulTimeKey(paper.endtime));
+          return start <= selected && selected < end;
+        }),
+    ),
+    query ? sortSelect.value : "time",
   ).slice(0, MAX_RESULTS);
 }
 
@@ -340,6 +425,25 @@ function runSearch(query) {
   renderPapers(matches, cleanQuery);
 }
 
+function runTimeSearch() {
+  const cleanQuery = queryInput.value.trim();
+  const matches = papersAtTime(dateSelect.value, timeSelect.value, cleanQuery);
+  const label = `${formatDateKey(dateSelect.value)} at ${formatTimeKey(timeSelect.value)} KST`;
+  const queryText = cleanQuery ? ` matching <strong>${escapeHtml(cleanQuery)}</strong>` : "";
+
+  activeView = "time";
+  activeQuery = cleanQuery;
+
+  if (!matches.length) {
+    answerEl.innerHTML = `<strong>No papers found</strong> for ${label}${queryText}. Try another time, keyword, or fewer filters.`;
+    resultsEl.innerHTML = "";
+    return;
+  }
+
+  answerEl.innerHTML = `<strong>${matches.length} papers are active</strong> on <strong>${label}</strong>${queryText}.`;
+  renderPapers(matches, cleanQuery);
+}
+
 function renderSaved() {
   activeView = "saved";
   const saved = sortPapers(papers.filter((paper) => savedIds.has(paper.id)), "time");
@@ -357,6 +461,8 @@ function renderSaved() {
 function rerender() {
   if (activeView === "saved") {
     renderSaved();
+  } else if (activeView === "time") {
+    runTimeSearch();
   } else if (activeQuery) {
     runSearch(activeQuery);
   }
@@ -390,6 +496,11 @@ async function boot() {
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   runSearch(queryInput.value);
+});
+
+timeForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  runTimeSearch();
 });
 
 quickButtons.forEach((button) => {

@@ -87,7 +87,8 @@ h1 {
 }
 
 .search-form label,
-.filters label {
+.filters label,
+.time-form label {
   display: block;
   margin-bottom: 8px;
   font-weight: 700;
@@ -99,7 +100,8 @@ h1 {
 }
 
 .search-row input,
-.filters select {
+.filters select,
+.time-grid select {
   width: 100%;
   min-width: 0;
   border: 1px solid var(--line);
@@ -110,7 +112,8 @@ h1 {
 }
 
 .search-row input:focus,
-.filters select:focus {
+.filters select:focus,
+.time-grid select:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.14);
 }
@@ -118,6 +121,7 @@ h1 {
 .search-row button,
 .quick-filters button,
 .action-grid button,
+.time-form button,
 .save-button,
 .link-button {
   border: 0;
@@ -126,7 +130,8 @@ h1 {
 }
 
 .search-row button,
-.action-grid button {
+.action-grid button,
+.time-form button {
   flex: 0 0 auto;
   padding: 0 16px;
   color: white;
@@ -135,7 +140,8 @@ h1 {
 }
 
 .search-row button:hover,
-.action-grid button:hover {
+.action-grid button:hover,
+.time-form button:hover {
   background: var(--accent-dark);
 }
 
@@ -164,6 +170,24 @@ h1 {
 }
 
 .filters label:not(:first-child) {
+  margin-top: 8px;
+}
+
+.time-form {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.time-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.time-form button {
+  width: 100%;
+  min-height: 44px;
   margin-top: 8px;
 }
 
@@ -359,7 +383,8 @@ mark {
   }
 
   .search-row,
-  .paper-header {
+  .paper-header,
+  .time-grid {
     grid-template-columns: 1fr;
     flex-direction: column;
   }
