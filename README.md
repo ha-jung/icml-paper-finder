@@ -1,0 +1,29 @@
+# ICML 2026 Paper Finder
+
+Static web app for searching ICML 2026 papers by title, authors, abstracts, topics, sessions, and keywords.
+
+The metadata is built from the official ICML 2026 virtual site JSON files:
+
+- `https://icml.cc/static/virtual/data/icml-2026-orals-posters.json`
+- `https://icml.cc/static/virtual/data/icml-2026-abstracts.json`
+
+## Rebuild Data
+
+```bash
+python3 build_papers.py
+```
+
+This regenerates `papers.json`.
+
+## Local Preview
+
+```bash
+cd /home/hajung/cyp_som/icml
+python3 -m http.server 8777 --bind 127.0.0.1
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8777/
+```

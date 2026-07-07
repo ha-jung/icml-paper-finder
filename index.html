@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ICML 2026 Paper Finder</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="search-panel" aria-labelledby="page-title">
+        <p class="eyebrow">Paper Finder</p>
+        <h1 id="page-title">ICML 2026</h1>
+        <p class="subtitle">
+          Search ICML 2026 papers by title, abstract, authors, topic, session,
+          and keywords.
+        </p>
+
+        <form id="search-form" class="search-form">
+          <label for="query">Keyword query</label>
+          <div class="search-row">
+            <input
+              id="query"
+              name="query"
+              type="search"
+              autocomplete="off"
+              placeholder="e.g. diffusion, RLHF, graph neural networks"
+            />
+            <button type="submit">Search</button>
+          </div>
+        </form>
+
+        <div class="quick-filters" aria-label="Example queries">
+          <button type="button" data-query="large language model">LLM</button>
+          <button type="button" data-query="reinforcement learning">RL</button>
+          <button type="button" data-query="diffusion">Diffusion</button>
+          <button type="button" data-query="single cell">Single cell</button>
+        </div>
+
+        <section class="filters" aria-label="Search filters">
+          <label for="type-filter">Presentation</label>
+          <select id="type-filter"></select>
+
+          <label for="decision-filter">Recognition</label>
+          <select id="decision-filter"></select>
+
+          <label for="topic-filter">Topic</label>
+          <select id="topic-filter"></select>
+
+          <label for="session-filter">Session</label>
+          <select id="session-filter"></select>
+
+          <label for="sort-select">Sort results</label>
+          <select id="sort-select">
+            <option value="relevance">Relevance</option>
+            <option value="time">Time</option>
+            <option value="topic">Topic</option>
+            <option value="title">Title</option>
+          </select>
+        </section>
+
+        <div class="action-grid">
+          <button id="schedule-button" type="button">Saved Papers</button>
+          <button id="clear-button" type="button">Clear Filters</button>
+        </div>
+      </section>
+
+      <section class="answer-panel" aria-live="polite">
+        <div id="status" class="status">Loading papers...</div>
+        <div id="answer" class="answer"></div>
+        <div id="results" class="results"></div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
