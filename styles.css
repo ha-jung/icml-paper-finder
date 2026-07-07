@@ -210,6 +210,15 @@ h1 {
   background: #cde3ff;
 }
 
+#schedule-button {
+  color: #7a4c00;
+  background: #ffe8ae;
+}
+
+#schedule-button:hover {
+  background: #ffd978;
+}
+
 .status {
   color: var(--muted);
   font-weight: 700;
