@@ -1,0 +1,821 @@
+[
+  {
+    "id": "54075",
+    "title": "The 2nd Workshop on Epistemic Intelligence in Machine Learning: Learning under Unknown Unknowns for Real-world Impact",
+    "organizers": [
+      "Siu Lun Chau",
+      "Shireen Kudukkil Manchingal",
+      "Michele Caprio",
+      "Arnaud Doucet",
+      "Sahar Abdelnabi",
+      "Krikamol Muandet"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM E5 - E6 (3rd Floor)",
+    "abstract": "Machine learning systems are increasingly deployed in open-ended and high-stakes environments, where distribution shift, adversarial manipulation, hallucinations, safety risks, and misalignment reveal fundamental limits of learning under incomplete information. A central challenge is the ability to recognise and reason about the limits of one’s own knowledge, especially in the presence of unknown unknowns. The 2nd Workshop on Epistemic Intelligence in Machine Learning brings together researchers from diverse areas of machine learning to develop principled and computationally tractable approaches to representing and operationalising epistemic intelligence. The workshop focuses on foundations of uncertainty beyond single-distribution representations, uncertainty-aware generative and foundation models, AI safety and alignment under objective uncertainty, and lifelong and continual learning in open worlds. By connecting theoretical frameworks with behavioural mechanisms such as abstention, deferral, querying, and safe adaptation, EIML aims to provide a unifying perspective on how learning systems can reason under unknown unknowns and guide robust, safe, and trustworthy real-world deployment.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54075",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54093",
+    "title": "Trustworthy AI for Good Workshop",
+    "organizers": [
+      "Terry J. C. Zhang",
+      "Zhijing Jin",
+      "Milind Tambe",
+      "Rada Mihalcea",
+      "Changling Li",
+      "Joan Nwatu",
+      "David Lie",
+      "Van Q. Truong",
+      "Jerick Shi"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM GRAND BALLROOM 103",
+    "abstract": "Agentic systems increasingly shape how billions of people engage with public institutions, civic discourse, and society at large. While many effort has been focusing on making models safer in avoiding harmful output, it's more important for these improvements in model development to translate social good at scale. This workshop aims to brings together the AI safety community, which often focuses on what a model can do as an individual system, with the AI for societal good and policy/governance communities, which focus on what models do when deployed across populations. We aim to bring together researchers, practitioners, policymakers, and opinion leaders to connect these perspectives so that safer models also help strengthen society at large.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54093",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54094",
+    "title": "Failure Modes in Agentic AI: Reproducible Triggers, Trace Diagnostics, and Verified Fixes",
+    "organizers": [
+      "Manling Li",
+      "Zihan (Zenus) Wang"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM GRAND BALLROOM 104-105",
+    "abstract": "Foundation-model agents increasingly run in **closed-loop** with tools, memory, and multi-step action. This *long-horizon interaction* exposes failures that single-turn evaluation often misses: error cascades over trajectories, brittle tool use under interface shifts, unstable memory binding/read-write over time, weak recovery (diagnosis/backtracking/repair), and optimization-driven policy contraction (templated behavior, diversity/reasoning collapse). **Failure Modes in Agentic AI (FMAI)** proposes a focused platform that treats these failures as actionable research objects, with four deliverables: (1) **operational definitions** with explicit boundaries and loop localization; (2) **minimal, reproducible triggers**; (3) **comparable protocols** with trace-level diagnostics beyond terminal success; and (4) **verifiable mitigation and repair strategies** (including strong negative results). FMAI aligns ICML’s strengths in optimization, generalization, and evaluation with realistic agent loops to standardize how we diagnose and fix agentic failures.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54094",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54087",
+    "title": "Learning to Listen: ICML 2026 Workshop on Machine Learning for Audio",
+    "organizers": [
+      "Alice Baird",
+      "Chris Donahue",
+      "Sander Dieleman",
+      "Brian Kulis",
+      "David Liu",
+      "Rachel Manzelli",
+      "Shrikanth Narayanan"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ASEM Ballroom 202",
+    "abstract": "Machine learning for audio has seen heightened interest over the past year, driven by audio language models and multimodal/foundation models for understanding and generating speech, music, and audio events, as well as rising demand for low-latency voice agents and real-time transcription. We propose the Machine Learning for Audio workshop at ICML 2026 to provide a dedicated forum for audio researchers and practitioners to exchange ideas, share tools and benchmarks, form collaborations, and engage in timely ethical discussion around generative audio and audio foundation models. The workshop will cover topics including generative synthesis, enhancement/denoising, datasets and augmentation, classification, transcription, source separation, and multimodal problems, and will solicit up to 4-page extended abstracts, plus a poster/demo session for live presentations. The program will feature invited talks from leading academic and industry researchers spanning speech, music, and general audio ML. Additionally, the workshop organizers will release several refreshed audio datasets alongside the workshop, for use in contributed work.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54087",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54084",
+    "title": "Second Workshop on Technical AI Governance Research",
+    "organizers": [
+      "Lisa Soder",
+      "Kevin Wei"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 317",
+    "abstract": "We propose an ICML workshop on Technical AI Governance Research (TAIGR). TAIGR encompasses technical analysis and tools that support the effective governance of AI, such as evaluations, safeguards, and access controls. Despite increasing interest in TAIGR, the field lacks a consistent, dedicated venue for sharing research. This will be the second edition of the workshop, building on the inaugural technical AI governance workshop held at ICML 2025.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54084",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54074",
+    "title": "Deep Learning for Code: Towards Human-Centered Coding Agents",
+    "organizers": [
+      "Terry Yue Zhuo",
+      "Zhiruo Wang",
+      "Wen-Ding Li",
+      "Giovanni Zappella",
+      "Qian Liu",
+      "Zijian Wang"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM HALL B2",
+    "abstract": "AI coding agents have rapidly improved in their ability to perform complex software engineering tasks autonomously. However, as these systems advance, the main bottleneck to real-world usefulness is shifting from task-solving capability to challenges in communication, oversight, and trust between humans and agents. This year, the 5th Deep Learning for Code (DL4C) workshop at ICML will focus on human-centered coding agents: systems designed not only to complete tasks, but to collaborate effectively with humans. Building on previous DL4C editions (ICLR '22, '23, '25; NeurIPS '25; https://dl4c.github.io), the workshop will highlight interaction-level questions such as task alignment, verifiability, steerability, and adaptability in human-agent workflows. We aim to bring together researchers from ML, NLP, HCI, and SE to develop shared evaluation methods, user-involved coding environments, and scalable approaches to studying human-AI collaborative coding. By emphasizing human-centered design, the workshop seeks to advance coding agents that are more controllable, interpretable, and broadly useful in practice.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54074",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54085",
+    "title": "Culture x AI: Evaluating AI as a Cultural Technology",
+    "organizers": [
+      "Cody Kommers",
+      "Drew Hemment",
+      "Meredith Martin",
+      "Canfer Akbulut",
+      "Matthew Wilkens",
+      "Adam Sobey"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 307",
+    "abstract": "Generative AI is increasingly recognised as a social and cultural technology. These systems process an enormous amount of social data to produce novel cultural artefacts, such as text, images, and videos. While much progress has been made in evaluating cultural aspects of AI, it has tended to focus on harm mitigation: identifying and preventing moral violations, the spread of bias and misinformation, and deviation from human values. But a more positive or constructive notion of culture in AI remains underdeveloped. How can we evaluate cultural aspects of AI technology in a way that not only seeks to avoid failure, but gives a more robust definition of success? This workshop covers current approaches for evaluating cultural aspects of generative AI. Our primary focus is on work that aims to bring ideas and techniques from the humanities, arts, and qualitative social sciences upstream in AI development. We'll bring together a range of work at the intersection of culture and AI, with the goal of not just studying the effects of AI after deployment but also in actively shaping the design of the technology itself. The workshop will give special focus to research that seeks to articulate a positive vision for cultural AI.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54085",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54072",
+    "title": "AI as a Tool for Mathematics, Computer Science, and Machine Learning",
+    "organizers": [
+      "Dmitriy Drusvyatskiy",
+      "Mikhail Belkin",
+      "Edgar Dobriban",
+      "Fanny Yang",
+      "Qingsong Wang"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM AUDITORIUM",
+    "abstract": "Modern AI systems increasingly assist researchers with coding, exposition, and fragments of mathematical reasoning, yet turning these capabilities into dependable research progress remains nontrivial. This workshop focuses on AI as a practical research instrument for the mathematics/CS/ML community: not merely improving theorem-proving benchmarks, but developing transferable, reproducible workflows that help researchers generate, stress-test, and refine real results. The program will cover (i) AI-assisted mathematical research workflows, including iterative verification loops, decomposition and self-critique, multi-agent strategies, and common failure modes with concrete detection/mitigation tactics; (ii) tool-augmented reasoning, integrating LLMs with computation (code, symbolic algebra, numerics), literature navigation, and proof assistants (e.g., Lean) to reduce hallucinations and improve reliability; and (iii) research acceleration across ML/CS, including derivations, counterexample search, and experiment design methods that generalize across subfields. The workshop is structured as a full-day hybrid event with confirmed in-person invited talks, a demo/poster session featuring accepted contributions (4-page submissions emphasizing usable workflows), and a structured debate and panel on whether AI-generated analyses and conclusions will become as trustworthy as those of leading theoretical researchers within five years. The intended outcome is a durable community resource: a shared set of actionable practices for rigorous AI-assisted research.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54072",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54079",
+    "title": "Continual Adaptation at Scale: Towards Sustainable AI",
+    "organizers": [
+      "Ghada Sokar",
+      "Gintare Karolina Dziugaite",
+      "Mohammad Emtiyaz Khan",
+      "Rupam Mahmood",
+      "Martin Mundt",
+      "Daniel Marczak"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 327",
+    "abstract": "Training Foundation Models (FMs) is currently so costly that only few can afford it. The immense data, compute, and energy demands are increasingly unsustainable. Continual adaptation offers a viable alternative, where AI models can learn quickly and continually through every day interactions, just like humans and animals. Unfortunately, FMs lack this rapid adaptability: new behavior in FMs can be induced by prompting or fine-tuning, but there are no easy ways to quickly shape the behavior, for instance, to permanently add, remove, or modify their skill set in a sustainable way. This workshop aims to discuss new research directions that will enable fast continual adaptation at scale to drive more sustainable AI.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54079",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54078",
+    "title": "SCALE: SCALABLE LEARNING AND OPTIMIZATION FOR EFFICIENT MULTIMODAL AI AGENTS",
+    "organizers": [
+      "Souvik Kundu",
+      "Digbalay Bose",
+      "Sayan Nag",
+      "Jaehong Yoon",
+      "Manling Li",
+      "Hongyi Wang",
+      "Lanqing Guo",
+      "Sanjoy Chowdhury"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ASEM Ballroom 201",
+    "abstract": "This workshop seeks to bring together researchers from diverse background to explore (but not limited to) emerging topics in, a) multi-modal agentic learning: learning algorithms, pipelines, and architectures for multimodal agents, spanning pretraining and fine-tuning to test-time tuning and adaptation; b) Efficient agentic AI systems: developing scalable and verifiable agentic AI systems across heterogeneous compute platforms with limited compute and memory budget, ; c) scaling of multi-modal agents: understanding and improving the test-time scaling and reasoning capabilities of multi-modal agentic systems, mixture-of-agents for task scaling; d) multi-modal agents for planning: pushing the boundaries of real life physical reasoning and planning for agentic AI. e) evaluation and benchmarking: principled metrics and benchmarks for reasoning, memory, robustness, and efficiency in multimodal agents; f) memory of agents: understanding and improving multi-modal agentic memory for reasoning capabilities.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54078",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54077",
+    "title": "High Dimensional Learning Dynamics: the Science of Scaling",
+    "organizers": [
+      "Elliot Paquette",
+      "Inbar Seroussi"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM E1 - E4 (3rd Floor)",
+    "abstract": "Scaling laws -- precise power-law relationships between model performance and resources (parameters, data, compute) -- have become the central organizing principle of modern large-model training. Yet the theoretical foundations of scaling remain incomplete: despite rapid recent progress, the community still lacks a unified mathematical framework connecting optimizer dynamics, architecture choice, and data structure to the observed power-law exponents that govern training at scale. This year’s HiLD workshop focuses on building a rigorous science of scaling by bringing together theoreticians and practitioners who build and train frontier models.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54077",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54057",
+    "title": "Graph Foundation Models: A New Era for Graph Machine Learning",
+    "organizers": [
+      "Charilaos Kanatsoulis",
+      "Xingyue Huang",
+      "Ben Finkelshtein",
+      "Michael Bronstein"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 308",
+    "abstract": "Graph-structured data are ubiquitous across science and industry, yet today’s graph machine learning (GML) pipelines remain largely task- and dataset-specific, limiting robustness and transferability. This workshop brings together researchers and practitioners to advance graph foundation models (GFMs): models that pretrain once and adapt broadly across heterogeneous, temporal, and multimodal graphs. We will catalyze exchange on core questions spanning: architectural choices (GNNs, Transformers, and LLM-integrated pipelines), graph tokenization and structural encodings, pretraining objectives and scaling laws, and principled evaluation for cross-graph transfer. The scope covers diverse domains, including knowledge graphs, molecular and biological networks, relational databases, recommender systems, and social networks, emphasizing both methodological rigor and real-world impact. Through invited keynotes, contributed talks, posters, and panel discussions, the workshop aims to (i) consolidate design principles for GFMs, (ii) establish shared datasets, metrics, and reproducible protocols, and (iii) chart a community roadmap for scalable, transferable, and trustworthy graph learning.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54057",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54067",
+    "title": "RLxF: RL from World Feedback",
+    "organizers": [
+      "Shao-Hua Sun",
+      "Xingyou Song",
+      "Akari Asai",
+      "Yash Akhauri",
+      "Chenglei Si",
+      "Tengyu Ma",
+      "Theresa Eimer"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM GRAND BALLROOM 101-102",
+    "abstract": "This workshop explores a shift beyond human preference signals by treating world feedback 🌍 —measurable signals from real-world interactions such as efficiency, safety, health, performance, and economic outcomes—as a first-class training signal for reinforcement learning systems. The goal of this workshop is to move beyond human feedback to train reinforcement learning systems using world-grounded learning signals (e.g., efficiency, safety, and economic outcomes) that better reflect the true consequences of agent behavior. Bringing together researchers across reinforcement learning, foundation models, robotics, systems, and AI alignment, it focuses on modeling and integrating heterogeneous, noisy, and delayed feedback into modern learning pipelines. Through invited talks, contributed papers, and interactive panels, the workshop aims to clarify core challenges, develop shared frameworks, and advance scalable, robust, and deployable learning paradigms grounded in real-world consequences.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54067",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54071",
+    "title": "Workshop on Mechanistic Interpretability",
+    "organizers": [
+      "Andrew Lee",
+      "Ivan Arcuschin"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM HALL C",
+    "abstract": "We propose a third Workshop on Mechanistic Interpretability – the study of how neural networks function – following highly successful workshops at ICML 2024 and NeurIPS 2025, the latter which attracted over 600 attendees. Mechanistic Interpretability is a cross-cutting area with relevance to multiple topics at ICML: anyone who has trained or interacted with neural networks has likely wondered how they work, and our current lack of understanding causes significant issues for safety and scientific understanding. We have designed our program to foster debate around the arising debate between pragmatic and ambitious approaches in the field, in addition to showcasing and sharing knowledge on emerging methodologies",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54071",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54088",
+    "title": "Foundations of Deep Generative Models: Understanding Memorization, Generalization, and Reasoning",
+    "organizers": [
+      "Wei Huang",
+      "Qing Qu",
+      "Renyuan Xu",
+      "Valentin De Bortoli",
+      "Molei Tao",
+      "John Vastola",
+      "Peng Wang",
+      "Xiao Li",
+      "GEORGIOS PAPAIOANNOU",
+      "Beatrice Achilli"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 318",
+    "abstract": "Recently, diffusion models, flow-based models, and autoregressive language models have emerged as a powerful class of deep generative models (DGMs) with remarkable generation capabilities across a wide range of applications, including image synthesis, video generation, natural language generation, and scientific discovery. Despite these successes, they still face significant challenges, particularly in understanding memorization, generalization, and reasoning, which limit their reliability, interpretability, and broader adoption in many scientific disciplines. This workshop will bring together researchers from both theoretical and applied communities to address these challenges, providing a focused forum for exchanging ideas, identifying key open problems, and fostering new collaborations in this rapidly evolving area.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54088",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54073",
+    "title": "Generative and Agentic AI for Biology",
+    "organizers": [
+      "Wengong Jin",
+      "Lei Li",
+      "Divya Nori",
+      "Aditi Krishnapriyan",
+      "Christian Dallago",
+      "Ramith Hettiarachchi"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM HALL D2",
+    "abstract": "The 2024 Nobel Prize in Chemistry, awarded for AI-based protein structure prediction and protein design, underscored the transformative impact of machine learning on the life sciences. Generative AI models, including large language models, diffusion models, and foundation models for biological sequences and cells, have demonstrated remarkable success in modeling and designing biomolecules and biological systems. However, a new paradigm is emerging. Beyond generating biological sequences or structures, AI systems are beginning to act as agents: formulating hypotheses, planning experiments, interacting with tools and databases, and iteratively refining scientific strategies. This workshop aims to explore the future of AI for biology at the intersection of these two paradigms. Rather than focusing solely on incremental advances in generative modeling, we seek to engage the community in a deeper discussion about the conceptual and practical foundations of AI-driven biological discovery. Key questions include: * Will agentic AI subsume generative models, or are they complementary components of future scientific systems? * In what biological problems is agentic AI necessary? * What architectures are required for AI systems that reason across molecules, cells, tissues, and organisms? * How should we evaluate AI agents that participate in biological discovery? * What is the role of human scientists in an era of AI-driven hypothesis generation and experimentation? We aim to discuss these questions through invited talks, poster presentations, and panel discussions on the following topics: * Generative models for biomolecule and therapeutic design. * Agent-based systems for hypothesis generation, experimental planning, and closed-loop wet-lab integration. * Foundation models and world models for multi-scale biology. * Benchmarks and evaluation frameworks for autonomous scientific systems. * Human-AI collaboration paradigms in biological research. * Safety, governance, and ethical considerations of autonomous biological AI systems.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54073",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54089",
+    "title": "4th Structured Probabilistic Inference & Generative Modeling",
+    "organizers": [
+      "Jiajun He",
+      "Luhuan Wu"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM HALL D1",
+    "abstract": "Probabilistic approaches have been one of the core engines of machine learning for decades: they provide a language for uncertainty, latent structure, and decision-making under incomplete information or noisy observations. In parallel, generative modeling has long been an important branch of this toolkit from large language models to diffusion models. While their empirical success has largely been driven by scaling and benchmark-oriented engineering efforts, probabilistic principles have not faded into irrelevance; if anything, they have become increasingly vital for leveraging models in more complex tasks in the era of foundation models and real-world deployment. The mission of this workshop is to create a forum for research that is driven not solely by prevailing trends, but by well-reasoned scientific beliefs and long-term vision. We aim to bring together researchers working on structured probabilistic inference, generative modeling, and their intersections with modern foundation models. We particularly encourage contributions that explore emerging, unconventional, or underexplored directions that may shape the future of the field. By fostering dialogue across communities, including theoretical probabilistic modeling, generative modeling, information theory, and large-scale foundation model research, we hope to identify enduring principles, rediscover overlooked ideas, and inspire new frameworks that unify structure, scalability, and uncertainty. Ultimately, this workshop seeks to highlight that probabilistic thinking is not only foundational to the past and present of machine learning but also essential to its future trajectory.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54089",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54080",
+    "title": "Workshop on Weight-Space Symmetries: from Foundations to Practical Applications",
+    "organizers": [
+      "Yani Ioannou",
+      "Boris Knyazev",
+      "Ekaterina Lobacheva",
+      "Adnan Mohammed",
+      "Antonio Orvieto",
+      "Alexander Theus"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 403",
+    "abstract": "Neural networks are highly over-parameterized models whose weight spaces exhibit rich symmetries, for example, neuron permutations. These symmetries create large equivalence classes of functionally identical solutions and have profound implications for the structure of the loss landscape, optimization, and design of practical algorithms. While significant progress has been made in characterizing these symmetries and their effects, a unified understanding remains elusive. Simultaneously, there is growing interest in practical applications of weight-space symmetries, such as training acceleration, model merging, weight-space learning, and more. The goal of this workshop is to bring together researchers from academia and industry to translate theoretical advances in weight-space symmetries into practical, scalable methods, fostering a coherent framework and highlighting approaches that are computationally feasible at scale.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54080",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54065",
+    "title": "AI for Law Workshop",
+    "organizers": [
+      "Yu Fan",
+      "Fabio Fehr",
+      "Aniket Kesari",
+      "Robert Mahari",
+      "Julian Nyarko",
+      "Hai Park",
+      "Yang Tian",
+      "Frederike Zufall"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 300",
+    "abstract": "Recent advances in machine learning have substantially improved general-purpose reasoning, multimodal understanding, and test-time scaling. Yet law remains a uniquely demanding and high-stakes domain that exposes the limits of generic AI progress. Many legal tasks require structured, long-form deductive and inductive reasoning grounded in doctrine, sensitivity to jurisdictional and linguistic variation, and robustness in settings where errors carry serious real-world consequences. They also raise fundamental questions about evaluation, fairness, and access to justice. Legal reasoning thus complements established AI reasoning domains, such as mathematics and coding, by emphasizing context-sensitive, norm-governed inference embedded in real-world institutions. This workshop centers on a core question: ***What does it mean for an AI system to be competent in law, and how can such competence be built, evaluated, and validated across jurisdictions and languages while enabling equitable access to justice?*** We structure the discussion around three interconnected themes: - **AI for Legal Reasoning**, focusing on domain-specific supervision, doctrinal grounding, and task design for robust legal inference; - **AI Evaluation for Law**, addressing reliable, risk-aware, and jurisdiction-sensitive evaluation paradigms; and - **AI for Access to Justice**, examining the technical and institutional conditions under which AI systems improve, or risk undermining, equitable legal access. To operationalize these themes, we will host a multilingual shared task on long-form legal reasoning across jurisdictions and languages, emphasizing doctrinal and jurisdictional grounding, reasoning quality, and cross-lingual robustness. By bridging machine learning and legal scholarship, the workshop aims to articulate a research agenda for AI systems that are not only more capable, but also more legally grounded and socially responsible.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54065",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54058",
+    "title": "From Frames to Stories (F2S): Toward Reliable, Controllable and Trustworthy Long-Horizon Video Generation",
+    "organizers": [
+      "Yu Lu",
+      "Junhao Dong",
+      "Enis Simsar",
+      "Hila Chefer",
+      "Ismini Lourentzou",
+      "Piotr Koniusz",
+      "Yi Yang"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 402",
+    "abstract": "Video generation has advanced rapidly for short clips, but minutes-long, multi-shot generation remains unreliable due to compounding errors, identity drift, and weak long-range coherence. Long-horizon video therefore provides a demanding testbed for long-context multimodal modeling, inference-time computation, and interactive generation, aligning closely with core ICML interests. We focus on three bottlenecks: (i) persistent state representation, what to store (and how to compress it) to ensure that identities, scene dynamics, and narrative facts remain consistent; (ii) interactive control that steers future states with rich and compositional signals (shot plans, localized edits, multimodal constraints, actions) over long horizons; and (iii) trustworthy evaluation via minutes-scale protocols that measure consistency and control adherence in a reproducible, hard-to-game way. We highlight research directions where conceptual and methodological advances, rather than model scale alone, drive progress under realistic academic compute budgets. The program combines invited talks, contributed spotlights, posters/demos, a panel, and breakout groups on open problems with report-back.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54058",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54101",
+    "title": "The 2nd Workshop of AI4NextG: AI and ML for Next-Generation Wireless",
+    "organizers": [
+      "Cong Shen",
+      "Yang Li"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ASEM Ballroom 203",
+    "abstract": "The 2nd Workshop on AI4NextG: AI and ML for Next-Generation Wireless at ICML 2026 aims to bridge the significant and urgent gap between AI/ML research and real-world wireless system development, particularly as NextG (e.g., 6G) standardization efforts accelerate. While AI/ML holds transformative potential for wireless networks, a persistent disconnect remains between advances in ML theory/algorithms and the practical constraints of reliability, standard compliance, latency, and deployment within legacy infrastructures. Building on the strong success of the inaugural AI4NextG workshop at NeurIPS 2025, which brought together AI/ML researchers and wireless experts from both academia and industry, this edition will place a deliberate emphasis on deepening academia–industry collaboration. Through invited talks, interactive panels, and technical presentations spanning the full protocol stack, the workshop seeks to catalyze co-designed research agendas, accelerate deployable AI-native wireless solutions, and position the ICML community at the forefront of next-generation wireless innovation.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54101",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54059",
+    "title": "Combining Theory and Benchmarks: Towards A Virtuous Cycle to Understand and Guarantee Foundation Model Performance",
+    "organizers": [
+      "Brian Hu",
+      "Nathaniel Bottman",
+      "Yaoqing Yang",
+      "Yujun Yan",
+      "Guido Montufar",
+      "Jaejin Lee"
+    ],
+    "date": "Jul 10",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 401",
+    "abstract": "Benchmarks such as HELM [1] and Big-Bench [2] have significantly advanced quantitative model evaluation. However, current practice remains largely empirical and while measuring performance, does not provide guarantees on what capabilities a model has, when those capabilities will or will not manifest, and why. Debates over emergent abilities at scale illustrate this lack of predictive understanding [3,4]. In parallel, a substantial body of theoretical work addresses scaling laws for pre-training [5,6], generalization [7,8,9], and benchmark predictability [10]. Yet these theoretical advances are often disconnected from real-world benchmarking, and as a result, theoretical insights rarely inform benchmark design. This structural disconnect limits our ability to make reliable claims about model behavior, constrains trustworthy deployment, and slows the development of foundation models. This workshop will focus on advancing a predictive science of foundation model performance. We structure the workshop around three key research challenges: 1) Quantification of capabilities across task levels: How can we move from scores to formal, quantitative guarantees on performance across task levels? 2) Foundations of generalization and composition: Which mathematical frameworks can explain when and why models generalize? 3) Reliable and structured empirical evaluation: How should benchmarks be constructed to evaluate reasoning, robustness under distribution shift, and calibrated uncertainty? This workshop will convene researchers across mathematics, statistics, machine learning, and industry to catalyze a new research agenda that tightly couples theory and empirical evaluation of foundation models. By advancing frameworks that make performance predictable and quantifiable, we aim to influence: (i) how benchmarks are designed, (ii) how models are stress-tested, and (iii) how reliability claims are substantiated. These developments have direct implications for large-scale deployment, evaluation pipelines, and red-teaming practices in industry. More broadly, the workshop will help accelerate the emergence of a principled science of foundation models grounded in predictive theory, structured evaluation, and rigorous performance guarantees.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54059",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54054",
+    "title": "Statistical Frameworks for Uncertainty in Agentic Systems",
+    "organizers": [
+      "Aymeric Dieuleveut",
+      "Mahmoud Hegazy",
+      "Tijana Zrnic",
+      "Aaditya Ramdas",
+      "Stephen Bates",
+      "Maxim Panov"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM E1 - E4 (3rd Floor)",
+    "abstract": "Long-horizon agentic workloads mark a shift into a regime where declarative systems adaptively build larger declarative systems. In this setting, uncertainty quantification must address not only output-level error but also the risks of adaptive resource allocation: budgeted routing to tools and subagents, safeguards against unnecessary spend, and principled stopping under continuous monitoring. As systems become more modular, we also need compositional guarantees that aggregate local uncertainties into end-to-end risk bounds. The aim of this workshop is to bring distribution-free statistical tools to bear on these agentic systems. We focus on three themes: (1) distribution-free validity layers for coverage, risk, and abstention under heterogeneity and distribution shift; (2) anytime-valid sequential inference for continuous monitoring, evidence aggregation, and principled stopping; and (3) uncertainty reporting for interactive components and inter-agent interaction. We invite contributions advancing statistical foundations for uncertainty in agentic systems, including theory, methodology, benchmarks, and case studies.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54054",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54095",
+    "title": "Planning in The Era of Language Models (LM4Plan)",
+    "organizers": [
+      "Michael Katz",
+      "Augusto B. Corrêa",
+      "Nir Lipovetzky",
+      "Sarath Sreedharan",
+      "Katharina Stein",
+      "Luckeciano Melo",
+      "Elliot Gestrin"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM GRAND BALLROOM 101-102",
+    "abstract": "Language Models (LMs) are a disruptive force, changing how research was done in many subareas of AI. Planning is one of the last bastions that remain standing. The focus of this workshop is on the questions in the intersection of these areas. Some of the specific areas we would like to gain a better understanding in include: what LMs can contribute to planning, how LMs can/should be used, what are the pitfalls of using LMs, what are the guarantees that can be obtained. This would be a third edition of the LM4Plan workshop, which started at AAAI 2025 and had its second edition at ICAPS 2025. The workshop series website is at https://llmforplanning.github.io/",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54095",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54091",
+    "title": "Forecasting as a New Frontier of Intelligence",
+    "organizers": [
+      "Haifeng Xu",
+      "Jibang Wu"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM GRAND BALLROOM 104-105",
+    "abstract": "Forecasting has a rich literature in machine learning (ML), ranging from classical time-series analysis, to significant recent interest from both ML theory (e.g., forecasting and calibration) and applied ML research (e.g., benchmarking and advancing forecasting capabilities of foundation models). Despite its deep roots and recent trends in ML research, a dedicated workshop to forecasting is still missing, to our best knowledge. Led by a diverse team of seasoned organizers and featuring a compelling lineup of confirmed invited speakers, this workshop will provide a platform for interdisciplinary dialogue on AI forecasting, and will bring together researchers from varied perspectives (theoretical vs applied) and application domains (tech, finance, policy making, etc.).",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54091",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54066",
+    "title": "Foundation Models for Structured Data",
+    "organizers": [
+      "Nick Erickson",
+      "Xiyuan Zhang",
+      "Mononito Goswami",
+      "Lennart Purucker",
+      "Boran Han",
+      "Maximilian Schambach",
+      "Arjun Ashok",
+      "Rajat Sen"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM GRAND BALLROOM 103",
+    "abstract": "Structured data (tabular and time-series) underpins high-impact applications across finance, healthcare, enterprise decision-making, and climate modeling. Over the past two years, predictive foundation models tailored to structured data have emerged, enabling in-context learning and transfer across heterogeneous datasets and schemas, challenging the traditional “train per dataset” paradigm. Tabular and time-series foundation models share methodological similarities: pretraining on heterogeneous datasets, in-context learning, and transfer under schema and distribution shift. These similarities create natural synergies across the respective communities. Building on the inaugural Foundation Models for Structured Data workshop at ICML 2025, FMSD @ ICML 2026 will unify the tabular and time-series communities around shared challenges in data curation, scaling, evaluation (including contamination), and real-world deployment (latency, memory, monitoring).",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54066",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54099",
+    "title": "AI for Science: AI Scientists -- Tools, Co-authors, or Founders?",
+    "organizers": [
+      "Lixue Cheng",
+      "Marinka Zitnik",
+      "Max Welling",
+      "Mengdi Wang",
+      "Soojung Yang",
+      "Sungsoo Ahn",
+      "Yixuan Wang",
+      "Mia Rosenfeld"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM HALL C",
+    "abstract": "We have crossed an inflection point: AI has moved from passive tool to active agent that closes the loop on hypothesis generation, experimental design, and execution. Nations and corporations are investing at unprecedented scale, e.g., the U.S. Genesis Mission mobilizing 17 national laboratories, and a recent Nature study confirms that AI-augmented research is accelerating in adoption. The AI Scientist is no longer a vision; it is here. The question is no longer whether AI Scientists will reshape science, but how—and in particular, where AI sits on the spectrum from tool to co-author to founder. This distinction carries concrete consequences for authorship, credit, funding, and ethical oversight, yet these roles already coexist across domains without shared definitions to distinguish them. As a tool, AlphaFold predicts protein structures that biologists interpret and experimentally validate; GNoME screens hundreds of thousands of candidate crystals for thermodynamic stability while materials scientists choose which to synthesize. In each case, scientists retain full authority; the model accelerates search but does not set the agenda. As a co-author, AI autonomously executes substantial research steps within human-defined problem spaces: Coscientist uses large language models to plan chemical syntheses and drive robotic execution, CuspAI generates synthesizable materials candidates up to 10× faster, AlphaProof solves Olympiad problems at gold-medal level, and A-Lab combines target selection with robotic synthesis to realize novel compounds in a 17-day closed-loop campaign. At the far end, AI approaches founder: FutureHouse’s Kosmos identified and pursued questions without human guidance, Sakana’s AI Scientist autonomously generates ideas, designs experiments, and writes papers, and Lila Sciences has built “AI Science Factories”: autonomous labs integrating generative AI with robotics that generate hypotheses, execute experiments, and iterate across biology, chemistry, and materials science. These examples span a wide spectrum of autonomy, yet all fall under the umbrella of “AI Scientists.” Without shared definitions and meaningful benchmarks, we cannot separate marketing from milestones. Our workshop aims to fill this gap by bringing together ML researchers, domain scientists, experimentalists, policymakers, and industry practitioners to define clearer taxonomies, propose evaluation standards, and initiate governance dialogue for AI-driven discovery. Workshop attendees will leave with: (1) a shared vocabulary and taxonomy for discussing AI Scientist systems across domains; (2) concrete evaluation criteria for assessing whether AI contributions constitute tool use, co-authorship, or independent discovery; (3) draft principles for attribution, accountability, and governance that can inform institutional policies; and (4) connections across the AI and domain science communities to advance responsible development.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54099",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54061",
+    "title": "Efficient Multimodal Question Answering",
+    "organizers": [
+      "Jordan L Boyd-Graber",
+      "Martin Fajčík",
+      "Chen Zhao",
+      "Ikuya Yamada",
+      "George Boateng"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ASEM Ballroom 201",
+    "abstract": "Efficient multimodal question answering is becoming increasingly important as large language models expand into real-world settings where users rely on systems that must operate under constraints of latency, cost, connectivity, and device resources. This workshop brings together researchers from machine learning, NLP, and information retrieval to explore methods for answering questions over text, images, tables, and audio while balancing accuracy with computational efficiency. Building on the success of the NeurIPS 2020 EfficientQA competition, we highlight retrieval-augmented and hybrid generative–extractive approaches, multimodal reasoning under resource limits, and evaluation frameworks that incorporate human oversight. The workshop will feature invited talks, a shared task on efficient multimodal QA, poster sessions, and an exciting live human–computer question answering event designed to engage both participants and spectators. Our goal is to advance practical, trustworthy QA systems that remain deployable across diverse domains and global contexts.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54061",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54100",
+    "title": "AdaptFM: Resource-Adaptive Foundation Model Inference",
+    "organizers": [
+      "Stefanos Laskaridis",
+      "Deepak Gupta",
+      "Samuel Horvath",
+      "Zechun Liu",
+      "Christina Giannoula",
+      "Arnav Chavan",
+      "Sankalp Dayal"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ASEM Ballroom 202",
+    "abstract": "Foundation models (FMs) have achieved remarkable capabilities across language, vision, and multimodal tasks. However, their inference typically follows a rigid, one-size-fits-all paradigm where every input, regardless of complexity, passes through the same fixed architecture with identical computational cost. This inflexibility creates a fundamental mismatch between the diverse resource budgets encountered in real-world deployments and the static nature of model inference. Adaptation can take many forms: compressing models to meet deployment budgets, designing flexible architectures that support multiple configurations from a single trained model, or making dynamic runtime decisions based on input complexity or resource availability. The central question we explore is: How can foundation model inference flexibly adapt to any resource budget, whether constrained by memory, compute, latency, energy, or cost, while maximizing output quality? This challenge spans across algorithms, architectures, and systems. We aim to bring together researchers from ML, systems, and hardware communities to advance techniques that move beyond rigid inference toward flexible, resource-aware foundation models. We welcome contributions in the following areas:",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54100",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54096",
+    "title": "2nd Workshop on Compositional Learning: Safety, Interpretability, and Agents",
+    "organizers": [
+      "Giacomo Camposampiero",
+      "Pietro Barbiero"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM AUDITORIUM",
+    "abstract": "Compositionality, defined as the ability to construct and reason about complex concepts from reusable components, is a hallmark of human cognition and the key to robust generalization. Despite the astonishing progress of modern AI systems, it remains an open question whether they truly capture and leverage the compositional nature of many real-world domains. The workshop will explore this pressing challenge across multiple critical dimensions. We will invite contributions focusing on the theoretical foundations of compositionality, its central role in the age of foundation models and agents, and its impact on achieving robustness and systematic out-of-domain generalization. Through interdisciplinary dialogue, we aim to catalyze new research directions that push the boundaries of compositional learning in advanced AI systems.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54096",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54086",
+    "title": "The Second Workshop on the Impact of Memorization on Trustworthy Foundation Models",
+    "organizers": [
+      "Dominik Hintersdorf",
+      "Adam Dziedzic",
+      "Franziska Boenisch",
+      "Niloofar Mireshghallah"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM E5 - E6 (3rd Floor)",
+    "abstract": "Foundation models underpin many critical applications, such as healthcare, public safety, and education. Ensuring their trustworthiness is, therefore, more important than ever. However, recent research has revealed that foundation models are prone to memorizing details or even entire samples from their training data. This issue can lead to privacy violations, intellectual property infringement, and societal harm when sensitive information is leaked. While unintended memorization risks the integrity of models, a certain degree of it is essential for solving novel and complex tasks, highlighting the importance of balancing performance with data leakage. Currently, isolated solutions are being developed across various research fields and data modalities, often without integration or coordination. This fragmentation can lead to duplicated efforts despite shared goals. The lack of interaction and exchange between research fields hinders progress in understanding and mitigating undesired memorization. In this workshop, we explore the causes and consequences of memorization from both theoretical and practical perspectives. We aim to connect insights from different research fields, including data privacy, law, ethics, and security in machine learning, to assess their impact on models and society and to explore innovative methods for mitigating associated risks. By bringing together researchers and practitioners from diverse fields, we seek to bridge the gap between research and real-world applications, fostering the development of trustworthy foundation models that benefit society without compromising sensitive data, intellectual property, or individual privacy.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54086",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54070",
+    "title": "Game Theory in Nature: From Optimality to Equilibrium",
+    "organizers": [
+      "Matthieu Geist",
+      "Mathieu Lauriere"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 300",
+    "abstract": "This workshop explores nature as a massive distributed learning system to bridge the gap between biological adaptation and multi-agent machine learning. While modern AI often relies on centralized optimization and global objectives, natural systems like microbial colonies and animal societies attain stability and collective intelligence through local strategic interactions. As the machine learning community moves toward decentralized environments and uses large scale models for ecological data, understanding the tension between individual goals and population level stability becomes critical. By investigating core themes such as evolutionary stability, environmental feedback, and emergent communication, this workshop aims to identify biological mechanisms that can inform the design of more efficient and scalable artificial systems. We bring together researchers in game theory, animal behavior, and machine learning to address the challenges of collective decision making and systemic robustness in the face of the current explosion in ecological sensor data.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54070",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54068",
+    "title": "New Frontiers in Game-Theoretic Learning",
+    "organizers": [
+      "Nicolò Cesa-Bianchi",
+      "Tatjana Chavdarova",
+      "Michael Jordan",
+      "Celestine Mendler-Dünner",
+      "Rene Vidal",
+      "Emmanouil-Vasileios Vlatakis-Gkaragkounis"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 307",
+    "abstract": "As Artificial Intelligence systems are increasingly deployed in high-impact, mixed-motive ecosystems, we are witnessing a paradigm shift from monolithic reasoning to strategic agency. However, a critical \"translation gap\" exists between classical foundational theory and modern AI practice. While classical game theory and mechanism design focus on long-run behaviors and static equilibria under explicit specifications, modern learning agents operate via non-stationary learning dynamics in unknown environments where traditional equilibria may be computationally intractable or dynamically irrelevant. Furthermore, while Large Language Models (LLMs) excel at parsing rich context, they often exhibit brittle strategic planning and exploitable biases when interacting in multi-agent settings. The NExT-Game workshop aims to bridge this gap by uniting the algorithmic game theory and machine learning communities. We seek to explore twofold frontiers: (i) *theoretical frontiers*, reimagining classical abstractions for high-dimensional, non-convex learning landscapes and characterizing principal-agent dynamics among boundedly rational, regret-minimizing learners; and (ii) *applied frontiers*, utilizing gamification and self-play as cognitive scaffolding to ground LLM hallucinations and addressing the systemic risks of \"algorithmic monoculture\". By fostering dialogue between theoreticians and practitioners, this workshop will chart concrete research directions to couple strategic stability with realistic multi-agent learning dynamics, ultimately informing robust and incentive-compatible emerging AI policy.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54068",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54069",
+    "title": "AI4Physics: An ICML 2026 Workshop on AI for Physics",
+    "organizers": [
+      "John Sous",
+      "Arman Cohan",
+      "Yilun Zhao"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 402",
+    "abstract": "AI is rapidly reshaping physics research, but progress is often fragmented across subfields and stages of the scientific workflow. This workshop, AI4Physics at ICML 2026, will bring together machine learning researchers and physicists to develop and evaluate trustworthy AI methods that support physics discovery end to end—from physics-centric reasoning with LLMs and tool-using agents, to high-fidelity generative and surrogate simulators, to inverse problems and uncertainty-aware inference under systematics, and finally to data scarcity, dataset-building, and closed-loop experimental design and control. Spanning high-energy physics, astrophysics and cosmology, condensed matter, plasma and fusion, and quantum science, the workshop will highlight shared structure and bottlenecks across domains, consolidate best practices for physical consistency and robust evaluation, and catalyze cross-disciplinary collaboration through invited talks, posters, and contributed presentations.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54069",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54063",
+    "title": "3rd Workshop on Multi-modal Foundation Models and Large Language Models for Life Sciences",
+    "organizers": [
+      "Pengtao Xie",
+      "James Zou",
+      "Le Song",
+      "Ruishan Liu",
+      "Eran Segal",
+      "Wei Wang",
+      "Marinka Zitnik",
+      "Han Guo"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 317",
+    "abstract": "Recent advances in foundation models and large language models (LLMs) have revolutionized life sciences by enabling AI-driven insights into complex biological systems. However, most existing models focus on single-modal data, limiting their ability to capture the inherently multi-modal nature of biological processes. This workshop will explore the development and application of multi-modal foundation models and LLMs that integrate diverse biological data types, such as protein sequences, structures, genomic and transcriptomic data, and metabolomics. By bringing together researchers from AI, computational biology, and biomedical sciences, the workshop will address challenges in modality fusion, cross-modal representation learning, scalable pretraining, and interpretability. Discussions will focus on novel architectures, self-supervised learning methods, and real-world applications in drug discovery, precision medicine, and multi-omics data analysis. Through invited talks, poster sessions, contributed presentations, and panel discussions, this workshop aims to advance multi-modal foundation models and LLMs for biological discovery and foster interdisciplinary collaborations that push the boundaries of AI in life sciences. We successfully organized the first and second editions of this workshop at ICML 2025 and NeurIPS 2025, which attracted around 200 paper submissions and several hundred attendees in total.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54063",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54102",
+    "title": "3rd AI for Math Workshop: Toward Self-Evolving Scientific Agents",
+    "organizers": [
+      "Haocheng Wang",
+      "Kun Xiang"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM HALL D1",
+    "abstract": "Mathematics has long served as a foundation for scientific discovery and a benchmark for reasoning systems. Recent advances in LLMs and formal methods have enabled AI agents to achieve IMO-level performance in theorem proving and demonstrate strong capabilities in end-to-end natural language mathematical reasoning. Against this backdrop, our workshop explores the next generation of automated research agents capable of reasoning across mathematics and broader scientific domains. We aim to investigate how these agents can achieve self-evolution to advance scientific knowledge. We invite diverse participants from academia and industry to discuss areas related to the following: - **Formal theorem proving**: How can LLM theorem provers transcend Olympiad questions to support real-world mathematics research and teaching, and self-evolve to propose and solve innovative conjectures? - **Precise autoformalization**: How to close the gap between formal and informal mathematical reasoning? How can natural language mathematics be reliably translated into formal languages? How do we verify that the resulting formal statements faithfully preserve the original mathematical intent? - **Automated mathematics in natural language**: How to achieve frontier mathematical reasoning performances with a pure natural language pipeline, including data, generation, and verification? - **Scientific problem solving**: How do the advances of mathematical reasoning as a foundation benefit/be transferred into broader scientific fields, e.g., theoretical computer science and physics? - **Multimodal reasoning**: How do current reasoning systems use visual information? How can we develop methods to tackle problems in multimodal mathematical and scientific reasoning? Extending the scope further, we also welcome research related to the following topics: - **Verification and measurement**: How to verify the correctness and measure the faithfulness of AI-generated scientific solutions? - **Human-AI collaboration**: What are the effective methods for scientific human-AI collaboration? - **Scientific agents in related areas**: Systems science, causality, finance, bioinformatics, etc. Our workshop also includes three challenges: - **Track 1**: Semantic Alignment Evaluation for Autoformalization - **Track 2**: Theoretical Computer Science Proving in Lean - **Track 3**: Visual Grounded Physics Problem Solving",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54102",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54090",
+    "title": "Structured Data for Health",
+    "organizers": [
+      "Hyewon Jeong",
+      "Maxwell Xu",
+      "Wanting Mao",
+      "Dongxia Wu",
+      "Juncheng Liu",
+      "Girish Narayanswamy",
+      "Sana Tonekaboni",
+      "Patrick Langer",
+      "James Rehg"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM HALL D2",
+    "abstract": "Structured data is the backbone of modern healthcare, encompassing tabular Electronic Health Records (EHRs), high-frequency time-series biosignals, and complex disease networks. Despite the critical need for holistic patient modeling, research across these modalities remains largely siloed, often overlooking the multimodal nature of real-world clinical decision-making. The \"Structured Data for Health\" workshop aims to bridge this gap by establishing a unified forum for the convergence of tabular, time-series, and graph-based health data research. We focus on addressing shared technical challenges—such as data heterogeneity, sparsity, and distribution shifts—while leveraging emerging capabilities in Large Language Models (LLMs) for data structuring and reasoning. Featuring a globally diverse lineup of speakers from leading academic and industry institutions, this workshop will cover the full spectrum of structured health AI, from foundational representation learning and multimodal fusion to trustworthy, real-world clinical deployment.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54090",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54060",
+    "title": "Philosophy Meets Machine Learning: What Counts as Trustworthy?",
+    "organizers": [
+      "Junhyung Park",
+      "Fanny Yang",
+      "Bernhard Schölkopf",
+      "Konstantin Genin",
+      "Thomas Icard",
+      "Vincent Fortuin",
+      "Jaesik Choi"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 308",
+    "abstract": "Philosophers have long thought deeply about many concepts that are used colloquially in the machine learning (ML) community such as epistemology, counterfactuals, explainability, reliability, uncertainty and causality. As ML systems are now embedded in high-stakes decisions across science, industry, and public life, it is urgent that when ML researchers claim properties such as \"explainability\", \"reliability\", \"intelligence\" or \"cognition\", these claims are made with awareness of what practitioners, policymakers, and affected users mean by those terms. In particular, we argue that the ML community needs to take a step back and review whether the mathematical objectives used in optimisation and evaluation procedures truly take into account how philosophers have analysed them—analyses that explicitly aim to connect notions like explanation, evidence, and uncertainty to human understanding, justification, and use. Philosophers of science and psychologists are more actively engaged than ever in such questions; however, their interaction with ML researchers remains sparse and fragmented. The goal of the proposed workshop is to facilitate a lively dialogue between the two otherwise largely separate communities, to promote more principled and grounded advances in ML and artificial intelligence.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54060",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54092",
+    "title": "ICML 2026 Hypothesis Testing Workshop",
+    "organizers": [
+      "Feng Liu",
+      "Danica J Sutherland",
+      "Lester Mackey",
+      "Xiuyuan Cheng",
+      "Shayak Sen",
+      "Nathaniel Xu"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 318",
+    "abstract": "Hypothesis testing, while much-maligned, remains a key component of scientific practice. Machine learning contributes to helping develop testing methodology, with many key advances in testing coming from the ML community, from widely used nonparametric tests to recent work on e-values. Machine learning practice can also benefit from the usage of hypothesis testing techniques, whether for checking or ensuring model reliability and robustness, or practical methods for helping detect subgroup shifts in medical applications. This workshop will explore advances both in testing methodology and in its impacts across ML.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54092",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54083",
+    "title": "Workshop on Human-AI Co-Creativity: Advances, Opportunities, and Challenges",
+    "organizers": [
+      "Adish Singla",
+      "Abhilasha Ravichander",
+      "Liwei Jiang",
+      "Alexander Spangher",
+      "Alice Oh",
+      "Jiho Jin",
+      "Jun Seong Kim",
+      "Changyoon Lee"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 401",
+    "abstract": "This workshop will bring together researchers and practitioners interested in topics of generative AI, creativity, and human-AI co-creation. On the one hand, we will explore opportunities in how recent advances in generative AI can support people in open-ended creative tasks. On the other hand, we will identify unique challenges in integrating generative AI into creative workflows, including design fixation, idea homogeneity, and issues of authorship. By fostering collaboration between different communities and stakeholders, we aim to facilitate the development of next-generation technologies that enhance human-AI co-creativity.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54083",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54076",
+    "title": "The 2nd Workshop on Connecting Low-rank Representations in AI: From Practice to Theory",
+    "organizers": [
+      "Antonio Vergari",
+      "Grigorios Chrysos",
+      "Chao Li",
+      "Evrim Acar"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 327",
+    "abstract": "Structured low-rank representations constitute a unifying foundation across modern machine learning, powering advancements in domains as diverse as Large Language Models, probabilistic circuits, and quantum simulation. Despite sharing a common mathematical core—structured computational graphs—scientific progress is currently impeded by fragmented terminologies and isolated research silos. This workshop aims to bridge these communities by providing a centralized platform for cross-disciplinary synthesis. By harmonizing disparate theoretical frameworks and aligning vocabularies, we seek to accelerate breakthroughs in high-dimensional scaling, interpretability, and efficient computation.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54076",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54064",
+    "title": "Pluralistic Alignment Workshop",
+    "organizers": [
+      "JinYeong Bak",
+      "Yohan Jo",
+      "Ruyuan Wan",
+      "Liwei Jiang",
+      "Maarten Sap",
+      "Dongyeop Kang",
+      "Taylor Sorensen",
+      "Kshitish Ghate",
+      "Amy Zhang"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ROOM 403",
+    "abstract": "Aligning AI systems with human preferences and societal values has become a critical challenge as these technologies grow more powerful and pervasive. However, current AI alignment methods have proven insufficient for capturing the full spectrum of complex—and often conflicting—real-world values held across diverse populations. This workshop addresses this gap by examining how to integrate diverse perspectives, values, and expertise into pluralistic AI alignment frameworks. We will explore novel approaches to multi-objective alignment, drawing inspiration from established governance mechanisms and consensus-building practices to navigate the value conflicts inherent in pluralistic societies. The workshop will cover technical innovations in preference elicitation and dataset collection, algorithm development for multi-stakeholder optimization, and the design of human-AI interaction workflows that authentically reflect pluralistic values across diverse communities. By convening researchers, practitioners, and domain experts from AI safety, political philosophy, social science, and human-computer interaction, this workshop aims to foster interdisciplinary collaboration that advances both the theoretical foundations and practical implementation of pluralistic AI alignment.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54064",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54082",
+    "title": "The Second Workshop on Agents in the Wild: Safety, Security, and Beyond",
+    "organizers": [
+      "Chenguang Wang",
+      "Xinyun Chen",
+      "Wenbo Guo",
+      "Yizhou Sun",
+      "Kyle Montgomery",
+      "Yiyou Sun",
+      "Jianhong Tu",
+      "Zhun Wang"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM HALL B2",
+    "abstract": "The year 2025 was recognized as the year of the agent, with advances in AI agents that can perceive, reason, and act in complex real-world environments. For example, OpenAI's Operator can interact with a browser to take actions on the web to complete tasks such as booking a trip. Unlike LLMs, agentic systems introduce fundamentally different safety and security challenges, such as the risks of irreversible real-world consequences. The first workshop on Agents in the Wild at ICLR 2026 aimed to address these foundational concerns. However, the situation has only grown more urgent. For example, recent agents like OpenClaw now enable agent-only communities where AI agents interact with minimal human oversight, amplifying existing vulnerabilities while introducing novel challenges in new real-world settings such as multi-agent coordination. Building on the success of the first workshop, which received 235 submissions and anticipated 800 attendees, we propose a second iteration to tackle both the escalating foundational challenges and these emerging risks. Through invited talks, contributed papers, and structured discussions, the workshop seeks to formalize open research problems and establish a comprehensive and interdisciplinary research agenda for building safe, secure, and reliable agentic systems deployed in the wild.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54082",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  },
+  {
+    "id": "54062",
+    "title": "Decision-Making from Offline Datasets to Online Adaptation: Black-Box Optimization to Reinforcement Learning",
+    "organizers": [
+      "Aryan Deshwal",
+      "Haruka Kiyohara",
+      "Nghia Hoang",
+      "Tang Thanh Nguyen",
+      "Willie Neiswanger",
+      "Syrine Belakaria",
+      "Jana Doppa"
+    ],
+    "date": "Jul 11",
+    "time": "8:00 AM",
+    "room": "- 5:00 PM ASEM Ballroom 203",
+    "abstract": "Join us for an insightful workshop on decision-making from offline datasets to online adaptation in various settings including black-box optimization, contextual bandits, RL, and synergies between them. Dive into their use in application domains including natural sciences (e.g., materials and drug discovery), engineering (e.g., chip design), healthcare, education, recommender systems, agriculture, and more.",
+    "event_type": "Workshop",
+    "icml_url": "https://icml.cc/virtual/2026/workshop/54062",
+    "source_url": "https://icml.cc/virtual/2026/events/workshop"
+  }
+]

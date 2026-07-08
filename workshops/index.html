@@ -3,18 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ICML 2026 Paper Finder</title>
+    <title>ICML 2026 Workshop Finder</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <main class="app-shell">
       <section class="search-panel" aria-labelledby="page-title">
-        <p class="eyebrow">Paper Finder</p>
-        <h1 id="page-title">ICML 2026</h1>
-        <p class="subtitle">
-          Search ICML 2026 papers by title, abstract, authors, topic, session,
-          and keywords.
-        </p>
+        <div>
+          <p class="eyebrow">Workshop Finder</p>
+          <h1 id="page-title">ICML 2026 Workshops</h1>
+          <p class="subtitle">
+            Browse workshop titles, organizers, descriptions, rooms, and themes.
+          </p>
+        </div>
 
         <form id="search-form" class="search-form">
           <label for="query">Keyword query</label>
@@ -24,17 +25,17 @@
               name="query"
               type="search"
               autocomplete="off"
-              placeholder="e.g. diffusion, RLHF, graph neural networks"
+              placeholder="e.g. agents, alignment, physics, health"
             />
             <button type="submit">Search</button>
           </div>
         </form>
 
         <div class="quick-filters" aria-label="Example queries">
-          <button type="button" data-query="large language model">LLM</button>
-          <button type="button" data-query="reinforcement learning">RL</button>
-          <button type="button" data-query="diffusion">Diffusion</button>
-          <button type="button" data-query="single cell">Single cell</button>
+          <button type="button" data-query="agentic ai">Agentic AI</button>
+          <button type="button" data-query="alignment">Alignment</button>
+          <button type="button" data-query="ai for science">AI for Science</button>
+          <button type="button" data-query="health">Health</button>
         </div>
 
         <section class="hot-keywords" aria-label="Hot keywords">
@@ -42,36 +43,26 @@
           <div id="hot-keywords-list" class="hot-keywords-list"></div>
         </section>
 
-        <section class="filters" aria-label="Search filters">
-          <label for="type-filter">Presentation</label>
-          <select id="type-filter"></select>
-
-          <label for="decision-filter">Recognition</label>
-          <select id="decision-filter"></select>
-
-          <label for="topic-filter">Topic</label>
-          <select id="topic-filter"></select>
-
-          <label for="session-filter">Session</label>
-          <select id="session-filter"></select>
+        <section class="filters" aria-label="Filters">
+          <label for="room-filter">Room</label>
+          <select id="room-filter"></select>
 
           <label for="sort-select">Sort results</label>
           <select id="sort-select">
             <option value="relevance">Relevance</option>
-            <option value="topic">Topic</option>
             <option value="title">Title</option>
+            <option value="room">Room</option>
           </select>
         </section>
 
         <div class="action-grid">
-          <a class="nav-button" href="./workshops/">Workshops</a>
-          <button id="schedule-button" type="button">Saved Papers</button>
-          <button id="clear-button" type="button">Clear Filters</button>
+          <button id="show-all-button" type="button">Show All Workshops</button>
+          <button id="saved-button" type="button">Saved Workshops</button>
         </div>
       </section>
 
       <section class="answer-panel" aria-live="polite">
-        <div id="status" class="status">Loading papers...</div>
+        <div id="status" class="status">Loading workshops...</div>
         <div id="answer" class="answer"></div>
         <div id="results" class="results"></div>
       </section>
